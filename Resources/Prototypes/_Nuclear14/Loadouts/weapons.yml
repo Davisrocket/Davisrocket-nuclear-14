@@ -1833,12 +1833,12 @@
       group: N14LoadoutMelee
     - !type:CharacterDepartmentRequirement
       departments:
-        - Eighties # meant to be 80s exclusive
-    - !type:CharacterPlaytimeRequirement
+        - Eighties
+    - !type:CharacterDepartmentTimeRequirement
       department: Eighties
       min: 600
   items:
-    - M14Gorehew
+      - M14Gorehew
 
 - type: loadout
   id: N14LongSword
