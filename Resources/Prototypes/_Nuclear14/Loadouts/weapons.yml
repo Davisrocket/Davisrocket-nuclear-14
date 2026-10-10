@@ -1831,11 +1831,15 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Eighties
     - !type:CharacterDepartmentTimeRequirement
-      department: Eighties
-      min: 36000 
+      department: 
+        - Eighties
+      min: 36000
   items:
-      - M14Gorehew
+    - M14Gorehew
 
 - type: loadout
   id: N14LongSword
