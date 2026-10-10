@@ -1838,7 +1838,7 @@
       tracker: Eighties
       min: 600
   items:
-    - Gorehew
+    - M14Gorehew
 
 - type: loadout
   id: N14LongSword
