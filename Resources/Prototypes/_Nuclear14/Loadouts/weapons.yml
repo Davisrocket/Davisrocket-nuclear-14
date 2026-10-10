@@ -1836,7 +1836,7 @@
         - Eighties
     - !type:CharacterDepartmentTimeRequirement
       department: Eighties
-      min: 600
+      min: 36000 
   items:
       - M14Gorehew
 
