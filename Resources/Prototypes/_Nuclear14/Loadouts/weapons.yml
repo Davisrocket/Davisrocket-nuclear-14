@@ -1824,6 +1824,20 @@
   items:
     - N14Gladius
 
+-type:loadout
+ id: M14Gorehew
+ category: Weapons
+ cost: 0
+ requirements:
+ - !type:CharacterDepartmentRequirement
+      departments:
+       - Eightes #meant to be 80s exclusive
+ - !type:CharacterPlaytimeRequirement
+   tracker: Eighties
+   min: 600
+  items:
+   - Gorehew
+
 - type: loadout
   id: N14LongSword
   category: Weapons
