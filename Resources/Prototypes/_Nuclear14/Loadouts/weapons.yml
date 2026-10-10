@@ -1835,7 +1835,7 @@
       departments:
         - Eighties # meant to be 80s exclusive
     - !type:CharacterPlaytimeRequirement
-      tracker: Eighties
+      department: Eighties
       min: 600
   items:
     - M14Gorehew
