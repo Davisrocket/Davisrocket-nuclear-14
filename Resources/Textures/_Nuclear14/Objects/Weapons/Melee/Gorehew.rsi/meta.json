@@ -8,18 +8,18 @@
   },
   "states": [
     {
-      "name": "Gorehew Icon"
+      "name": "Icon"
     },
     {
-      "name": "Gorehew inhand-left",
+      "name": "inhand-left",
       "directions": 4
     },
     {
-      "name": "Gorehew inhand-right",
+      "name": "inhand-right",
       "directions": 4
     },
     {
-      "name": "Gorehew equipped-BELT",
+      "name": "equipped-BELT",
       "directions": 4
     }
   ]
