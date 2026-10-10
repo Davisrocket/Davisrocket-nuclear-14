@@ -189,8 +189,8 @@
     attackRate: 0.25
     damage:
       types:
-        Slash: 10
-        Piercing: 8
+        Slash: 8
+        Piercing: 6
         Structural: 25
     soundHit:
       path: /Audio/_Nuclear14/Weapons/Melee/Swing/ripper.ogg
