@@ -1831,9 +1831,6 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: N14LoadoutMelee
-    - !type:CharacterDepartmentRequirement
-      departments:
-        - Eighties
     - !type:CharacterDepartmentTimeRequirement
       department: Eighties
       min: 36000 
