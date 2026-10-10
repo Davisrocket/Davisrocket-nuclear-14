@@ -1829,6 +1829,8 @@
   category: Weapons
   cost: 1
   requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
     - !type:CharacterDepartmentRequirement
       departments:
         - Eighties # meant to be 80s exclusive
