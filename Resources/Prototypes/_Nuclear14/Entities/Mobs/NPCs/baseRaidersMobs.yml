@@ -11,11 +11,13 @@
     - type: NpcFactionMember
       factions:
       - Raider
+      thresholds:
+
     - type: MobThresholds
       thresholds:
         0: Alive
         60: Dead
-    - type: Destructible #Misfits Change /Add: Drop bottle caps on death (1-7)
+    - type: Destructible #Misfits Change /Add: Drop bottle caps on death (1-7) #wassuy removed drop bottlecaps due to it not working at all.
       thresholds:
         - trigger:
             !type:DamageTrigger
@@ -24,6 +26,7 @@
           - !type:PlaySoundBehavior
               sound:
                 collection: MisfitsRaiderDeath
+
     - type: PassiveDamage # It's mostly for the faction NPCs, but can be here nonetheless.
       allowedStates:
       - Alive

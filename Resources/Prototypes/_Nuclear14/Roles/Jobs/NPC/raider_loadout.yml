@@ -85,8 +85,9 @@
 - type: startingGear
   id: EnforcerWardenGear
   equipment:
-    jumpsuit: N14ClothingUniformJumpsuitManagerSuit
+    jumpsuit: N14ClothingUniformJumpsuitPreWarManager
     shoes: N14ClothingBootsCombat
+    head: ClothingHeadHelmetBasic
     mask: N14ClothingMaskGrill
     outerClothing: N14ClothingOuterPoliceVest
     back: N14ClothingBackpackRandomFill
@@ -95,7 +96,7 @@
 - type: startingGear
   id: EnforcerChiefGear
   equipment:
-    jumpsuit: N14ClothingUniformJumpsuitPreWarManager
+    jumpsuit: ClothingUniformJumpsuitSuitBlack
     shoes: N14ClothingBootsCombatMK2
     head: ClothingHeadHatCowboyBountyHunter
     eyes: N14ClothingEyesSunGlasses
@@ -108,10 +109,10 @@
 - type: startingGear
   id: EnforcerBeatcopGear
   equipment:
-    jumpsuit: N14ClothingUniformJumpsuitManagerSuit
+    jumpsuit: N14ClothingUniformJumpsuitManager
     shoes: N14ClothingBootsFire
     gloves: N14ClothingHandsGlovesBlackLeather
-    head: N14ClothingHeadHatVaultRiot
+    head: ClothingHeadHelmetBasic
     outerClothing: N14ClothingOuterVaultSecVest
     pocket1: N14RaiderStash
   inhand:
