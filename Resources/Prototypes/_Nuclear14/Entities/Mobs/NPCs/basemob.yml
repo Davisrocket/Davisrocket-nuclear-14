@@ -313,21 +313,6 @@
     - English
     understands:
     - English
-  - type: IdleSound #Misfits Change
-  - type: SpamEmitSound #Misfits Change
-    minInterval: 1
-    maxInterval: 10
-    sound:
-      collection: MisfitsRaiderIdle
-      params:
-        volume: 2
-        maxDistance: 8
-  - type: AggroSound #Misfits Change - separate aggro/alert vocalization on combat entry
-    sound:
-      collection: MisfitsRaiderAlert
-      params:
-        volume: 2
-        maxDistance: 10
   - type: Fixtures
     fixtures:
       fix1:
