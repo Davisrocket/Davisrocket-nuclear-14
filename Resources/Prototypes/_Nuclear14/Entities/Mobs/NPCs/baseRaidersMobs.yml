@@ -72,10 +72,10 @@
         params:
           volume: 3
           maxDistance: 10
-      soundHit:
-        soundCollection: MisfitsRaiderAttack
     - type: MeleeWeapon
       hidden: true
+      soundHit:
+        collection: MisfitsRaiderAttack
       attackRate: 1.5
       range: 1.5
       angle: 30
