@@ -388,7 +388,7 @@
 
 #Raiders sounds
 
-- type: soundCollection
+- type: soundCollection  #added by Wassuy
   id: MisfitsRaiderIdle
   files:
     - /Audio/_Misfits/Mobs/Raider/idle1.ogg
@@ -411,8 +411,12 @@
     - /Audio/_Misfits/Mobs/Raider/idle18.ogg
     - /Audio/_Misfits/Mobs/Raider/idle19.ogg
     - /Audio/_Misfits/Mobs/Raider/idle20.ogg
+    - /Audio/_Misfits/Mobs/Raider/idle21.ogg
+    - /Audio/_Misfits/Mobs/Raider/idle22.ogg
+    - /Audio/_Misfits/Mobs/Raider/idle23.ogg
+    - /Audio/_Misfits/Mobs/Raider/idle24.ogg
 
-- type: soundCollection
+- type: soundCollection  #added by Wassuy
   id: MisfitsRaiderAlert
   files:
     - /Audio/_Misfits/Mobs/Raider/alert1.ogg
@@ -439,4 +443,41 @@
     - /Audio/_Misfits/Mobs/Raider/alert22.ogg
     - /Audio/_Misfits/Mobs/Raider/alert23.ogg
     - /Audio/_Misfits/Mobs/Raider/alert24.ogg
-    - /Audio/_Misfits/Mobs/Raider/alert25.ogg
+    - /Audio/_Misfits/Mobs/Raider/alert26.ogg
+    - /Audio/_Misfits/Mobs/Raider/alert27.ogg
+    - /Audio/_Misfits/Mobs/Raider/alert28.ogg
+    - /Audio/_Misfits/Mobs/Raider/alert29.ogg
+    - /Audio/_Misfits/Mobs/Raider/alert30.ogg
+    - /Audio/_Misfits/Mobs/Raider/alert31.ogg
+    - /Audio/_Misfits/Mobs/Raider/alert32.ogg
+    - /Audio/_Misfits/Mobs/Raider/alert33.ogg
+    - /Audio/_Misfits/Mobs/Raider/alert34.ogg
+    - /Audio/_Misfits/Mobs/Raider/alert35.ogg
+    - /Audio/_Misfits/Mobs/Raider/alert36.ogg
+    - /Audio/_Misfits/Mobs/Raider/alert37.ogg
+    - /Audio/_Misfits/Mobs/Raider/alert38.ogg
+
+- type: soundCollection  #added by Wassuy
+  id: MisfitsRaiderAttack
+  files:
+    - /Audio/_Misfits/Mobs/Raider/attack1.ogg
+    - /Audio/_Misfits/Mobs/Raider/attack2.ogg
+    - /Audio/_Misfits/Mobs/Raider/attack3.ogg
+    - /Audio/_Misfits/Mobs/Raider/attack4.ogg
+    - /Audio/_Misfits/Mobs/Raider/attack5.ogg
+    - /Audio/_Misfits/Mobs/Raider/attack6.ogg
+    - /Audio/_Misfits/Mobs/Raider/attack7.ogg
+
+- type: soundCollection  #added by Wassuy
+  id: MisfitsRaiderDeath
+  files:
+    - /Audio/_Misfits/Mobs/Raider/death1.ogg
+    - /Audio/_Misfits/Mobs/Raider/death2.ogg
+    - /Audio/_Misfits/Mobs/Raider/death3.ogg
+    - /Audio/_Misfits/Mobs/Raider/death4.ogg
+    - /Audio/_Misfits/Mobs/Raider/death5.ogg
+    - /Audio/_Misfits/Mobs/Raider/death6.ogg
+    - /Audio/_Misfits/Mobs/Raider/death7.ogg
+    - /Audio/_Misfits/Mobs/Raider/death8.ogg
+    - /Audio/_Misfits/Mobs/Raider/death9.ogg
+    
