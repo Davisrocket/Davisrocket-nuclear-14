@@ -50,13 +50,13 @@
         NavClimb: !type:Bool
           true
         VisionRadius: !type:Single
-          100.0
+          21.5
         MeleeRange: !type:Single
           1.5
     - type: IdleSound #Wassuy added voiceline and combat sound here
     - type: SpamEmitSound
-      minInterval: 15
-      maxInterval: 60
+      minInterval: 20
+      maxInterval: 80
       sound:
         collection: MisfitsRaiderIdle
         params:
