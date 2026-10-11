@@ -109,7 +109,7 @@
 - type: startingGear
   id: EnforcerBeatcopGear
   equipment:
-    jumpsuit: N14ClothingUniformJumpsuitPrewarManager
+    jumpsuit: N14ClothingUniformJumpsuitPreWarManager
     shoes: N14ClothingBootsFire
     gloves: N14ClothingHandsGlovesBlackLeather
     head: ClothingHeadHelmetBasic
