@@ -107,7 +107,19 @@
 #MARK: Melee
 
 - type: startingGear
-  id: EnforcerBeatcopGear
+  id: EnforcerBeatcop1Gear
+  equipment:
+    jumpsuit: N14ClothingUniformJumpsuitManagerSuit
+    shoes: N14ClothingBootsFire
+    hands: N14ClothingHandsGlovesBlackLeather
+    head: N14ClothingHeadHatVaultRiot
+    outerClothing: N14ClothingOuterVaultSecVest
+    pocket1: N14RaiderStash
+  inhand:
+  - N14PoliceBaton
+
+- type: startingGear
+  id: EnforcerBeatcop2Gear
   equipment:
     jumpsuit: N14ClothingUniformJumpsuitPreWarManager
     shoes: N14ClothingBootsFire
