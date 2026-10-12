@@ -37,10 +37,10 @@
             max: 25
         - !type:PlaySoundBehavior # Misfits Change - robot death sound
             sound:
-            collection: MisfitsRaiderDeath
-            params:
-              volume: 6
-              maxDistance: 8
+              collection: MisfitsRaiderDeath
+              params:
+                volume: 6
+                maxDistance: 8
 
   - type: PassiveDamage # It's mostly for the faction NPCs, but can be here nonetheless.
     allowedStates:
