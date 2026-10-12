@@ -21,7 +21,6 @@
           - !type:DamageTrigger
              damage: 60
       behaviors:
-      behaviors:
           - !type:SpawnEntitiesBehavior
             spawn:
             N14ScrapElectronic1:
