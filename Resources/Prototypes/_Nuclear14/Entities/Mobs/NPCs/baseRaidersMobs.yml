@@ -18,7 +18,7 @@
         0: Alive
         60: Dead
     - type: Destructible #Misfits Change /Add: Drop bottle caps on death (1-7) #wassuy removed drop bottlecaps due to it not working at all.
-      threshold:
+      thresholds:
         - trigger:
             !type:DamageTrigger
             damage: 60
