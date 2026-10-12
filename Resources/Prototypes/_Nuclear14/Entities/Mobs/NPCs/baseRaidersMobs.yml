@@ -4,7 +4,7 @@
   abstract: true
   name: Raider
   suffix: AI
-components:
+  components:
   - type: Damageable    # Misfits Add - Override from BaseMobSpeciesOrganic to prevent hunger/thirst damage
     damageContainer: MisfitsNPCBiological
   - type: RandomHumanoidAppearance
