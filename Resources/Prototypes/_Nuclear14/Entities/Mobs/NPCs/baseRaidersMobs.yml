@@ -28,6 +28,8 @@
           params:
             volume: 3
             maxDistance: 10
+    - type: Deathgasp #Misfits Change - keep robot death emotes consistent with silicon mobs
+      prototype: SiliconDeathgasp
     - type: PassiveDamage # It's mostly for the faction NPCs, but can be here nonetheless.
       allowedStates:
       - Alive
