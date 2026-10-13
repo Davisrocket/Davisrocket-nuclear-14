@@ -14,20 +14,17 @@
     - type: MobThresholds
       thresholds:
         0: Alive
-        10: Critical 
-        60: Dead
+        60: Critical 
+        75: Dead
     - type: Destructible #Misfits Change /Add: Drop bottle caps on death (1-7) #wassuy this do not work, please someone fixit
       thresholds:
       - trigger:
           !type:DamageTrigger
-          damage: 60
+          damage: 75
         behaviors:
         - !type:PlaySoundBehavior # Misfits Change - robot death sound
           sound:
             collection: MisfitsRaiderDeath
-          params:
-            volume: 3
-            maxDistance: 10
     - type: PassiveDamage # It's mostly for the faction NPCs, but can be here nonetheless.
       allowedStates:
       - Alive
