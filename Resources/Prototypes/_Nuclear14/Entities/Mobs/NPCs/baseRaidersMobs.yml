@@ -15,7 +15,7 @@
       thresholds:
         0: Alive
         60: Dead
-    - type: Destructible #Misfits Change /Add: Drop bottle caps on death (1-7) #wassuy now 8
+    - type: Destructible
       thresholds:
       - trigger:
           !type:DamageTrigger
@@ -23,15 +23,23 @@
         behaviors:
         - !type:SpawnEntitiesBehavior
           spawn:
-            N14CurrencyCap:
+            N14ScrapElectronic1:
               min: 1
-              max: 8
+              max: 3
+            N14MaterialCircuitry1:
+              min: 1
+              max: 3
+            N14Scrap1:
+              min: 1
+              max: 3
+            N14CurrencyPrewar: #Misfits Change /Add: Drop prewar money on death (5-25)
+              min: 5
+              max: 25
         - !type:PlaySoundBehavior # Misfits Change - robot death sound
           sound:
-            collection: MisfitsRaiderDeath
-            params:
-              volume: 3
-              maxDistance: 10
+            path: /Audio/Machines/AI/borg_death.ogg
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
     - type: PassiveDamage # It's mostly for the faction NPCs, but can be here nonetheless.
       allowedStates:
       - Alive
