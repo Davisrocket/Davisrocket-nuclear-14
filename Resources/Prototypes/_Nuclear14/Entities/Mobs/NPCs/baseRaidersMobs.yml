@@ -5,26 +5,40 @@
   name: Raider
   suffix: AI
   components:
-    - type: RandomHumanoidAppearance
-    - type: Damageable    # Misfits Add - Override from BaseMobSpeciesOrganic to prevent hunger/thirst damage
-      damageContainer: MisfitsNPCBiological
-    - type: NpcFactionMember
-      factions:
-      - Raider
+  - type: RandomHumanoidAppearance
+  - type: Damageable    # Misfits Add - Override from BaseMobSpeciesOrganic to prevent hunger/thirst damage
+    damageContainer: MisfitsNPCBiological
+  - type: NpcFactionMember
+    factions:
+    - Raider
     - type: MobThresholds
       thresholds:
         0: Alive
         60: Critical 
         75: Dead
-    - type: Destructible #Misfits Change /Add: Drop bottle caps on death (1-7) #wassuy this do not work, please someone fixit
-      thresholds:
-      - trigger:
-          !type:DamageTrigger
-          damage: 75
-        behaviors:
-        - !type:PlaySoundBehavior # Misfits Change - robot death sound
-          sound:
-            collection: MisfitsRaiderDeath
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 75
+      behaviors:
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          N14ScrapElectronic1:
+            min: 1
+            max: 3
+          N14MaterialCircuitry1:
+            min: 1
+            max: 3
+          N14Scrap1:
+            min: 1
+            max: 3
+          N14CurrencyPrewar: #Misfits Change /Add: Drop prewar money on death (5-25)
+            min: 5
+            max: 25
+      - !type:PlaySoundBehavior # Misfits Change - robot death sound
+        sound:
+          collection: MisfitsRaiderDeath
     - type: PassiveDamage # It's mostly for the faction NPCs, but can be here nonetheless.
       allowedStates:
       - Alive
