@@ -16,7 +16,7 @@
         0: Alive
         10: Critical 
         60: Dead
-    - type: Destructible #Misfits Change /Add: Drop bottle caps on death (1-7) #wassuy now 8
+    - type: Destructible #Misfits Change /Add: Drop bottle caps on death (1-7) #wassuy this do not work, please someone fixit
       thresholds:
       - trigger:
           !type:DamageTrigger
@@ -28,8 +28,6 @@
           params:
             volume: 3
             maxDistance: 10
-    - type: Deathgasp #Misfits Change - keep robot death emotes consistent with silicon mobs
-      prototype: SiliconDeathgasp
     - type: PassiveDamage # It's mostly for the faction NPCs, but can be here nonetheless.
       allowedStates:
       - Alive
