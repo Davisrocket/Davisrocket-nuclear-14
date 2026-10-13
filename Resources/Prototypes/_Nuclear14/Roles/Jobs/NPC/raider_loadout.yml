@@ -195,7 +195,7 @@
     eyes: N14ClothingEyesSunGlasses
     shoes: N14ClothingBootsLeather
     gloves: N14ClothingHandsGlovesBlackBiker
-    outerClothing: N14ClothingOuterRaiderBadlands
+    outerClothing: M14ClothingOuterArmorKitPunk
     pocket1: N14RaiderStash
   inhand:
   - N14TrenchClub
