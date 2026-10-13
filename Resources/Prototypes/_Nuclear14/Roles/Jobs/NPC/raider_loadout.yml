@@ -147,7 +147,7 @@
     jumpsuit: N14ClothingUniformJumpsuitManagerSuit
     shoes: N14ClothingBootsBlack
     gloves: N14ClothingHandsGlovesFingerless
-    outerClothing: ClothingOuterArmorDuraVest
+    outerClothing: N14ClothingOuterPoliceVest
     pocket1: N14RaiderStash
   inhand:
   - N14PoliceBaton
