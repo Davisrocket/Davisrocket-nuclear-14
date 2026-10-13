@@ -678,7 +678,12 @@
         path: /Audio/_Nuclear14/Weapons/Effects/Reload/Shotguns/shotgun_insert.ogg
     - type: Loadout
       prototypes:
-        - EnforcerWardenGear
+        - EnforcerWarden1Gear
+        - EnforcerWarden2Gear
+        - EnforcerWarden3Gear
+        - EnforcerWarden4Gear
+        - EnforcerWarden5Gear
+        - EnforcerWarden6Gear
     - type: Sprite
       layers: # Long boring part to make sure layering is correct
       - map: [ "enum.HumanoidVisualLayers.Chest" ]
@@ -728,7 +733,7 @@
         sprite: Objects/Misc/handcuffs.rsi
         state: body-overlay-2
         visible: false
-      - sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/combat_shotgun.rsi
+      - sprite: _Nuclear14/Objects/Weapons/Guns/Shotguns/riot_shotgun.rsi
         state: inhand-right  # Only part we change, the gun sprite.
 
 - type: entity

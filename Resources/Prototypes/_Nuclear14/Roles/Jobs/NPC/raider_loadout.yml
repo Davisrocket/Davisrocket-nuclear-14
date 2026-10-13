@@ -83,14 +83,22 @@
     pocket1: N14RaiderStash
 
 - type: startingGear
-  id: EnforcerWardenGear
+  id: EnforcerWarden1Gear
+  equipment:
+    jumpsuit: N14ClothingUniformJumpsuitManagerSuit
+    shoes: N14ClothingBootsCombat
+    mask: N14ClothingMaskGrill
+    outerClothing: N14ClothingOuterPoliceVest
+    pocket1: N14RaiderStash
+
+- type: startingGear
+  id: EnforcerWarden2Gear
   equipment:
     jumpsuit: N14ClothingUniformJumpsuitPreWarManager
     shoes: N14ClothingBootsCombat
     head: ClothingHeadHelmetBasic
     mask: N14ClothingMaskGrill
     outerClothing: N14ClothingOuterPoliceVest
-    back: N14ClothingBackpackRandomFill
     pocket1: N14RaiderStash
 
 - type: startingGear
@@ -164,17 +172,6 @@
   - N14PoliceBaton
 
 - type: startingGear
-  id: EnforcerBeatcop6Gear
-  equipment:
-    jumpsuit: N14ClothingUniformJumpsuitPreWarManager
-    shoes: N14ClothingBootsBlack
-    gloves: N14ClothingHandsGlovesBlackLeather
-    head: ClothingHeadHelmetBasic
-    pocket1: N14RaiderStash
-  inhand:
-  - N14PoliceBaton
-
-- type: startingGear
   id: FernConscript1Gear
   equipment:
     jumpsuit: N14ClothingUniformJumpsuitCombat
@@ -196,6 +193,7 @@
     shoes: N14ClothingBootsLeather
     gloves: N14ClothingHandsGlovesBlackBiker
     outerClothing: M14ClothingOuterArmorKitPunk
+    belt: N14ClothingBeltLeatherPouches
     pocket1: N14RaiderStash
   inhand:
   - N14TrenchClub
@@ -280,17 +278,17 @@
   - N14CombatKnife
 
 - type: startingGear
-  id: PsychoRaider1Gear
+  id: PsychoRaider3Gear
   equipment:
-    jumpsuit: N14ClothingUniformJumpsuitRags
-    shoes: N14ClothingShoesRaider
-    gloves: N14ClothingHandsGlovesCloth
-    mask: N14ClothingMaskBlackBalaclava
-    outerClothing: N14ClothingOuterRaiderBadlands
+    jumpsuit: ClothingUniformJumpsuitTrackpants
+    shoes: N14ClothingBootsBlack
+    head: N14ClothingHeadHatHelmetRCMP
+    mask: N14ClothingMaskLinerBlack
+    outerClothing: N14ClothingOuterPoliceVest
     pocket1: N14RaiderStash
     pocket2: Brutepack1 # Corvax-Change
   inhand:
-  - N14KitchenKnife
+  - N14BrokenPipe
 
 - type: startingGear
   id: PsychoRaider4Gear
@@ -318,16 +316,3 @@
     pocket2: Brutepack1 # Corvax-Change
   inhand:
   - N14Hatchet
-
-- type: startingGear
-  id: PsychoRaider6Gear
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitTrackpants
-    shoes: N14ClothingBootsBlack
-    head: N14ClothingHeadHatHelmetRCMP
-    mask: N14ClothingMaskLinerBlack
-    outerClothing: N14ClothingOuterPoliceVest
-    pocket1: N14RaiderStash
-    pocket2: Brutepack1 # Corvax-Change
-  inhand:
-  - N14BrokenPipe
