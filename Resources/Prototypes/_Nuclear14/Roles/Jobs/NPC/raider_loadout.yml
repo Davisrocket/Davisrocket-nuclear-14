@@ -183,10 +183,74 @@
     shoes: N14ClothingBootsLeather
     gloves: N14ClothingHandsGlovesBlackBiker
     head: N14ClothingHeadHatArmyCap
+    pocket1: N14RaiderStash
+  inhand:
+  - N14TrenchClub
+
+- type: startingGear
+  id: FernConscript2Gear
+  equipment:
+    jumpsuit: N14ClothingUniformJumpsuitCombat
+    mask: N14ClothingMaskRedMask
+    eyes: N14ClothingEyesSunGlasses
+    shoes: N14ClothingBootsLeather
+    gloves: N14ClothingHandsGlovesBlackBiker
     outerClothing: N14ClothingOuterRaiderBadlands
     pocket1: N14RaiderStash
   inhand:
   - N14TrenchClub
+
+- type: startingGear
+  id: FernConscript3Gear
+  equipment:
+    jumpsuit: N14ClothingUniformJumpsuitCombat
+    mask: N14ClothingMaskRedMask
+    eyes: N14ClothingEyesSunGlasses
+    shoes: N14ClothingBootsLeather
+    gloves: N14ClothingHandsGlovesBlackBiker
+    head: N14ClothingHeadHatArmyCap
+    outerClothing: N14ClothingOuterReinforcedLeatherArmor
+    pocket1: N14RaiderStash
+  inhand:
+  - N14ScrapMachete
+
+- type: startingGear
+  id: FernConscript4Gear
+  equipment:
+    jumpsuit: N14ClothingUniformJumpsuitCombat
+    mask: N14ClothingMaskRedMask
+    shoes: N14ClothingBootsLeather
+    outerClothing: N14ClothingOuterLightLeatherArmor
+    head: N14ClothingHeadHatArmyCap
+    pocket1: N14RaiderStash
+  inhand:
+  - N14CombatKnife
+
+- type: startingGear
+  id: FernConscript5Gear
+  equipment:
+    jumpsuit: N14ClothingUniformJumpsuitCombat
+    mask: ClothingMaskGaskExplorer
+    eyes: N14ClothingEyesSunGlasses
+    shoes: N14ClothingBootsLeather
+    gloves: N14ClothingHandsGlovesBlackBiker
+    outerClothing: N14ClothingOuterLightLeatherArmor
+    pocket1: N14RaiderStash
+  inhand:
+  - N14CombatKnife
+
+- type: startingGear
+  id: FernConscript6Gear
+  equipment:
+    jumpsuit: N14ClothingUniformJumpsuitCombat
+    mask: ClothingMaskGaskExplorer
+    shoes: N14ClothingBootsLeather
+    gloves: N14ClothingHandsGlovesBlackBiker
+    outerClothing: M14ClothingOuterArmorKitPunk
+    head: N14ClothingHeadHatCombatHelmet
+    pocket1: N14RaiderStash
+  inhand:
+  - N14CombatKnife
 
 - type: startingGear
   id: PsychoRaider1Gear
@@ -209,6 +273,7 @@
     gloves: N14ClothingHandsGlovesCloth
     mask: ClothingMaskGasExplorer
     outerClothing: N14ClothingOuterRaiderBlastmaster
+    head: ClothingHeadHatWelding
     pocket1: N14RaiderStash
     pocket2: Brutepack1 # Corvax-Change
   inhand:
@@ -265,4 +330,4 @@
     pocket1: N14RaiderStash
     pocket2: Brutepack1 # Corvax-Change
   inhand:
-  - N14GolfClub
+  - N14BrokenPipe
