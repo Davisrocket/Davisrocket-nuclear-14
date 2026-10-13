@@ -27,6 +27,6 @@
     - type: Loadout
       prototypes:
       - EnforcerBeatcop1Gear
-      #- EnforcerBeatcop2Gear
-      #- EnforcerBeatcop2Gear
-      #- EnforcerBeatcop2Gear
+      - EnforcerBeatcop2Gear
+      - EnforcerBeatcop3Gear
+      - EnforcerBeatcop4Gear

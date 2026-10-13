@@ -130,6 +130,30 @@
   - N14PoliceBaton
 
 - type: startingGear
+  id: EnforcerBeatcop3Gear
+  equipment:
+    jumpsuit: M14ClothingUniformADPUniform
+    shoes: N14ClothingBootsBlack
+    head: MisfitsClothingHeadAHPhelmet
+    mask: N14ClothingMaskHockey
+    outerClothing: M14ClothingOuterHighwayPatrolJacket
+    pocket1: N14RaiderStash
+  inhand:
+  - N14TrenchClub
+
+- type: startingGear
+  id: EnforcerBeatcop4Gear
+  equipment:
+    jumpsuit: N14ClothingUniformJumpsuitManagerSuit
+    shoes: N14ClothingBootsBlack
+    gloves: N14ClothingHandsGlovesFingerless
+    head: ClothingHeadHelmetBasic
+    outerClothing: ClothingOuterArmorDuraVest
+    pocket1: N14RaiderStash
+  inhand:
+  - N14PoliceBaton
+
+- type: startingGear
   id: FernConscriptGear
   equipment:
     jumpsuit: N14ClothingUniformJumpsuitCombat

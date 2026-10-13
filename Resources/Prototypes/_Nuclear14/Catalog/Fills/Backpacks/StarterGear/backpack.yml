@@ -443,9 +443,6 @@
         - id: N14FoodYumyumdeviledeggs
           prob: 0.2
           orGroup: Foods
-        - id: N14FoodPacketTrash
-          prob: 0.2
-          orGroup: Foods
         - id: N14FoodTinCanTrash
           prob: 0.2
           orGroup: Foods
@@ -485,4 +482,3 @@
         - id: N14DrinkNukaColaBroken
           prob: 0.4
           orGroup: Foods
-
