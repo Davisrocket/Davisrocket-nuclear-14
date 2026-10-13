@@ -14,6 +14,7 @@
     - type: MobThresholds
       thresholds:
         0: Alive
+        10: Critical 
         60: Dead
     - type: Destructible #Misfits Change /Add: Drop bottle caps on death (1-7) #wassuy now 8
       thresholds:
