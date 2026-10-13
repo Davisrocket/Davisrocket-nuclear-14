@@ -1,4 +1,4 @@
-- type: startingGear
+- type: startingGear   #Misfits added more raider varitants by wassuy
   id: RaiderPistolGear
   equipment:
     jumpsuit: N14ClothingUniformJumpsuitRags
@@ -101,7 +101,7 @@
     head: ClothingHeadHatCowboyBountyHunter
     eyes: N14ClothingEyesSunGlasses
     outerClothing: N14ClothingOuterPoliceChief
-    back: N14ClothingBackpackRandomFill
+    back: N14ClothingSatchelRandomFill
     pocket1: N14RaiderStash
 
 #MARK: Melee
@@ -117,7 +117,7 @@
   inhand:
   - N14PoliceBaton
 
-- type: startingGear
+- type: startingGear        
   id: EnforcerBeatcop2Gear
   equipment:
     jumpsuit: N14ClothingUniformJumpsuitPreWarManager
@@ -144,16 +144,38 @@
 - type: startingGear
   id: EnforcerBeatcop4Gear
   equipment:
+    jumpsuit: M14ClothingUniformADPUniform
+    shoes: N14ClothingShoesBlack
+    mask: N14ClothingMaskBlackMask
+    outerClothing: M14ClothingOuterHighwayPatrolJacket
+    pocket1: N14RaiderStash
+  inhand:
+  - N14PoliceBaton
+
+- type: startingGear
+  id: EnforcerBeatcop5Gear
+  equipment:
     jumpsuit: N14ClothingUniformJumpsuitManagerSuit
     shoes: N14ClothingBootsBlack
-    gloves: N14ClothingHandsGlovesFingerless
+    gloves: ClothingHandsGlovesFingerless
     outerClothing: N14ClothingOuterPoliceVest
     pocket1: N14RaiderStash
   inhand:
   - N14PoliceBaton
 
 - type: startingGear
-  id: FernConscriptGear
+  id: EnforcerBeatcop6Gear
+  equipment:
+    jumpsuit: N14ClothingUniformJumpsuitPreWarManager
+    shoes: N14ClothingBootsBlack
+    gloves: N14ClothingHandsGlovesBlackLeather
+    head: ClothingHeadHelmetBasic
+    pocket1: N14RaiderStash
+  inhand:
+  - N14PoliceBaton
+
+- type: startingGear
+  id: FernConscript1Gear
   equipment:
     jumpsuit: N14ClothingUniformJumpsuitCombat
     mask: N14ClothingMaskRedMask
@@ -167,10 +189,9 @@
   - N14TrenchClub
 
 - type: startingGear
-  id: PsychoRaiderGear
+  id: PsychoRaider1Gear
   equipment:
     jumpsuit: N14ClothingUniformJumpsuitRags
-    eyes: N14ClothingEyesGlassesWelding
     shoes: N14ClothingShoesRaider
     gloves: N14ClothingHandsGlovesCloth
     mask: N14ClothingMaskBrownBalaclava
@@ -179,3 +200,69 @@
     pocket2: Brutepack1 # Corvax-Change
   inhand:
   - N14KitchenKnife
+
+- type: startingGear
+  id: PsychoRaider2Gear
+  equipment:
+    jumpsuit: N14ClothingUniformJumpsuitRags
+    shoes: N14ClothingShoesRaider
+    gloves: N14ClothingHandsGlovesCloth
+    mask: ClothingMaskGasExplorer
+    outerClothing: N14ClothingOuterRaiderBlastmaster
+    pocket1: N14RaiderStash
+    pocket2: Brutepack1 # Corvax-Change
+  inhand:
+  - N14CombatKnife
+
+- type: startingGear
+  id: PsychoRaider1Gear
+  equipment:
+    jumpsuit: N14ClothingUniformJumpsuitRags
+    shoes: N14ClothingShoesRaider
+    gloves: N14ClothingHandsGlovesCloth
+    mask: N14ClothingMaskBlackBalaclava
+    outerClothing: N14ClothingOuterRaiderBadlands
+    pocket1: N14RaiderStash
+    pocket2: Brutepack1 # Corvax-Change
+  inhand:
+  - N14KitchenKnife
+
+- type: startingGear
+  id: PsychoRaider4Gear
+  equipment:
+    jumpsuit: ClothingUniformTShirtKhakiPants
+    shoes: N14ClothingBootsLeather
+    gloves: N14ClothingHandsGlovesLeather
+    head: N14ClothingHeadHatVaultBlueprintHelmetMetal
+    mask: N14ClothingMaskBrownMask
+    outerClothing: N14ClothingOuterLeatherArmor
+    pocket1: N14RaiderStash
+    pocket2: Brutepack1 # Corvax-Change
+  inhand:
+  - Pickaxe
+
+- type: startingGear
+  id: PsychoRaider5Gear
+  equipment:
+    jumpsuit: N14ClothingUniformJumpsuitRags
+    shoes: N14ClothingShoesRaider
+    gloves: N14ClothingHandsGlovesBrownBiker
+    head: N14ClothingHeadHatHeadscarf
+    outerClothing: ClothingOuterVestFlak
+    pocket1: N14RaiderStash
+    pocket2: Brutepack1 # Corvax-Change
+  inhand:
+  - N14Hatchet
+
+- type: startingGear
+  id: PsychoRaider6Gear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitTrackpants
+    shoes: N14ClothingBootsBlack
+    head: N14ClothingHeadHatHelmetRCMP
+    mask: N14ClothingMaskLinerBlack
+    outerClothing: N14ClothingOuterPoliceVest
+    pocket1: N14RaiderStash
+    pocket2: Brutepack1 # Corvax-Change
+  inhand:
+  - N14GolfClub

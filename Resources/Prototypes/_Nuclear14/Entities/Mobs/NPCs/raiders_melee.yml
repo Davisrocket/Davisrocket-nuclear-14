@@ -6,7 +6,12 @@
   components:
     - type: Loadout
       prototypes:
-      - PsychoRaiderGear
+      - PsychoRaider1Gear
+      - PsychoRaider2Gear 
+      - PsychoRaider3Gear
+      - PsychoRaider4Gear 
+      - PsychoRaider5Gear
+      - PsychoRaider6Gear 
 
 - type: entity
   name: Gunners Conscript
@@ -16,7 +21,12 @@
   components:
     - type: Loadout
       prototypes:
-      - FernConscriptGear
+      - FernConscript1Gear
+      - FernConscript2Gear
+      - FernConscript3Gear
+      - FernConscript4Gear
+      - FernConscript5Gear
+      - FernConscript6Gear
 
 - type: entity
   name: Enforcer Beatcop
@@ -30,3 +40,5 @@
       - EnforcerBeatcop2Gear
       - EnforcerBeatcop3Gear
       - EnforcerBeatcop4Gear
+      - EnforcerBeatcop5Gear
+      - EnforcerBeatcop6Gear
