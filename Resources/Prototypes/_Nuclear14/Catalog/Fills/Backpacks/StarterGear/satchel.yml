@@ -159,6 +159,7 @@
           amount: 1
           maxAmount: 20
           orGroup: Currency
+          prob: 0.15
         - id: N14CleanGauze10
           prob: 0.15
           amount: 1
