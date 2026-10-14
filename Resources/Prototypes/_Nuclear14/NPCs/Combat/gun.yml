@@ -61,8 +61,8 @@
     - tasks:
         - !type:HTNPrimitiveTask
           operator: !type:JukeOperator
-            jukeType: Away   #            jukeType: Away
-            retreatDistance: 3.0
+            jukeType: Away   #away was used so they would juke better
+            retreatDistance: 2.0
 
         - !type:HTNPrimitiveTask
           operator: !type:UtilityOperator
@@ -89,3 +89,45 @@
               id: RangedService
               proto: OrderedTargets
               key: Target
+    - preconditions:
+        - !type:ActiveHandComponentPrecondition
+          components:
+            - type: Gun
+        - !type:GunAmmoPrecondition
+          maxPercent: 0.001
+      tasks:
+        - !type:HTNPrimitiveTask
+          preconditions:
+            - !type:ActiveHandEntityPrecondition
+          operator: !type:DropOperator
+
+- type: htnCompound  #allow the npc to drop gun if empty, but not find new one.
+  id: OrderedRangedCombatCompound
+  branches:
+    - preconditions:
+        - !type:GunAmmoPrecondition
+          minPercent: 0.001
+      tasks:
+        - !type:HTNCompoundTask
+          task: OrderedGunCombatCompound
+
+    -  preconditions:
+         - !type:ActiveHandComponentPrecondition
+           components:
+             - type: Gun
+           invert: true
+       tasks:
+         - !type:HTNCompoundTask
+           task: PickupGunCompound
+
+    - preconditions:
+        - !type:ActiveHandComponentPrecondition
+          components:
+            - type: Gun
+        - !type:GunAmmoPrecondition
+          maxPercent: 0.001
+      tasks:
+        - !type:HTNPrimitiveTask
+          preconditions:
+            - !type:ActiveHandEntityPrecondition
+          operator: !type:DropOperator
