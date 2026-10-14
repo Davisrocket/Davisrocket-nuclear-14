@@ -11,7 +11,6 @@
       - PsychoRaider3Gear
       - PsychoRaider4Gear 
       - PsychoRaider5Gear
-      - PsychoRaider6Gear 
 
 - type: entity
   name: Gunners Conscript
@@ -26,7 +25,6 @@
       - FernConscript3Gear
       - FernConscript4Gear
       - FernConscript5Gear
-      - FernConscript6Gear
 
 - type: entity
   name: Enforcer Beatcop
@@ -41,4 +39,3 @@
       - EnforcerBeatcop3Gear
       - EnforcerBeatcop4Gear
       - EnforcerBeatcop5Gear
-      - EnforcerBeatcop6Gear
