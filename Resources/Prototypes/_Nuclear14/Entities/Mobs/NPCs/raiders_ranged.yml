@@ -5,12 +5,13 @@
   description: Psychopatic raider who will shoot and rob just about anyone.
   components:
     - type: Gun #Mobs currently cannot bolt a gun, so we have to simulate them firing it
-      minAngle: 6
-      maxAngle: 20
+      minAngle: 8
+      maxAngle: 16
       angleIncrease: 4
       angleDecay: 4
       fireRate: 2.0
-      soundGunshot: /Audio/_Nuclear14/Weapons/Guns/Pistols/N14WeaponPistol10mm/shot1.ogg
+      soundGunshot:
+      collection: N14Pistol10mmGunshot
       useKey: false
       selectedMode: SemiAuto
       availableModes:
@@ -21,12 +22,16 @@
       capacity: 12
       count: 12
     - type: RechargeBasicEntityAmmo
-      rechargeCooldown: 3
+      rechargeCooldown: 2.5
       rechargeSound:
         path: /Audio/_Nuclear14/Weapons/Effects/Reload/Pistols/pistol_magin.ogg
     - type: Loadout
       prototypes:
-        - RaiderPistolGear
+        - RaiderPistol1Gear
+        - RaiderPistol2Gear
+        - RaiderPistol3Gear
+        - RaiderPistol4Gear
+        - RaiderPistol5Gear
     - type: Sprite
       layers: # Long boring part to make sure layering is correct
       - map: [ "enum.HumanoidVisualLayers.Chest" ]
@@ -76,7 +81,7 @@
         sprite: Objects/Misc/handcuffs.rsi
         state: body-overlay-2
         visible: false
-      - sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/10mm.rsi
+      - sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/10mmPIPEpistol.rsi
         state: inhand-right  # Only part we change, the gun sprite.
 
 - type: entity
@@ -86,12 +91,13 @@
   description: Boss of all those psycho raiders you see around this area. Good luck!
   components:
     - type: Gun
-      minAngle: 10
-      maxAngle: 36
+      minAngle: 8
+      maxAngle: 38
       angleIncrease: 8
       angleDecay: 16
-      fireRate: 3.25
-      soundGunshot: /Audio/_Nuclear14/Weapons/Guns/Pistols/N14WeaponPistol10mm/shot1.ogg
+      fireRate: 3.0
+      soundGunshot:
+      collection: N14Pistol10mmGunshot
       useKey: false
       selectedMode: FullAuto
       availableModes:
@@ -102,12 +108,16 @@
       capacity: 35
       count: 35
     - type: RechargeBasicEntityAmmo
-      rechargeCooldown: 3
+      rechargeCooldown: 2.5
       rechargeSound:
         path: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_magin.ogg
     - type: Loadout
       prototypes:
-        - RaiderBossGear
+        - RaiderBoss1Gear
+        - RaiderBoss2Gear
+        - RaiderBoss3Gear
+        - RaiderBoss4Gear
+        - RaiderBoss5Gear
     - type: Sprite
       layers: # Long boring part to make sure layering is correct
       - map: [ "enum.HumanoidVisualLayers.Chest" ]
@@ -157,7 +167,7 @@
         sprite: Objects/Misc/handcuffs.rsi
         state: body-overlay-2
         visible: false
-      - sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/10mm.rsi
+      - sprite: _Nuclear14/Objects/Weapons/Guns/SMGs/10mmPIPE.rsi
         state: inhand-right  # Only part we change, the gun sprite.
 
 - type: entity
@@ -189,7 +199,11 @@
         path: /Audio/Weapons/Guns/MagIn/bullet_insert.ogg
     - type: Loadout
       prototypes:
-        - RaiderHunterGear
+        - RaiderHunter1Gear
+        - RaiderHunter2Gear
+        - RaiderHunter3Gear
+        - RaiderHunter4Gear
+        - RaiderHunter5Gear
     - type: Sprite
       layers: # Long boring part to make sure layering is correct
       - map: [ "enum.HumanoidVisualLayers.Chest" ]
@@ -266,12 +280,16 @@
       capacity: 2
       count: 2
     - type: RechargeBasicEntityAmmo
-      rechargeCooldown: 2
+      rechargeCooldown: 2.5
       rechargeSound:
         path: /Audio/_Nuclear14/Weapons/Effects/Reload/Shotguns/shotgun_insert.ogg
     - type: Loadout
       prototypes:
-        - RaiderSkrimisherGear
+        - RaiderSkrimisher1Gear
+        - RaiderSkrimisher2Gear
+        - RaiderSkrimisher3Gear
+        - RaiderSkrimisher4Gear
+        - RaiderSkrimisher5Gear
     - type: Sprite
       layers: # Long boring part to make sure layering is correct
       - map: [ "enum.HumanoidVisualLayers.Chest" ]
@@ -331,8 +349,8 @@
   description: Professional mercenary armed with a carbine. One might be better off avoiding him.
   components:
     - type: Gun
-      minAngle: 10
-      maxAngle: 40
+      minAngle: 8
+      maxAngle: 34
       angleIncrease: 4
       angleDecay: 16
       fireRate: 2.0
@@ -353,7 +371,11 @@
         path: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
     - type: Loadout
       prototypes:
-        - FernMercPrivateGear
+        - FernMercPrivate1Gear
+        - FernMercPrivate2Gear
+        - FernMercPrivate3Gear
+        - FernMercPrivate4Gear
+        - FernMercPrivate5Gear
     - type: Sprite
       layers: # Long boring part to make sure layering is correct
       - map: [ "enum.HumanoidVisualLayers.Chest" ]
@@ -429,7 +451,7 @@
       capacity: 8
       count: 8
     - type: RechargeBasicEntityAmmo
-      rechargeCooldown: 2
+      rechargeCooldown: 2.5
       rechargeSound:
         path: /Audio/_Nuclear14/Weapons/Effects/Reload/Shotguns/shotgun_insert.ogg
     - type: Loadout
@@ -510,7 +532,7 @@
       capacity: 28
       count: 28
     - type: RechargeBasicEntityAmmo
-      rechargeCooldown: 2
+      rechargeCooldown: 2.5
       rechargeSound:
         path: /Audio/_Nuclear14/Weapons/Effects/Reload/Pistols/pistol_magin.ogg
     - type: Loadout
@@ -592,12 +614,16 @@
       capacity: 31
       count: 31
     - type: RechargeBasicEntityAmmo
-      rechargeCooldown: 3
+      rechargeCooldown: 2.5
       rechargeSound:
         path: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_magin.ogg
     - type: Loadout
       prototypes:
-        - EnforcerTrooperGear
+        - EnforcerTrooper1Gear
+        - EnforcerTrooper2Gear
+        - EnforcerTrooper3Gear
+        - EnforcerTrooper4Gear
+        - EnforcerTrooper5Gear
     - type: Sprite
       layers: # Long boring part to make sure layering is correct
       - map: [ "enum.HumanoidVisualLayers.Chest" ]
@@ -661,7 +687,7 @@
       maxAngle: 160
       angleIncrease: 8
       angleDecay: 16
-      fireRate: 1.75
+      fireRate: 1.5
       soundGunshot: /Audio/_Nuclear14/Weapons/Guns/Shotguns/N14WeaponRiotShotgun/shot1.ogg
       useKey: false
       selectedMode: SemiAuto
@@ -673,7 +699,7 @@
       capacity: 12
       count: 12
     - type: RechargeBasicEntityAmmo
-      rechargeCooldown: 3
+      rechargeCooldown: 2.5
       rechargeSound:
         path: /Audio/_Nuclear14/Weapons/Effects/Reload/Shotguns/shotgun_insert.ogg
     - type: Loadout
@@ -683,7 +709,6 @@
         - EnforcerWarden3Gear
         - EnforcerWarden4Gear
         - EnforcerWarden5Gear
-        - EnforcerWarden6Gear
     - type: Sprite
       layers: # Long boring part to make sure layering is correct
       - map: [ "enum.HumanoidVisualLayers.Chest" ]
@@ -765,7 +790,11 @@
         path: /Audio/_Nuclear14/Weapons/Effects/Reload/Pistols/pistol_magin.ogg
     - type: Loadout
       prototypes:
-        - EnforcerChiefGear
+        - EnforcerChief1Gear
+        - EnforcerChief2Gear
+        - EnforcerChief3Gear
+        - EnforcerChief4Gear
+        - EnforcerChief5Gear
     - type: Sprite
       layers: # Long boring part to make sure layering is correct
       - map: [ "enum.HumanoidVisualLayers.Chest" ]
