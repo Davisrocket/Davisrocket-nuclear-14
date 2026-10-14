@@ -10,10 +10,9 @@
 - type: startingGear
   id: RaiderPistol2Gear
   equipment:
-    jumpsuit: N14ClothingUniformDesertPant
+    jumpsuit: N14ClothingUniformDesertPants
     shoes: N14ClothingShoesRaider
     mask: N14ClothingMaskBrownMask
-    outerClothing: N14ClothingOuterLightMetalArmor
     pocket1: N14RaiderStash
 
 - type: startingGear
@@ -57,7 +56,7 @@
   equipment:
     jumpsuit: N14ClothingUniformJumpsuitRags
     shoes: N14ClothingBootsLeather
-    head: ClothingHeadHatNightstalker
+    head: N14ClothingHeadHatNightstalker
     mask: N14ClothingMaskDesertMask
     outerClothing: N14ClothingOuterRaiderBadlands
     pocket1: N14RaiderStash
@@ -76,7 +75,7 @@
   equipment:
     jumpsuit: N14ClothingUniformJumpsuitBrahminFarmer
     shoes: N14ClothingShoesRaider
-    head: N14ClothingHeadHatVaultBlueprintHelmetMetal
+    head: N14ClothingHeadHatAnimal
     mask: N14ClothingMaskRedMask
     outerClothing: M14ClothingOuterArmorKitPunk
     pocket1: N14RaiderStash
@@ -105,7 +104,7 @@
   equipment:
     jumpsuit: N14ClothingUniformJumpsuitRags
     shoes: N14ClothingShoesRaider
-    head: ClothingHeadHatAnimal
+    head: N14ClothingHeadHatAnimal
     outerClothing: N14ClothingOuterPainspike
     pocket1: N14RaiderStash
 
@@ -114,7 +113,7 @@
   equipment:
     jumpsuit: N14ClothingUniformJumpsuitRags
     shoes: N14ClothingBootsLeather
-    head: ClothingHeadHatNightstalker
+    head: N14ClothingHeadHatNightstalker
     mask: N14ClothingMaskDesertMask
     outerClothing: N14ClothingOuterRaiderBadlands
     pocket1: N14RaiderStash
@@ -126,7 +125,7 @@
     shoes: N14ClothingBootsMountie
     gloves: N14ClothingHandsGlovesNCR
     neck: N14ClothingNeckMantleLeather
-    head: ClothingHeadHatHoodLeatherCloak
+    head: N14ClothingHeadHatHoodLeatherCloak
     mask: N14ClothingMaskBrownBalaclava
     outerClothing: N14ClothingOuterVestLeather
     belt: ClothingBeltRope
@@ -249,7 +248,7 @@
   equipment:
     jumpsuit: N14ClothingUniformJumpsuitCombat
     shoes: N14ClothingBootsLeather
-    mask: ClothingMaskGaskExplorer
+    mask: ClothingMaskGasExplorer
     outerClothing: N14ClothingOuterLightLeatherArmor
     pocket1: N14RaiderStash
 
@@ -378,7 +377,7 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitSuitBlack
     shoes: N14ClothingBootsCombatMK2
-    head: N14ClothingHeadHatCowboyBountyHunter
+    head: ClothingHeadHatCowboyBountyHunter
     eyes: N14ClothingEyesSunGlasses
     outerClothing: N14ClothingOuterPoliceChief
     back: M14ClothingSatchelRandomFill
@@ -412,7 +411,7 @@
   equipment:
     jumpsuit: M14ClothingUniformIkedudsUniform
     shoes: N14ClothingBootsMountie
-    gloves: N14ClothingHandsGloveMountie
+    gloves: N14ClothingHandsGlovesMountie
     head: N14ClothingHeadHatMountie
     eyes: N14ClothingEyesSunGlasses
     outerClothing: M14ClothingOuterGunfightersOvercoat

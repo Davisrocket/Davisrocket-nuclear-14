@@ -11,7 +11,7 @@
       angleDecay: 4
       fireRate: 2.0
       soundGunshot:
-      collection: N14Pistol10mmGunshot
+      soundCollection: N14Pistol10mmGunshot
       useKey: false
       selectedMode: SemiAuto
       availableModes:
@@ -97,7 +97,7 @@
       angleDecay: 16
       fireRate: 3.0
       soundGunshot:
-      collection: N14Pistol10mmGunshot
+      soundCollection: N14Pistol10mmGunshot
       useKey: false
       selectedMode: FullAuto
       availableModes:
@@ -183,7 +183,7 @@
       angleDecay: 16
       fireRate: 0.75
       soundGunshot:
-        collection: N14SniperHuntingGunshot
+        soundCollection: N14SniperHuntingGunshot
       useKey: false
       selectedMode: SemiAuto
       availableModes:
@@ -269,7 +269,7 @@
       angleDecay: 16
       fireRate: 1.5
       soundGunshot:
-        collection: N14DoubleBarrelShotgunGunshot
+        soundCollection: N14DoubleBarrelShotgunGunshot
       useKey: false
       selectedMode: SemiAuto
       availableModes:
@@ -355,7 +355,7 @@
       angleDecay: 16
       fireRate: 2.0
       soundGunshot:
-        collection: N14OldCarbineGunshot
+        soundCollection: N14OldCarbineGunshot
       useKey: false
       selectedMode: SemiAuto
       availableModes:
@@ -603,7 +603,7 @@
       angleDecay: 16
       fireRate: 3.25
       soundGunshot:
-        collection: N14Pistol9mmGunshot
+        soundCollection: N14Pistol9mmGunshot
       useKey: false
       selectedMode: SemiAuto
       availableModes:
@@ -688,7 +688,8 @@
       angleIncrease: 8
       angleDecay: 16
       fireRate: 1.5
-      soundGunshot: /Audio/_Nuclear14/Weapons/Guns/Shotguns/N14WeaponRiotShotgun/shot1.ogg
+      soundGunshot:
+        soundCollection: N14RiotShotgunGunshot
       useKey: false
       selectedMode: SemiAuto
       availableModes:
@@ -774,7 +775,7 @@
       angleDecay: 4
       fireRate: 1.5
       soundGunshot:
-        collection: N14RevolverMagnunGunshot
+        soundCollection: N14RevolverMagnunGunshot
       useKey: false
       selectedMode: SemiAuto
       availableModes:
@@ -785,7 +786,7 @@
       capacity: 6
       count: 6
     - type: RechargeBasicEntityAmmo
-      rechargeCooldown: 3
+      rechargeCooldown: 2.5
       rechargeSound:
         path: /Audio/_Nuclear14/Weapons/Effects/Reload/Pistols/pistol_magin.ogg
     - type: Loadout
