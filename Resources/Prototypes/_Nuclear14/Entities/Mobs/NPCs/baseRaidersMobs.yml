@@ -5,7 +5,7 @@
   name: Raider
   suffix: AI
   components:
-    - type: RandomHumanoidAppearance
+    #- type: RandomHumanoidAppearance #wassuy disabled for now may cause confusion
     - type: Damageable    # Misfits Add - Override from BaseMobSpeciesOrganic to prevent hunger/thirst damage
       damageContainer: MisfitsNPCBiological
     - type: NpcFactionMember

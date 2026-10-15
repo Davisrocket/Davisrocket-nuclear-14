@@ -21,18 +21,6 @@
         - !type:HTNCompoundTask
           task: N14OrderedGunCombatCompound
 
-    - preconditions:   #allow the npc to drop gun if empty, but not find new one
-        - !type:ActiveHandComponentPrecondition
-          components:
-            - type: Gun
-        - !type:GunAmmoPrecondition
-          maxPercent: 0.001
-      tasks:
-        - !type:HTNPrimitiveTask
-          preconditions:
-            - !type:ActiveHandEntityPrecondition
-          operator: !type:DropOperator
-
 - type: htnCompound
   id: N14GunCombatCompound
   branches:
