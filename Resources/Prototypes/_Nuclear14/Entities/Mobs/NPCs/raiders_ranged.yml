@@ -11,7 +11,7 @@
       angleDecay: 4
       fireRate: 2.0
       soundGunshot:
-      soundCollection: N14Pistol10mmGunshot
+        collection: N14Pistol10mmGunshot
       useKey: false
       selectedMode: SemiAuto
       availableModes:
@@ -97,7 +97,7 @@
       angleDecay: 16
       fireRate: 3.0
       soundGunshot:
-      soundCollection: N14Pistol10mmGunshot
+        collection: N14Pistol10mmGunshot
       useKey: false
       selectedMode: FullAuto
       availableModes:
@@ -183,7 +183,7 @@
       angleDecay: 16
       fireRate: 0.75
       soundGunshot:
-        soundCollection: N14SniperHuntingGunshot
+        collection: N14SniperHuntingGunshot
       useKey: false
       selectedMode: SemiAuto
       availableModes:
@@ -269,7 +269,7 @@
       angleDecay: 16
       fireRate: 1.5
       soundGunshot:
-        soundCollection: N14DoubleBarrelShotgunGunshot
+        collection: N14DoubleBarrelShotgunGunshot
       useKey: false
       selectedMode: SemiAuto
       availableModes:
@@ -355,7 +355,7 @@
       angleDecay: 16
       fireRate: 2.0
       soundGunshot:
-        soundCollection: N14OldCarbineGunshot
+        collection: N14OldCarbineGunshot
       useKey: false
       selectedMode: SemiAuto
       availableModes:
@@ -603,7 +603,7 @@
       angleDecay: 16
       fireRate: 3.25
       soundGunshot:
-        soundCollection: N14Pistol9mmGunshot
+        collection: N14Pistol9mmGunshot
       useKey: false
       selectedMode: SemiAuto
       availableModes:
@@ -689,7 +689,7 @@
       angleDecay: 16
       fireRate: 1.5
       soundGunshot:
-        soundCollection: N14RiotShotgunGunshot
+        collection: N14RiotShotgunGunshot
       useKey: false
       selectedMode: SemiAuto
       availableModes:
@@ -775,7 +775,7 @@
       angleDecay: 4
       fireRate: 1.5
       soundGunshot:
-        soundCollection: N14RevolverMagnunGunshot
+        collection: N14RevolverMagnunGunshot
       useKey: false
       selectedMode: SemiAuto
       availableModes:
