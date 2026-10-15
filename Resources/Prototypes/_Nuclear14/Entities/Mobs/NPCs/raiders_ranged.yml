@@ -769,8 +769,8 @@
   description: Rough man in fine clothes, carrying a magnum revolver.
   components:
     - type: Gun
-      minAngle: 5
-      maxAngle: 15
+      minAngle: 4
+      maxAngle: 14
       angleIncrease: 2
       angleDecay: 4
       fireRate: 1.5
