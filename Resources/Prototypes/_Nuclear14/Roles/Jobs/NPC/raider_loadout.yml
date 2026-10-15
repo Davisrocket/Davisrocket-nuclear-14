@@ -548,23 +548,10 @@
   id: FernConscript5Gear
   equipment:
     jumpsuit: N14ClothingUniformJumpsuitCombat
-    mask: ClothingMaskGaskExplorer
+    mask: ClothingMaskGasExplorer
     shoes: N14ClothingBootsLeather
     gloves: N14ClothingHandsGlovesBlackBiker
     outerClothing: N14ClothingOuterLightLeatherArmor
-    pocket1: N14RaiderStash
-  inhand:
-  - N14CombatKnife
-
-- type: startingGear
-  id: FernConscript6Gear
-  equipment:
-    jumpsuit: N14ClothingUniformJumpsuitCombat
-    mask: ClothingMaskGaskExplorer
-    shoes: N14ClothingBootsLeather
-    gloves: N14ClothingHandsGlovesBlackBiker
-    outerClothing: M14ClothingOuterArmorKitPunk
-    head: N14ClothingHeadHatCombatHelmet
     pocket1: N14RaiderStash
   inhand:
   - N14CombatKnife
@@ -588,7 +575,6 @@
     jumpsuit: N14ClothingUniformJumpsuitRags
     shoes: N14ClothingShoesRaider
     gloves: N14ClothingHandsGlovesCloth
-    mask: ClothingMaskGasExplorer
     outerClothing: N14ClothingOuterRaiderBlastmaster
     head: ClothingHeadHatWelding
     pocket1: N14RaiderStash
