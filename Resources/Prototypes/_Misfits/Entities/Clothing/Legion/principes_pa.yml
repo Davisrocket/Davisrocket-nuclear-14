@@ -60,10 +60,10 @@
   - type: Reflect
     reflects:
       - SmallCaliber
-      - MediumCaliber
+    #  - MediumCaliber # See: N14 PA file line 75
     reflectProb: 0.4
-    reflectProbByType:
-      MediumCaliber: 0.15
+    #reflectProbByType:
+    #  MediumCaliber: 0.15
     innate: true
     spread: 90
   - type: EmitsSoundOnMove # Corvax-Change
