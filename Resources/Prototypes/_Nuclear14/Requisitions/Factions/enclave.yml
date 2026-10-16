@@ -323,7 +323,7 @@
         crate: N14CrateRequisitionsEnclaveZuluArmor
       - cost: 1200
         crate: N14CrateRequisitionsEnclaveZuluMK2
-    - name: n14-requisitions-category-power armor
+    - name: n14-requisitions-category-power-armor
       entries:
       - cost: 5000
         stock: 1
@@ -348,8 +348,6 @@
         crate: N14CrateRequisitionsEnclaveMining
       - cost: 400
         crate: N14CrateRequisitionsEnclaveRadiosIds
-      - cost: 400
-        crate: N14CrateRequisitionsEnclaveField
       - cost: 400
         crate: N14CrateRequisitionsEnclavePowerCells
       - cost: 400
@@ -1079,7 +1077,7 @@
       amount: 2
     - id: Misfits40mmGrenadeWhitePhosphorus
       amount: 1
-    - id: N14CartridgeIncendiary40mm
+    - id: N14CartridgeGrenadeIncendiary40mm
       amount: 1
     - id: Misfits40mmGrenadeFlashbang
       amount: 2
@@ -1610,7 +1608,7 @@
     - id: GasAnalyzer
     - id: N14WelderIndustrialAdvanced
     - id: N14ClothingEyesGlassesWelding
-    - id: N14FlashlightSeclite
+    - id: FlashlightSeclite
     - id: PowerCellHyper
 
 #Placeholder Replace Ore Bag with Advanced Variant and Drill Diamond with Drill Fist
@@ -1829,7 +1827,7 @@
     - id: N14MedkitBruteFilled
     - id: N14MedkitRadiationFilled
 
-#Placeholder Unlocked As Part of Research Tree, Needs Int Placement Fixed
+#Placeholder Unlocked As Part of Research Tree, Needs Int Placement Fixed. Stacks of 3.
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveConveyor
@@ -1844,7 +1842,7 @@
   - type: StorageFill
     contents:
     - id: ConveyorBeltAssembly
-      amount: 10
+      amount: 12
 
 - type: entity
   parent: N14CrateRequisitions
