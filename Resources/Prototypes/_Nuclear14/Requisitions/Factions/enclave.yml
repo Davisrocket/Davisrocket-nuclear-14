@@ -261,10 +261,10 @@
         stock: 1
         crate: N14CrateRequisitionsEnclaveGaussRifle
       - cost: 5000
-        stock: 1
+        stock: 0
         crate: N14CrateRequisitionsEnclaveLaserGatling
       - cost: 7500
-        stock: 1
+        stock: 0
         crate: N14CrateRequisitionsEnclavePlasmaCaster
     - name: n14-requisitions-category-ammunition
       entries:
@@ -289,8 +289,10 @@
       - cost: 1000
         crate: N14CrateRequisitionsEnclave40mmGrenades
       - cost: 1200
+        stock: 0
         crate: N14CrateRequisitionsEnclavePlasmaShell
       - cost: 1500
+        stock: 0
         crate: N14CrateRequisitionsEnclaveFusionCore
     - name: n14-requisitions-category-apparel
       entries:
@@ -357,8 +359,10 @@
       - cost: 500
         crate: N14CrateRequisitionsEnclaveMaintenanceChemicals
       - cost: 1000
+        stock: 0
         crate: N14CrateRequisitionsEnclaveAdvancedTools
       - cost: 1000
+        stock: 0
         crate: N14CrateRequisitionsEnclaveAdvancedMining
       - cost: 1000
         crate: N14CrateRequisitionsEnclaveRechargerBoards
@@ -385,12 +389,15 @@
       - cost: 800
         crate: N14CrateRequisitionsEnclaveMedkits
       - cost: 1000
+        stock: 0
         crate: N14CrateRequisitionsEnclaveConveyor
       - cost: 1000
+        stock: 0
         crate: N14CrateRequisitionsEnclaveCombatMedkit
       - cost: 1000
         crate: N14CrateRequisitionsEnclavePurge
       - cost: 1000
+        stock: 0
         crate: N14CrateRequisitionsEnclaveRobobrain
       - cost: 1200
         crate: N14CrateRequisitionsEnclaveSurgical
@@ -401,14 +408,18 @@
       - cost: 1400
         crate: N14CrateRequisitionsEnclaveMedical
       - cost: 1400
+        stock: 0
         crate: N14CrateRequisitionsEnclaveAdvancedSurgical
       - cost: 1500
         crate: N14CrateRequisitionsEnclaveChemVend
       - cost: 1500
+        stock: 0
         crate: N14CrateRequisitionsEnclaveMMI
       - cost: 1750
+        stock: 0
         crate: N14CrateRequisitionsEnclaveExperimentalSurgical
       - cost: 5000
+        stock: 0
         crate: N14CrateRequisitionsEnclaveGhoulReversal
     - name: n14-requisitions-category-provisions
       entries:
