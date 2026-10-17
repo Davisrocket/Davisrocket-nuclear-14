@@ -36,8 +36,8 @@
     sellEntries:
     - item: N14ScrapElectronic
       value:
-        min: 5
-        max: 15
+      min: 5
+      max: 15
     - item: N14ScrapCopper
       value: 5
     - item: N14ScrapSteel
