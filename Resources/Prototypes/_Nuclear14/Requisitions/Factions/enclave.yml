@@ -302,7 +302,7 @@
         crate: N14CrateRequisitionsEnclaveAccessories
       # Peacekeeper is the only armour here that is strictly worse - 0.85 blunt/slash
       # against everything else's 0.7, and its cap carries no Armor component at all.
-      - cost: 600
+      - cost: 800
         crate: N14CrateRequisitionsEnclavePeacekeeper
       - cost: 800
         crate: N14CrateRequisitionsEnclaveRadSuit
@@ -313,18 +313,19 @@
       # Every suit below is mechanically identical - 0.7/0.7/0.6/0.65, explosion 0.75.
       # The difference is purely cosmetic, so they all cost the same.
       - cost: 1200
-        crate: N14CrateRequisitionsEnclaveLightArmor
-      - cost: 1200
         crate: N14CrateRequisitionsEnclaveCombatArmor
-      - cost: 1200
+      - cost: 2400
         crate: N14CrateRequisitionsEnclaveCombatArmorMK2
-      - cost: 1200
-        crate: N14CrateRequisitionsEnclaveZuluGrunt
-      - cost: 1200
+      - cost: 3200
         stock: 3
-        crate: N14CrateRequisitionsEnclaveZuluArmor
-      - cost: 1200
+        crate: N14CrateRequisitionsEnclaveAdvancedArmor
+      - cost: 1600
+        crate: N14CrateRequisitionsEnclaveZuluGrunt
+      - cost: 2800
         crate: N14CrateRequisitionsEnclaveZuluMK2
+      - cost: 4000
+        stock: 3
+        crate: N14CrateRequisitionsEnclaveZuluAdvancedArmor
     - name: n14-requisitions-category-power-armor
       entries:
       - cost: 5000
@@ -450,7 +451,7 @@
       - cost: 1000
         crate: N14CrateRequisitionsEnclaveRecreationBoards
 
-# Detonable
+#MARK: Detonable
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveSmoke
@@ -553,7 +554,7 @@
     - id: N14LandMine
       amount: 4
 
-# Firearms
+#MARK: Firearms
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveSidearm
@@ -912,7 +913,7 @@
     - id: N14PlasmaShell
       amount: 3
 
-# Ammunition
+#MARK: Ammunition
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveECells
@@ -1125,7 +1126,7 @@
     - id: N14FusionCore
       amount: 1
 
-# Apparel
+#MARK: Apparel
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveUniforms
@@ -1254,24 +1255,8 @@
 
 - type: entity
   parent: N14CrateRequisitions
-  id: N14CrateRequisitionsEnclaveLightArmor
-  name: Enclave light armor crate
-  components:
-  - type: Icon
-    sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
-  - type: Sprite
-    sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
-  - type: RequisitionsCrate
-    reward: 50
-  - type: StorageFill
-    contents:
-    - id: N14ClothingOuterEnclaveArmor
-    - id: N14ClothingHeadHatEnclaveHelmetMarine
-
-- type: entity
-  parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveCombatArmor
-  name: Enclave combat armor crate
+  name: Enclave Combat Armor Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1282,12 +1267,12 @@
   - type: StorageFill
     contents:
     - id: N14ClothingOuterEnclaveCombatArmor
-    - id: N14ClothingHeadHatEnclaveCombatHelmet
+    - id: N14ClothingHeadHatEnclaveHelmet
 
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveCombatArmorMK2
-  name: Enclave combat armor MK2 crate
+  name: Enclave Combat Armor MK2 Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1298,12 +1283,28 @@
   - type: StorageFill
     contents:
     - id: N14ClothingOuterEnclaveCombatArmorMK2
-    - id: N14ClothingHeadHatEnclaveHelmet
+    - id: N14ClothingHeadHatEnclaveCombatHelmet
+
+- type: entity
+  parent: N14CrateRequisitions
+  id: N14CrateRequisitionsEnclaveAdvancedArmor
+  name: Enclave Advanced Combat Armor Crate
+  components:
+  - type: Icon
+    sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
+  - type: Sprite
+    sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
+  - type: RequisitionsCrate
+    reward: 50
+  - type: StorageFill
+    contents:
+    - id: N14ClothingOuterEnclaveAdvancedCombatArmor
+    - id: N14ClothingHeadHatEnclaveHelmetAdvanced
 
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveZuluGrunt
-  name: Zulu grunt combat armor crate
+  name: Zulu Grunt Combat Armor Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1318,24 +1319,8 @@
 
 - type: entity
   parent: N14CrateRequisitions
-  id: N14CrateRequisitionsEnclaveZuluArmor
-  name: Zulu advanced combat armor crate
-  components:
-  - type: Icon
-    sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
-  - type: Sprite
-    sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
-  - type: RequisitionsCrate
-    reward: 50
-  - type: StorageFill
-    contents:
-    - id: N14ClothingOuterEnclaveZuluAdvancedCombatArmor
-    - id: N14ClothingHeadHatEnclaveZuluCombatHelmet
-
-- type: entity
-  parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveZuluMK2
-  name: Zulu combat armor MK2 crate
+  name: Zulu Combat Armor MK2 Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1348,7 +1333,23 @@
     - id: N14ClothingOuterEnclaveZuluCombatArmorMK2
     - id: N14ClothingHeadHatEnclaveZuluCombatHelmet
 
-# Power Armor
+- type: entity
+  parent: N14CrateRequisitions
+  id: N14CrateRequisitionsEnclaveZuluAdvancedArmor
+  name: Zulu Advanced Combat Armor Crate
+  components:
+  - type: Icon
+    sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
+  - type: Sprite
+    sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
+  - type: RequisitionsCrate
+    reward: 50
+  - type: StorageFill
+    contents:
+    - id: N14ClothingOuterEnclaveZuluAdvancedCombatArmor
+    - id: N14ClothingHeadHatEnclaveZuluCombatHelmet
+
+#MARK: Power Armor
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclavePowerArmorAPAMK1
@@ -1399,7 +1400,7 @@
     - id: TrainingManualEnclavePowerArmorOperation
       amount: 1
 
-# Equipment
+#MARK: Equipment
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveComms
@@ -1761,7 +1762,7 @@
     - id: N14EnclaveTrooperPipboy
       amount: 4
 
-# Science
+#MARK: Science
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveDisks
@@ -2092,7 +2093,7 @@
     - id: GhoulReversalSyringe
       amount: 1
 
-# Provisions
+#MARK: Provisions
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveRations1
@@ -2220,7 +2221,7 @@
     - id: N14CigarettePackLuckyStrike
       amount: 7
 
-# Recreation
+#MARK: Recreation
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveMagazines
