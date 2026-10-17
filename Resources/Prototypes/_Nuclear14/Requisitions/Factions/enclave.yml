@@ -35,9 +35,7 @@
     acceptedCurrency: PrewarMoney
     sellEntries:
     - item: N14ScrapElectronic
-      value:
-      min: 5
-      max: 15
+      valueRange: 5, 15
     - item: N14ScrapCopper
       value: 5
     - item: N14ScrapSteel
