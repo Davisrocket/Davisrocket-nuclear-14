@@ -35,16 +35,16 @@
     acceptedCurrency: PrewarMoney
     sellEntries:
     - item: N14ScrapElectronic
-      value: 10
+      value:
+        min: 5
+        max: 15
     - item: N14ScrapCopper
       value: 5
     - item: N14ScrapSteel
       value: 3
     # metals
     - item: N14ScrapGold
-      value:
-       min: 80
-       max: 100
+      value: 120
     - item: N14IngotSilver1
       value: 120
     - item: N14IngotGold1
