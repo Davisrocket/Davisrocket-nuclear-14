@@ -42,152 +42,152 @@
       value: 3
     # metals
     - item: N14ScrapGold
-      value: 120
+      value: 80
     - item: N14IngotSilver1
-      value: 120
+      value: 80
     - item: N14IngotGold1
-      value: 240
+      value: 160
     # Farm produce. The Enclave's MegaSeed Servitor grows the vanilla Food* set;
     # the N14Food* twins are what wasteland foraging turns up. Both are bought so
     # neither source is dead weight.
     - item: CottonBol
-      value: 2
+      value: 5
     - item: FoodAloe
-      value: 2
+      value: 5
     - item: FoodAmbrosiaVulgaris
-      value: 2
+      value: 5
     - item: FoodApple
-      value: 2
+      value: 5
     - item: FoodBanana
-      value: 2
+      value: 5
     - item: FoodBerries
-      value: 2
+      value: 5
     - item: FoodCabbage
-      value: 2
+      value: 5
     - item: FoodCarrot
-      value: 2
+      value: 5
     - item: FoodCherry
-      value: 2
+      value: 5
     - item: FoodChiliPepper
-      value: 2
+      value: 5
     - item: FoodCocoaPod
-      value: 2
+      value: 5
     - item: FoodCorn
-      value: 2
+      value: 5
     - item: FoodEgg
-      value: 2
+      value: 5
     - item: FoodEggplant
-      value: 2
+      value: 5
     - item: FoodGalaxythistle
-      value: 2
+      value: 5
     - item: FoodGarlic
-      value: 2
+      value: 5
     - item: FoodGrape
-      value: 2
+      value: 5
     - item: FoodLemon
-      value: 2
+      value: 5
     - item: FoodLime
-      value: 2
+      value: 5
     - item: FoodLingzhi
-      value: 2
+      value: 5
     - item: FoodMushroom
-      value: 2
+      value: 5
     - item: FoodOnion
-      value: 2
+      value: 5
     - item: FoodOnionRed
-      value: 2
+      value: 5
     - item: FoodOrange
-      value: 2
+      value: 5
     - item: FoodPeaPod
-      value: 2
+      value: 5
     - item: FoodPoppy
-      value: 2
+      value: 5
     - item: FoodPotato
-      value: 2
+      value: 5
     - item: FoodPumpkin
-      value: 2
+      value: 5
     - item: FoodSoybeans
-      value: 2
+      value: 5
     - item: FoodTomato
-      value: 2
+      value: 5
     - item: FoodWatermelon
-      value: 2
+      value: 5
     - item: Log
-      value: 2
+      value: 5
     - item: OatBushel
-      value: 2
+      value: 5
     - item: RiceBushel
-      value: 2
+      value: 5
     - item: Sugarcane
-      value: 2
+      value: 5
     - item: WheatBushel
-      value: 2
+      value: 5
     - item: N14CottonBol
-      value: 2
+      value: 5
     - item: N14FoodAloe
-      value: 2
+      value: 5
     - item: N14FoodAmbrosiaVulgaris
-      value: 2
+      value: 5
     - item: N14FoodApple
-      value: 2
+      value: 5
     - item: N14FoodBanana
-      value: 2
+      value: 5
     - item: N14FoodBerries
-      value: 2
+      value: 5
     - item: N14FoodCabbage
-      value: 2
+      value: 5
     - item: N14FoodCarrot
-      value: 2
+      value: 5
     - item: N14FoodCocoaPod
-      value: 2
+      value: 5
     - item: N14FoodCorn
-      value: 2
+      value: 5
     - item: N14FoodEggplant
-      value: 2
+      value: 5
     - item: N14FoodGalaxythistle
-      value: 2
+      value: 5
     - item: N14FoodGarlic
-      value: 2
+      value: 5
     - item: N14FoodGrape
-      value: 2
+      value: 5
     - item: N14FoodLemon
-      value: 2
+      value: 5
     - item: N14FoodLime
-      value: 2
+      value: 5
     - item: N14FoodLingzhi
-      value: 2
+      value: 5
     - item: N14FoodMushroom
-      value: 2
+      value: 5
     - item: N14FoodOnion
-      value: 2
+      value: 5
     - item: N14FoodOnionRed
-      value: 2
+      value: 5
     - item: N14FoodOrange
-      value: 2
+      value: 5
     - item: N14FoodPeaPod
-      value: 2
+      value: 5
     - item: N14FoodPoppy
-      value: 2
+      value: 5
     - item: N14FoodPotato
-      value: 2
+      value: 5
     - item: N14FoodPumpkin
-      value: 2
+      value: 5
     - item: N14FoodSoybeans
-      value: 2
+      value: 5
     - item: N14FoodTomato
-      value: 2
+      value: 5
     - item: N14FoodWatermelon
-      value: 2
+      value: 5
     - item: N14Log
-      value: 2
+      value: 5
     - item: N14OatBushel
-      value: 2
+      value: 5
     - item: N14RiceBushel
-      value: 2
+      value: 5
     - item: N14Sugarcane
-      value: 2
+      value: 5
     - item: N14WheatBushel
-      value: 2
+      value: 5
     # R&D collection board. Every request is for researched genetics disks, gated on
     # the rarity of the mutation encoded on them - blanks never count. Slots seed at
     # round start and refill as they are handed in.
@@ -204,7 +204,7 @@
     categories:
     - name: n14-requisitions-category-detonable
       entries:
-      - cost: 400
+      - cost: 500
         crate: N14CrateRequisitionsEnclaveSmoke
       - cost: 500
         crate: N14CrateRequisitionsEnclaveFlashbang
@@ -226,26 +226,26 @@
       - cost: 1000
         crate: N14CrateRequisitionsEnclaveMagnetoPistol
       - cost: 1200
-        crate: N14CrateRequisitionsEnclaveDefender
-      - cost: 1200
         crate: N14CrateRequisitionsEnclaveRechargerPistol
+      - cost: 1500
+        crate: N14CrateRequisitionsEnclaveDefender
       - cost: 1600
         crate: N14CrateRequisitionsEnclaveWattz2000
       - cost: 1600
         crate: N14CrateRequisitionsEnclaveRechargerRifle
       - cost: 2000
         crate: N14CrateRequisitionsEnclaveAER9Auto
-      - cost: 2200
+      - cost: 2000
         crate: N14CrateRequisitionsEnclavePlasmaRifles
-      - cost: 2400
-        crate: N14CrateRequisitionsEnclavePlasmaUrban
-      - cost: 2400
-        crate: N14CrateRequisitionsEnclaveAER12
       - cost: 2500
-        crate: N14CrateRequisitionsEnclaveWattz3000
+        crate: N14CrateRequisitionsEnclavePlasmaUrban
+      - cost: 2500
+        crate: N14CrateRequisitionsEnclaveAER12
       - cost: 2500
         stock: 3
         crate: N14CrateRequisitionsEnclavePulsePistol
+      - cost: 2600
+        crate: N14CrateRequisitionsEnclaveWattz3000
       - cost: 2800
         crate: N14CrateRequisitionsEnclavePlasmaAuto
       - cost: 3200
@@ -268,21 +268,21 @@
         crate: N14CrateRequisitionsEnclavePlasmaCaster
     - name: n14-requisitions-category-ammunition
       entries:
-      - cost: 300
+      - cost: 400
         crate: N14CrateRequisitionsEnclaveECells
-      - cost: 300
+      - cost: 400
         crate: N14CrateRequisitionsEnclaveECP
-      - cost: 300
+      - cost: 400
         crate: N14CrateRequisitionsEnclave44Ammo
-      - cost: 300
+      - cost: 400
         crate: N14CrateRequisitionsEnclavePulseECells
-      - cost: 400
-        crate: N14CrateRequisitionsEnclaveMFCells
-      - cost: 400
-        crate: N14CrateRequisitionsEnclavePlasmaCells
-      - cost: 400
-        crate: N14CrateRequisitionsEnclavePulseMFCells
       - cost: 500
+        crate: N14CrateRequisitionsEnclaveMFCells
+      - cost: 500
+        crate: N14CrateRequisitionsEnclavePlasmaCells
+      - cost: 500
+        crate: N14CrateRequisitionsEnclavePulseMFCells
+      - cost: 600
         crate: N14CrateRequisitionsEnclaveVertibirdGunBelt
       - cost: 600
         crate: N14CrateRequisitionsEnclave2mmEC
@@ -354,9 +354,9 @@
         crate: N14CrateRequisitionsEnclavePowerCells
       - cost: 400
         crate: N14CrateRequisitionsEnclaveTools
-      - cost: 500
+      - cost: 600
         crate: N14CrateRequisitionsEnclaveIndustrialWelders
-      - cost: 500
+      - cost: 600
         crate: N14CrateRequisitionsEnclaveMaintenanceChemicals
       - cost: 1000
         stock: 0
@@ -366,7 +366,7 @@
         crate: N14CrateRequisitionsEnclaveAdvancedMining
       - cost: 1000
         crate: N14CrateRequisitionsEnclaveRechargerBoards
-      - cost: 800
+      - cost: 1000
         crate: N14CrateRequisitionsEnclaveSignals
       - cost: 2500
         stock: 1
@@ -382,7 +382,7 @@
       entries:
       - cost: 300
         crate: N14CrateRequisitionsEnclaveDisks
-      - cost: 300
+      - cost: 500
         crate: N14CrateRequisitionsEnclaveSeeds
       - cost: 600
         crate: N14CrateRequisitionsEnclaveChems
@@ -407,7 +407,7 @@
         crate: N14CrateRequisitionsEnclaveHydroponicBoards
       - cost: 1400
         crate: N14CrateRequisitionsEnclaveMedical
-      - cost: 1400
+      - cost: 1500
         stock: 0
         crate: N14CrateRequisitionsEnclaveAdvancedSurgical
       - cost: 1500
@@ -415,7 +415,7 @@
       - cost: 1500
         stock: 0
         crate: N14CrateRequisitionsEnclaveMMI
-      - cost: 1750
+      - cost: 2000
         stock: 0
         crate: N14CrateRequisitionsEnclaveExperimentalSurgical
       - cost: 5000
@@ -429,17 +429,17 @@
         crate: N14CrateRequisitionsEnclaveRations2
       - cost: 200
         crate: N14CrateRequisitionsEnclaveBreakfast
-      - cost: 300
+      - cost: 400
         crate: N14CrateRequisitionsEnclavePizza
       - cost: 400
         crate: N14CrateRequisitionsEnclaveNukaCola
-      - cost: 500
+      - cost: 400
         crate: N14CrateRequisitionsEnclaveSmokes
     - name: n14-requisitions-category-recreation
       entries:
-      - cost: 400
+      - cost: 200
         crate: N14CrateRequisitionsEnclaveMagazines
-      - cost: 400
+      - cost: 300
         crate: N14CrateRequisitionsEnclaveBooks
       - cost: 400
         crate: N14CrateRequisitionsEnclaveBaseball
@@ -447,7 +447,7 @@
         crate: N14CrateRequisitionsEnclaveVinyl
       - cost: 400
         crate: N14CrateRequisitionsEnclaveWarGamesCrate
-      - cost: 400
+      - cost: 1000
         crate: N14CrateRequisitionsEnclaveRecreationBoards
 
 # Detonable
@@ -1884,7 +1884,7 @@
   - type: StorageFill
     contents:
     - id: GeneticsMutatorPurge
-      amount: 5
+      amount: 2
 
 #Placeholder Currently Till Robobrains Fully Unlocked
 - type: entity
