@@ -72,10 +72,10 @@
   - type: Reflect # #Misfits Change Tweak: Small-caliber rounds (sub-5.56mm) ricochet off power armor at 30% chance. Innate - always active regardless of movement.
     reflects:
       - SmallCaliber
-      # - MediumCaliber #Due to ROF cuts, 5.56 and 7.62 must actually connect regularly with PA to prevent near-invincible PA users.
+       - MediumCaliber
     reflectProb: 0.4
-    #reflectProbByType:
-    #  MediumCaliber: 0.15
+    reflectProbByType:
+      MediumCaliber: 0.15
     innate: true
     spread: 90
   - type: SpearBlock # #Misfits Change Add: Power armor deflects thrown polearms; falls to ground instead of embedding.
@@ -319,10 +319,10 @@
   - type: Reflect # #Misfits Change Tweak: Small-caliber rounds (sub-5.56mm) ricochet off power armor at 35% chance. Innate - always active regardless of movement.
     reflects:
     - SmallCaliber
-    #- MediumCaliber # See: line 75 of this file.
+    - MediumCaliber
     reflectProb: 0.35
-    #reflectProbByType:
-    #  MediumCaliber: 0.15
+    reflectProbByType:
+      MediumCaliber: 0.15
     innate: true
     spread: 90
 
@@ -380,10 +380,10 @@
   - type: Reflect # #Misfits Change Tweak: X-02 has improved movespeed and resistances over the X-02 but less reflect chance
     reflects:
     - SmallCaliber
-    #- MediumCaliber # See: line 75 of this file
+    - MediumCaliber
     reflectProb: 0.3
-    #reflectProbByType:
-    #  MediumCaliber: 0.1
+    reflectProbByType:
+      MediumCaliber: 0.1
 
 - type: entity
   parent: N14ClothingOuterPowerArmorAdvanced2
@@ -421,7 +421,7 @@
   - type: Reflect # #Misfits Change Tweak: Small-caliber rounds (sub-5.56mm) ricochet off power armor at 40% chance. Innate - always active regardless of movement.
     reflects:
     - SmallCaliber
-    - MediumCaliber # agmin PA can keep this.
+    - MediumCaliber
     reflectProb: 0.4
     reflectProbByType:
       MediumCaliber: 0.20
