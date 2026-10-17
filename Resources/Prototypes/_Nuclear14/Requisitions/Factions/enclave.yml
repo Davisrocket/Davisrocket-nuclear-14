@@ -43,8 +43,8 @@
     # metals
     - item: N14ScrapGold
       value:
-       minValue: 80
-       maxValue: 100
+       min: 80
+       max: 100
     - item: N14IngotSilver1
       value: 120
     - item: N14IngotGold1
