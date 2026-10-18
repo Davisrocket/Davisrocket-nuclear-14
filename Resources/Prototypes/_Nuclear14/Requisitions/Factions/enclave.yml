@@ -230,7 +230,7 @@
         crate: N14CrateRequisitionsEnclaveGaussRifle
       - cost: 1000
         crate: N14CrateRequisitionsEnclaveRechargerPistol
-      - cost: 1500
+      - cost: 1400
         crate: N14CrateRequisitionsEnclaveRechargerRifle
       - cost: 1000
         crate: N14CrateRequisitionsEnclaveMagnetoPistol
@@ -369,11 +369,11 @@
       - cost: 1200
         stock: 0
         crate: N14CrateRequisitionsEnclaveAdvancedMining
+      - cost: 2000
+        crate: N14CrateRequisitionsEnclaveChemWarfare
       - cost: 2500
         stock: 1
         crate: N14CrateRequisitionsEnclavePipboyOfficer
-      - cost: 2500
-        crate: N14CrateRequisitionsEnclaveChemWarfare
       - cost: 3800
         crate: N14CrateRequisitionsEnclaveIngots
       - cost: 4500
