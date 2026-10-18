@@ -12,19 +12,19 @@
   id: EnclaveRequestPool
   items:
     - item: GeneticsDisk
-      mutation: ThermalWeakness
+      mutationRarity: Common
       minAmount: 2
       maxAmount: 4
       valuePerUnit: 100
       weight: 3
     - item: GeneticsDisk
-      mutation: Antenna
+      mutationRarity: Rare
       minAmount: 1
       maxAmount: 2
       valuePerUnit: 400
       weight: 1.5
     - item: GeneticsDisk
-      mutation: Autotomy
+      mutationRarity: Mythical
       minAmount: 1
       maxAmount: 1
       valuePerUnit: 1200
