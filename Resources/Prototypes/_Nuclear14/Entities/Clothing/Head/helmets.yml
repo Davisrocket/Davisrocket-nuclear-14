@@ -299,7 +299,7 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetMK2
   id: N14ClothingHeadHatEnclaveHelmet
-  name: A grey U.S. Army Combat Helmet
+  name: U.S. Army Combat Helmet Grey
   description: A combat helmet worn by U.S. Army soldiers.
   components:
   - type: Sprite
@@ -311,7 +311,7 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetMK2
   id: N14ClothingHeadHatEnclaveCombatHelmet
-  name: A black U.S. Army Combat Helmet
+  name: U.S. Army Combat Helmet Black
   description: A pre-war U.S. Army issue combat helmet. Protects against most battlefield threats.
   components:
   - type: Sprite

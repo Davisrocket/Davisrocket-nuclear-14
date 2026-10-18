@@ -33,6 +33,7 @@
     group: Enclave
     accountProto: N14ASRSAccountEnclave
     acceptedCurrency: PrewarMoney
+#MARK:Sellables
     sellEntries:
     - item: N14ScrapElectronic
       value: 10
@@ -42,11 +43,11 @@
       value: 3
     # metals
     - item: N14ScrapGold
-      value: 80
+      value: 90
     - item: N14IngotSilver1
-      value: 80
+      value: 90
     - item: N14IngotGold1
-      value: 160
+      value: 180
     # Farm produce. The Enclave's MegaSeed Servitor grows the vanilla Food* set;
     # the N14Food* twins are what wasteland foraging turns up. Both are bought so
     # neither source is dead weight.
@@ -188,6 +189,7 @@
       value: 5
     - item: N14WheatBushel
       value: 5
+#MARK: Bounties
     # R&D collection board. Every request is for researched genetics disks, gated on
     # the rarity of the mutation encoded on them - blanks never count. Slots seed at
     # round start and refill as they are handed in.
@@ -201,69 +203,71 @@
     # Mythical 1200), so a request is worth the same as handing the disks over would
     # have been. A score multiplier here would break that parity.
     hardRequestSlots: 0
+#MARK: Crate Prices
     categories:
     - name: n14-requisitions-category-detonable
       entries:
-      - cost: 500
+      - cost: 600
         crate: N14CrateRequisitionsEnclaveSmoke
-      - cost: 500
+      - cost: 600
         crate: N14CrateRequisitionsEnclaveFlashbang
-      - cost: 1000
+      - cost: 1200
         crate: N14CrateRequisitionsEnclaveGrenades
-      - cost: 1000
+      - cost: 1200
         crate: N14CrateRequisitionsEnclaveAdvancedGrenades
-      - cost: 1000
+      - cost: 1200
+        crate: N14CrateRequisitionsEnclaveDemolitions
+      - cost: 1200
         stock: 3
         crate: N14CrateRequisitionsEnclaveEMP
-      - cost: 1400
-        crate: N14CrateRequisitionsEnclaveDemolitions
+# Organized by Kinetic, Recharger, Laser, Pulse, Plasma
     - name: n14-requisitions-category-firearms
       entries:
-      - cost: 800
-        crate: N14CrateRequisitionsEnclaveSidearm
-      - cost: 1000
-        crate: N14CrateRequisitionsEnclaveDeagle
-      - cost: 1000
-        crate: N14CrateRequisitionsEnclaveMagnetoPistol
       - cost: 1200
-        crate: N14CrateRequisitionsEnclaveRechargerPistol
-      - cost: 1500
-        crate: N14CrateRequisitionsEnclaveDefender
-      - cost: 1600
-        crate: N14CrateRequisitionsEnclaveWattz2000
-      - cost: 1600
-        crate: N14CrateRequisitionsEnclaveRechargerRifle
-      - cost: 2000
-        crate: N14CrateRequisitionsEnclaveAER9Auto
-      - cost: 2000
-        crate: N14CrateRequisitionsEnclavePlasmaRifles
-      - cost: 2500
-        crate: N14CrateRequisitionsEnclavePlasmaUrban
-      - cost: 2500
-        crate: N14CrateRequisitionsEnclaveAER12
-      - cost: 2500
-        stock: 3
-        crate: N14CrateRequisitionsEnclavePulsePistol
-      - cost: 2600
-        crate: N14CrateRequisitionsEnclaveWattz3000
-      - cost: 2800
-        crate: N14CrateRequisitionsEnclavePlasmaAuto
-      - cost: 3200
-        stock: 3
-        crate: N14CrateRequisitionsEnclaveRCW
-      - cost: 3500
-        stock: 2
-        crate: N14CrateRequisitionsEnclavePulseCarbine
-      - cost: 3800
-        stock: 2
-        crate: N14CrateRequisitionsEnclaveAER15
+        crate: N14CrateRequisitionsEnclaveDeagle
       - cost: 4000
         stock: 1
         crate: N14CrateRequisitionsEnclaveGaussRifle
-      - cost: 5000
+      - cost: 1000
+        crate: N14CrateRequisitionsEnclaveRechargerPistol
+      - cost: 1500
+        crate: N14CrateRequisitionsEnclaveRechargerRifle
+      - cost: 1000
+        crate: N14CrateRequisitionsEnclaveMagnetoPistol
+      - cost: 1600
+        crate: N14CrateRequisitionsEnclaveWattz2000
+      - cost: 2000
+        crate: N14CrateRequisitionsEnclaveAER9Auto
+      - cost: 2600
+        crate: N14CrateRequisitionsEnclaveAER12
+      - cost: 2600
+        crate: N14CrateRequisitionsEnclaveWattz3000
+      - cost: 2800
+        stock: 3
+        crate: N14CrateRequisitionsEnclaveRCW
+      - cost: 4000
+        stock: 2
+        crate: N14CrateRequisitionsEnclaveAER15
+      - cost: 6000
         stock: 0
         crate: N14CrateRequisitionsEnclaveLaserGatling
-      - cost: 7500
+      - cost: 1800
+        stock: 2
+        crate: N14CrateRequisitionsEnclavePulseCarbine
+      - cost: 2000
+        stock: 3
+        crate: N14CrateRequisitionsEnclavePulsePistol
+      - cost: 800
+        crate: N14CrateRequisitionsEnclaveSidearm
+      - cost: 1400
+        crate: N14CrateRequisitionsEnclaveDefender
+      - cost: 2000
+        crate: N14CrateRequisitionsEnclavePlasmaRifles
+      - cost: 2600
+        crate: N14CrateRequisitionsEnclavePlasmaUrban
+      - cost: 3200
+        crate: N14CrateRequisitionsEnclavePlasmaAuto
+      - cost: 8000
         stock: 0
         crate: N14CrateRequisitionsEnclavePlasmaCaster
     - name: n14-requisitions-category-ammunition
@@ -276,42 +280,39 @@
         crate: N14CrateRequisitionsEnclave44Ammo
       - cost: 400
         crate: N14CrateRequisitionsEnclavePulseECells
-      - cost: 500
+      - cost: 600
         crate: N14CrateRequisitionsEnclaveMFCells
-      - cost: 500
+      - cost: 600
         crate: N14CrateRequisitionsEnclavePlasmaCells
-      - cost: 500
+      - cost: 600
         crate: N14CrateRequisitionsEnclavePulseMFCells
-      - cost: 600
+      - cost: 800
         crate: N14CrateRequisitionsEnclaveVertibirdGunBelt
-      - cost: 600
+      - cost: 800
         crate: N14CrateRequisitionsEnclave2mmEC
-      - cost: 1000
+      - cost: 1200
         crate: N14CrateRequisitionsEnclave40mmGrenades
       - cost: 1200
         stock: 0
         crate: N14CrateRequisitionsEnclavePlasmaShell
-      - cost: 1500
+      - cost: 1600
         stock: 0
         crate: N14CrateRequisitionsEnclaveFusionCore
+#Organized by Armor
     - name: n14-requisitions-category-apparel
       entries:
       - cost: 200
         crate: N14CrateRequisitionsEnclaveUniforms
       - cost: 400
         crate: N14CrateRequisitionsEnclaveAccessories
-      # Peacekeeper is the only armour here that is strictly worse - 0.85 blunt/slash
-      # against everything else's 0.7, and its cap carries no Armor component at all.
       - cost: 800
-        crate: N14CrateRequisitionsEnclavePeacekeeper
+        crate: N14CrateRequisitionsEnclaveCovert
       - cost: 800
         crate: N14CrateRequisitionsEnclaveRadSuit
-      - cost: 900
-        crate: N14CrateRequisitionsEnclaveCovert
       - cost: 1000
         crate: N14CrateRequisitionsEnclaveOfficerKit
-      # Every suit below is mechanically identical - 0.7/0.7/0.6/0.65, explosion 0.75.
-      # The difference is purely cosmetic, so they all cost the same.
+      - cost: 800
+        crate: N14CrateRequisitionsEnclavePeacekeeper
       - cost: 1200
         crate: N14CrateRequisitionsEnclaveCombatArmor
       - cost: 2400
@@ -328,10 +329,10 @@
         crate: N14CrateRequisitionsEnclaveZuluAdvancedArmor
     - name: n14-requisitions-category-power-armor
       entries:
-      - cost: 5000
-        stock: 1
+      - cost: 4000
+        stock: 2
         crate: N14CrateRequisitionsEnclavePowerArmorAPAMK1
-      - cost: 5000
+      - cost: 6000
         stock: 2
         crate: N14CrateRequisitionsEnclavePowerArmorAPAMK2Tesla
       - cost: 7500
@@ -360,15 +361,14 @@
       - cost: 600
         crate: N14CrateRequisitionsEnclaveMaintenanceChemicals
       - cost: 1000
-        stock: 0
         crate: N14CrateRequisitionsEnclaveAdvancedTools
-      - cost: 1000
-        stock: 0
-        crate: N14CrateRequisitionsEnclaveAdvancedMining
       - cost: 1000
         crate: N14CrateRequisitionsEnclaveRechargerBoards
       - cost: 1000
         crate: N14CrateRequisitionsEnclaveSignals
+      - cost: 1200
+        stock: 0
+        crate: N14CrateRequisitionsEnclaveAdvancedMining
       - cost: 2500
         stock: 1
         crate: N14CrateRequisitionsEnclavePipboyOfficer
@@ -381,13 +381,13 @@
         crate: N14CrateRequisitionsEnclavePipboy
     - name: n14-requisitions-category-science
       entries:
-      - cost: 300
+      - cost: 400
         crate: N14CrateRequisitionsEnclaveDisks
-      - cost: 500
-        crate: N14CrateRequisitionsEnclaveSeeds
       - cost: 600
-        crate: N14CrateRequisitionsEnclaveChems
+        crate: N14CrateRequisitionsEnclaveSeeds
       - cost: 800
+        crate: N14CrateRequisitionsEnclaveChems
+      - cost: 1000
         crate: N14CrateRequisitionsEnclaveMedkits
       - cost: 1000
         stock: 0
@@ -406,20 +406,20 @@
         crate: N14CrateRequisitionsEnclaveMedicalBoards
       - cost: 1200
         crate: N14CrateRequisitionsEnclaveHydroponicBoards
-      - cost: 1400
+      - cost: 1600
         crate: N14CrateRequisitionsEnclaveMedical
-      - cost: 1500
+      - cost: 1600
         stock: 0
         crate: N14CrateRequisitionsEnclaveAdvancedSurgical
-      - cost: 1500
+      - cost: 1600
         crate: N14CrateRequisitionsEnclaveChemVend
-      - cost: 1500
+      - cost: 1600
         stock: 0
         crate: N14CrateRequisitionsEnclaveMMI
       - cost: 2000
         stock: 0
         crate: N14CrateRequisitionsEnclaveExperimentalSurgical
-      - cost: 5000
+      - cost: 4000
         stock: 0
         crate: N14CrateRequisitionsEnclaveGhoulReversal
     - name: n14-requisitions-category-provisions
@@ -455,7 +455,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveSmoke
-  name: smoke grenade crate
+  name: Smoke Grenade Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/armycrate.rsi
@@ -471,7 +471,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveFlashbang
-  name: flashbang crate
+  name: Flashbang Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -487,7 +487,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveGrenades
-  name: grenade crate
+  name: Grenade Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -505,7 +505,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveAdvancedGrenades
-  name: advanced grenade crate
+  name: Advanced Grenade Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -523,7 +523,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveEMP
-  name: EMP grenade crate
+  name: EMP Grenade Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -539,7 +539,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveDemolitions
-  name: demolitions crate
+  name: Demolitions Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -558,7 +558,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveSidearm
-  name: plasma sidearm crate
+  name: Plasma Sidearm Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -576,7 +576,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveDeagle
-  name: Enclave desert eagle crate
+  name: Enclave Desert Eagle Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -594,7 +594,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveMagnetoPistol
-  name: magneto laser pistol crate
+  name: Magneto Laser Pistol Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -612,7 +612,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveDefender
-  name: plasma defender crate
+  name: Plasma Defender Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -631,7 +631,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveRechargerPistol
-  name: recharger pistol crate
+  name: Recharger Pistol Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -647,7 +647,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveWattz2000
-  name: Wattz 2000 laser rifle crate
+  name: Wattz 2000 Laser Rifle Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -666,7 +666,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveRechargerRifle
-  name: recharger rifle crate
+  name: Recharger Rifle Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -682,7 +682,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveAER9Auto
-  name: AER-9 auto laser rifle crate
+  name: AER-9 Auto Laser Rifle Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -700,7 +700,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclavePlasmaRifles
-  name: plasma rifle crate
+  name: Plasma Rifle Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -718,7 +718,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclavePlasmaUrban
-  name: urban plasma rifle crate
+  name: Urban Plasma Rifle Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -736,7 +736,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveAER12
-  name: AER-12 laser rifle crate
+  name: AER-12 Laser Rifle Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -754,7 +754,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveWattz3000
-  name: Wattz 3000 laser rifle crate
+  name: Wattz 3000 Laser Rifle Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -772,7 +772,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclavePulsePistol
-  name: pulse pistol crate
+  name: Pulse Pistol Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -790,7 +790,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclavePlasmaAuto
-  name: auto plasma rifle crate
+  name: Automatic Plasma Rifle Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -808,7 +808,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveRCW
-  name: laser RCW crate
+  name: Laser RCW Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -826,7 +826,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclavePulseCarbine
-  name: pulse carbine crate
+  name: Pulse Carbine Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -844,7 +844,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveAER15
-  name: AER-15 laser rifle crate
+  name: AER-15 Laser Rifle Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -862,7 +862,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveGaussRifle
-  name: M72 gauss rifle crate
+  name: M72 Gauss Rifle Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -880,7 +880,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveLaserGatling
-  name: laser gatling crate
+  name: Laser Gatling Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -898,7 +898,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclavePlasmaCaster
-  name: plasma caster crate
+  name: Plasma Caster Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -917,7 +917,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveECells
-  name: energy cell crate
+  name: Energy Cell Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/armycrate.rsi
@@ -933,7 +933,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveECP
-  name: electron charge pack crate
+  name: Electron Charge Pack Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/armycrate.rsi
@@ -949,7 +949,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclave44Ammo
-  name: 44 ammo crate
+  name: 44 Ammo Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/armycrate.rsi
@@ -967,7 +967,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclavePulseECells
-  name: pulse energy cell crate
+  name: Pulse Energy Cell Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/armycrate.rsi
@@ -983,7 +983,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveMFCells
-  name: microfusion cell crate
+  name: Microfusion Cell Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/armycrate.rsi
@@ -999,7 +999,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclavePlasmaCells
-  name: plasma cartridge crate
+  name: Plasma Cartridge Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/armycrate.rsi
@@ -1015,7 +1015,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclavePulseMFCells
-  name: pulse microfusion cell crate
+  name: Pulse Microfusion Cell Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/armycrate.rsi
@@ -1031,7 +1031,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveVertibirdGunBelt
-  name: vertibird gun belt cell crate
+  name: Vertibird Gun Belt Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/armycrate.rsi
@@ -1047,7 +1047,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclave2mmEC
-  name: 2mm EC magazine crate
+  name: 2mm EC Magazine Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/armycrate.rsi
@@ -1067,7 +1067,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclave40mmGrenades
-  name: 40mm grenade crate
+  name: 40mm Grenade Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/armycrate.rsi
@@ -1097,7 +1097,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclavePlasmaShell
-  name: plasma shell crate
+  name: Plasma Shell Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1113,7 +1113,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveFusionCore
-  name: fusion core crate
+  name: Fusion Core Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1130,7 +1130,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveUniforms
-  name: Enclave uniform crate
+  name: U.S. Army Uniform Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1150,7 +1150,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveAccessories
-  name: Enclave accessories crate
+  name: U.S. Army Accessories Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1170,7 +1170,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclavePeacekeeper
-  name: Enclave peacekeeper armor crate
+  name: U.S. Army Peacekeeper Armor Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1186,7 +1186,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveRadSuit
-  name: Enclave rad suit crate
+  name: U.S. Army Rad Suit Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1204,7 +1204,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveCovert
-  name: covert operations crate
+  name: Covert Operations Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1240,7 +1240,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveOfficerKit
-  name: Enclave officer dress crate
+  name: U.S. Army Officer Dress Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1256,7 +1256,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveCombatArmor
-  name: Enclave Combat Armor Crate
+  name: U.S. Army Combat Armor Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1272,7 +1272,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveCombatArmorMK2
-  name: Enclave Combat Armor MK2 Crate
+  name: U.S. Army Combat Armor MK2 Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1288,7 +1288,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveAdvancedArmor
-  name: Enclave Advanced Combat Armor Crate
+  name: U.S. Army Advanced Combat Armor Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1353,7 +1353,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclavePowerArmorAPAMK1
-  name: APA Mk I crate
+  name: APA MK I Crate
   description: Advanced Powered Combat Infantry Armor. Requisition strictly logged.
   components:
   - type: Icon
@@ -1365,12 +1365,12 @@
   - type: StorageFill
     contents:
     - id: N14ClothingOuterPowerArmorAdvanced1
-      amount: 2
+      amount: 1
 
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclavePowerArmorAPAMK2Tesla
-  name: APA Mk II Tesla crate
+  name: APA MK II Tesla Crate
   description: Advanced Powered Combat Infantry Armor. Requisition strictly logged.
   components:
   - type: Icon
@@ -1387,7 +1387,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclavePATraining
-  name: power armor training manual crate
+  name: Power Armor Training Manual Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1404,7 +1404,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveComms
-  name: Enclave comms crate
+  name: Enclave Comms Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1420,7 +1420,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveWelders
-  name: welder crate
+  name: Welder Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/armycrate.rsi
@@ -1440,7 +1440,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveCables
-  name: cables crate
+  name: Cables Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/armycrate.rsi
@@ -1461,7 +1461,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveGasGenerator
-  name: gas generator crate
+  name: Gas Generator Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/armycrate.rsi
@@ -1485,7 +1485,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveMining
-  name: mining kit crate
+  name: Mining Kit Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1503,7 +1503,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveRadiosIds
-  name: radio and holotag crate
+  name: Radio and Holotag Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1523,7 +1523,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclavePowerCells
-  name: power cell crate
+  name: Power Cell Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1539,7 +1539,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveTools
-  name: maintenance toolkit crate
+  name: Maintenance Toolkit Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/armycrate.rsi
@@ -1561,7 +1561,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveIndustrialWelders
-  name: industrial welder crate
+  name: Industrial Welder Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/armycrate.rsi
@@ -1581,7 +1581,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveMaintenanceChemicals
-  name: maintenance chemicals crate
+  name: Maintenance Chemicals Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1602,7 +1602,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveAdvancedTools
-  name: advanced tool crate
+  name: Advanced Tool Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/armycrate.rsi
@@ -1627,7 +1627,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveAdvancedMining
-  name: advanced mining kit crate
+  name: Advanced Mining Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1645,7 +1645,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveRechargerBoards
-  name: recharger machine board crate
+  name: Recharger Machine Board Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1665,7 +1665,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveSignals
-  name: signals kit crate
+  name: Signals Kit Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1685,7 +1685,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclavePipboyOfficer
-  name: Enclave officer Pip-Boy crate
+  name: U.S. Army Officer Pip-Boy Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1702,7 +1702,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveChemWarfare
-  name: chemical warfare crate
+  name: Chemical Warfare Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1721,7 +1721,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveIngots
-  name: material ingot crate
+  name: Material Ingot Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1749,7 +1749,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclavePipboy
-  name: Enclave Pip-Boy crate
+  name: U.S. Army Pip-Boy Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1766,7 +1766,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveDisks
-  name: Enclave blank disks crate
+  name: U.S. Army Blank Disks Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/medicalcrate.rsi
@@ -1783,7 +1783,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveSeeds
-  name: seed clipping crate
+  name: Seed Clipping Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1805,7 +1805,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveChems
-  name: Enclave chems crate
+  name: U.S. Army Chems Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/medicalcrate.rsi
@@ -1825,7 +1825,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveMedkits
-  name: medkit crate
+  name: Medkit Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/medicalcrate.rsi
@@ -1843,7 +1843,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveConveyor
-  name: conveyor crate
+  name: Conveyor Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1859,7 +1859,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveCombatMedkit
-  name: combat medkit crate
+  name: Combat Medkit Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/medicalcrate.rsi
@@ -1874,7 +1874,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclavePurge
-  name: purge injector crate
+  name: Purge Injector Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/medicalcrate.rsi
@@ -1891,7 +1891,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveRobobrain
-  name: robobrain circuit board crate
+  name: U.S. Army Robobrain Circuit Board Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/medicalcrate.rsi
@@ -1908,7 +1908,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveSurgical
-  name: surgical kit crate
+  name: Surgical Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1936,7 +1936,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveMedicalBoards
-  name: medical machine board crate
+  name: Medical Machine Board Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1961,7 +1961,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveHydroponicBoards
-  name: hydroponics machine board crate
+  name: Hydroponics Machine Board Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -1979,7 +1979,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveMedical
-  name: Enclave medical crate
+  name: U.S. Army Medical Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/medicalcrate.rsi
@@ -2000,7 +2000,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveAdvancedSurgical
-  name: advanced surgical kit crate
+  name: Advanced Surgical Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -2024,7 +2024,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveChemVend
-  name: ChemVend restock crate
+  name: ChemVend Restock Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -2041,7 +2041,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveMMI
-  name: MMI crate
+  name: U.S. Army MMI Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -2058,7 +2058,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveExperimentalSurgical
-  name: experimental surgical kit crate
+  name: Experimental Surgical Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -2080,7 +2080,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveGhoulReversal
-  name: ghoul reversal serum crate
+  name: Ghoul Reversal Serum Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -2097,7 +2097,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveRations1
-  name: Enclave field rations case a crate
+  name: U.S. Army Field Rations Case A Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/armycrate.rsi
@@ -2116,7 +2116,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveRations2
-  name: Enclave field rations case b crate
+  name: U.S. Army Field Rations Case B Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/armycrate.rsi
@@ -2135,7 +2135,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveBreakfast
-  name: Enclave field rations case c crate
+  name: U.S. Army Field Rations Case C Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/armycrate.rsi
@@ -2154,7 +2154,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclavePizza
-  name: pizza crate
+  name: Pizza Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -2177,7 +2177,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveNukaCola
-  name: Ice Cold Nuka-Cola crate
+  name: Ice Cold Nuka-Cola Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -2208,7 +2208,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveSmokes
-  name: Lucky Strikes crate
+  name: Lucky Strikes Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -2225,7 +2225,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveMagazines
-  name: magazines crate
+  name: Magazines Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -2248,7 +2248,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveBooks
-  name: books crate
+  name: Books Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -2265,7 +2265,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveBaseball
-  name: baseball crate
+  name: Baseball Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/armycrate.rsi
@@ -2284,7 +2284,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveVinyl
-  name: Enclave vinyls crate
+  name: U.S. Army Vinyls Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
@@ -2311,7 +2311,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveWarGamesCrate
-  name: war games crate
+  name: War Games Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/armycrate.rsi
@@ -2335,7 +2335,7 @@
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveRecreationBoards
-  name: recreation machine board crate
+  name: Recreation Machine Board Crate
   components:
   - type: Icon
     sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi

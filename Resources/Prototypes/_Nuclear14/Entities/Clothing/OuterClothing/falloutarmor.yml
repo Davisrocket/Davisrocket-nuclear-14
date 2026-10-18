@@ -293,8 +293,8 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterEnclavePeacekeeper
-  name: U.S. Army peacekeeper vest
-  description: A bulletproof vest used by U.S. Army 'peacekeepers'. Pfft. Yeah, right.
+  name: U.S. Army Peacekeeper Vest
+  description: A bulletproof vest used by U.S. Army 'Peacekeepers'. Pfft. Yeah, right.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutpeacekeeper.rsi
@@ -525,7 +525,7 @@
         Blunt: 0.65
         Slash: 0.65
         Piercing: 0.55
-        Heat: 0.6
+        Heat: 0.55
     priceMultiplier: 0.5
   - type: ExplosionResistance
     damageCoefficient: 0.7
