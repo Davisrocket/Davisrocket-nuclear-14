@@ -9,13 +9,11 @@
     # Weapons remain possible, but high-end guns are a minority of final-boss drops.
     - !type:NestedSelector
       tableId: M14WeaponLootTier3
-      weight: 300
+      weight: 30
     - !type:NestedSelector
       tableId: M14WeaponLootTier4
-      weight: 200
-    - !type:NestedSelector
-      tableId: M14WeaponLootTier5
-      weight: 5
+      weight: 20
+
 
 # Equipment outcomes are deliberately faction-neutral and portable.
 - type: entityTable
@@ -50,19 +48,19 @@
     children:
     - !type:EntSelector
       id: N14Stimpak
-      weight: 50
+      weight: 35
     - !type:EntSelector
       id: N14RadAwayInhaler
-      weight: 45
-    - !type:EntSelector
-      id: N14Hydra
       weight: 20
     - !type:EntSelector
+      id: N14Hydra
+      weight: 10
+    - !type:EntSelector
       id: N14MedkitBruteFilled
-      weight: 2
+      weight: 20
     - !type:EntSelector
       id: N14MedkitCombatFilled
-      weight: 2
+      weight: 15
 
 - type: entityTable
   id: M14ExpeditionBossMaterialsReward
@@ -73,19 +71,19 @@
     children:
     - !type:EntSelector
       id: N14ScrapElectronic10
-      weight: 20
+      weight: 28
     - !type:EntSelector
       id: N14ScrapSteel10
-      weight: 40
+      weight: 28
     - !type:EntSelector
       id: N14ScrapCopper10
-      weight: 40
+      weight: 18
     - !type:EntSelector
       id: N14ScrapBrass10
-      weight: 40
+      weight: 14
     - !type:EntSelector
       id: N14ScrapLead10
-      weight: 50
+      weight: 12
 
 - type: entityTable
   id: M14ExpeditionBossReward
