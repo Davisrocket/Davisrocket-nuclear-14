@@ -397,7 +397,7 @@
   - type: Wieldable
   - type: GunWieldBonus
     minAngle: -23
-    maxAngle: -56
+    maxAngle: -53
   - type: Sprite
     scale: 0.8, 0.8
     sprite: _Nuclear14/Objects/Weapons/Guns/Battery/plasma_autorifle_icon.rsi
@@ -430,7 +430,7 @@
     steps: 3
     zeroVisible: true
   - type: Gun
-    fireRate: 3.5
+    fireRate: 3.0
     soundGunshot:
       collection: N14PlasmaAutoRifleGunshot
     selectedMode: FullAuto
