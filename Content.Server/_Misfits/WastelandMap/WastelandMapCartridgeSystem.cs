@@ -134,19 +134,7 @@ public sealed class WastelandMapCartridgeSystem : EntitySystem
         if (!TryComp<PdaComponent>(loaderUid, out var pda) || pda.ContainedId is not { } containedId)
             return _wastelandMap.GetEffectiveFeed(component);
 
-        if (_tag.HasTag(containedId, "IdCardBrotherhood"))
-            return WastelandMapTacticalFeedKind.Brotherhood;
-
-        if (_tag.HasTag(containedId, "IdCardVault"))
-            return WastelandMapTacticalFeedKind.Vault;
-
-        if (_tag.HasTag(containedId, "IdCardNCR"))
-            return WastelandMapTacticalFeedKind.NCR;
-
-        if (_tag.HasTag(containedId, "IdCardEnclave")) // #Misfits Change
-            return WastelandMapTacticalFeedKind.Enclave;
-
-        return _wastelandMap.GetEffectiveFeed(component);
+        return _wastelandMap.GetTacticalFeedFromIdCard(containedId);
     }
 
     /// <summary>
