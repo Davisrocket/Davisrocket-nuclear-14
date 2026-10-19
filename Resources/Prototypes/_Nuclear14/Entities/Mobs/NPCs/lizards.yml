@@ -460,7 +460,7 @@
 
 # Deathclaw
 - type: entity
-  name: deathclaw
+  name: Deathclaw
   id: N14MobDeathclaw
   parent: N14MobBaseHostileScaley
   description: Large and powerful ambush predators, they will slice to ribbons anything that moves near their nest. Standing still won't help you now.
