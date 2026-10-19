@@ -682,10 +682,10 @@
 
 #MARK: Metal Deathclaw
 - type: entity
-  name: metal deathclaw
+  name: Metal Deathclaw
   id: N14MobDeathclawMetal
   parent: N14MobDeathclawAlbino
-  description: A deathclaw wearing modified T-45 Power Armor somehow, you have no idea how or why someone would ever think this was a good idea.
+  description: A deathclaw somehow wearing modified T-45 Power Armor, you have no idea why someone would ever think this combination was a good idea.
   components:
   - type: Sprite
     drawdepth: Mobs
