@@ -31,6 +31,8 @@
         - NCRFieldRanger
         - NCRPatrolRanger
         - NCRVeteranRanger
+        - SuperMutantRanger
+        - SuperMutantNCRRanger
 
         - NCRMilitaryPoliceCaptain
         - NCRMilitaryPoliceSergeant
@@ -1208,6 +1210,8 @@
         - NCRPatrolRanger
         - NCRVeteranRanger
         - NCRRO
+        - SuperMutantRanger
+        - SuperMutantNCRRanger
   items:
     - ClothingBeltNCRPouches
 
@@ -1239,6 +1243,8 @@
         - NCRPatrolRanger
         - NCRVeteranRanger
         - NCRRO
+        - SuperMutantRanger
+        - SuperMutantNCRRanger
   items:
     - ClothingBeltNCRBandolier
 
@@ -1270,6 +1276,8 @@
         - NCRPatrolRanger
         - NCRVeteranRanger
         - NCRRO
+        - SuperMutantRanger
+        - SuperMutantNCRRanger
   items:
     - ClothingBeltMilitary
 
@@ -1301,5 +1309,7 @@
         - NCRPatrolRanger
         - NCRVeteranRanger
         - NCRRO
+        - SuperMutantRanger
+        - SuperMutantNCRRanger
   items:
     - ClothingBeltRevolver
