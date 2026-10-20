@@ -10,10 +10,10 @@
     layers:
     - state: paper
     - state: fallout_cover_base
-      color: "#332d27"
+      color: "#566556"
       map: [ "cover" ]
     - state: fallout_decor_stripe
-      color: "#453f3a"
+      color: "#575A43"
       map: [ "decor" ]
     - state: fallout_icon_null
       map: [ "icon" ]
@@ -52,10 +52,10 @@
     layers:
     - state: paper
     - state: fallout_cover_base_burned
-      color: "#332d27"
+      color: "#24211A"
       map: [ "cover" ]
-    - state: fallout_decor_stripe_null
-      color: "#453f3a"
+    - state: fallout_decor_stripe
+      color: "#5E473F"
       map: [ "decor" ]
     - state: fallout_icon_null
       map: [ "icon" ]
@@ -94,10 +94,10 @@
     layers:
     - state: paper
     - state: fallout_cover_base_damaged
-      color: "#332d27"
+      color: "#5b3f33"
       map: [ "cover" ]
-    - state: fallout_decor_stripe_null
-      color: "#453f3a"
+    - state: fallout_decor_stripe
+      color: "#766c5c"
       map: [ "decor" ]
     - state: fallout_icon_null
       map: [ "icon" ]
@@ -422,29 +422,29 @@
   - type: PaperRandomStory
     storySegments:
     - "This is a "
-    - book_genre
+    - falloutbook_genre
     - " about a "
-    - book_character_trait
+    - falloutbook_character_prewartrait
     - " "
-    - book_character
+    - falloutbook_characterprewar
     - " and "
-    - book_character_trait
+    - falloutbook_character_prewartrait
     - " "
-    - book_character
+    - falloutbook_characterprewar
     - ". Due to "
-    - book_event
+    - falloutbook_prewarevent
     - ", they "
-    - book_action_trait
+    - falloutbook_action_trait
     - " "
-    - book_action
+    - falloutbook_action
     - " "
-    - book_character
+    - falloutbook_characterprewar
     - " "
-    - book_location
+    - falloutbook_prewarlocation
     - ". \n\n"
-    - book_story_element
+    - falloutbook_element
     - " is "
-    - book_story_element_trait
+    - falloutbook_element_trait
     - "."
     storySeparator: ""
 
@@ -456,29 +456,17 @@
   - type: PaperRandomStory
     storySegments:
     - "This is a "
-    - book_genre
+    - falloutbook_genre
     - " about a "
-    - book_character_trait
+    - falloutbook_character_prewartrait
     - " "
-    - book_character
+    - falloutbook_characterprewar
     - " and "
-    - book_character_trait
+    - falloutbook_character_prewartrait
     - " "
-    - book_character
+    - falloutbook_characterprewar
     - ". Due to "
-    - book_event
-    - ", they "
-    - book_action_trait
-    - " "
-    - book_action
-    - " "
-    - book_character
-    - " "
-    - book_location
-    - ". \n\n"
-    - book_story_element
-    - " is "
-    - book_story_element_trait
+    - falloutbook_eventdamaged
     - "."
     storySeparator: ""
 
@@ -490,29 +478,29 @@
   - type: PaperRandomStory
     storySegments:
     - "This is a "
-    - book_genre
+    - falloutbook_genre
     - " about a "
-    - book_character_trait
+    - falloutbook_character_postwartrait
     - " "
-    - book_character
+    - falloutbook_characterpostwar
     - " and "
-    - book_character_trait
+    - falloutbook_character_postwartrait
     - " "
-    - book_character
+    - falloutbook_characterpostwar
     - ". Due to "
-    - book_event
+    - falloutbook_postwarevent
     - ", they "
-    - book_action_trait
+    - falloutbook_action_trait
     - " "
-    - book_action
+    - falloutbook_action
     - " "
-    - book_character
+    - falloutbook_characterpostwar
     - " "
-    - book_location
+    - falloutbook_postwarlocation
     - ". \n\n"
-    - book_story_element
+    - falloutbook_element
     - " is "
-    - book_story_element_trait
+    - falloutbook_element_trait
     - "."
     storySeparator: ""
 
@@ -524,28 +512,16 @@
   - type: PaperRandomStory
     storySegments:
     - "This is a "
-    - book_genre
+    - falloutbook_genre
     - " about a "
-    - book_character_trait
+    - falloutbook_character_postwartrait
     - " "
-    - book_character
+    - falloutbook_characterpostwar
     - " and "
-    - book_character_trait
+    - falloutbook_character_postwartrait
     - " "
-    - book_character
+    - falloutbook_characterpostwar
     - ". Due to "
-    - book_event
-    - ", they "
-    - book_action_trait
-    - " "
-    - book_action
-    - " "
-    - book_character
-    - " "
-    - book_location
-    - ". \n\n"
-    - book_story_element
-    - " is "
-    - book_story_element_trait
+    - falloutbook_eventdamaged
     - "."
     storySeparator: ""
