@@ -8,7 +8,7 @@
   - type: Sprite
     sprite: \Resources\Textures\_Misfits\Objects\Misc\books.rsi
     layers:
-    - state: paper
+    - state: falloutpaper
     - state: fallout_cover_base
       color: "#566556"
       map: [ "cover" ]
@@ -50,7 +50,7 @@
   - type: Sprite
     sprite: \Resources\Textures\_Misfits\Objects\Misc\books.rsi
     layers:
-    - state: paper
+    - state: falloutpaperburned
     - state: fallout_cover_base_burned
       color: "#24211A"
       map: [ "cover" ]
@@ -92,7 +92,7 @@
   - type: Sprite
     sprite: \Resources\Textures\_Misfits\Objects\Misc\books.rsi
     layers:
-    - state: paper
+    - state: falloutpaperdamaged
     - state: fallout_cover_base_damaged
       color: "#5b3f33"
       map: [ "cover" ]
