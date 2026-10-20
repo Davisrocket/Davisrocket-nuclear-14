@@ -217,7 +217,7 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: MisfitsBoSInitiateArmor
-  name: Brotherhood Initiate Armor
+  name: Brotherhood initiate armor
   description: A set of light armor used by the Brotherhood's Initiates. It's quite light on actual plating, but cheap to make.
   components:
   - type: Sprite
@@ -239,7 +239,7 @@
 - type: entity
   parent: N14ClothingOuterBoSCombatArmor
   id: MisfitsBoSSquireArmor
-  name: Brotherhood Squire Armor
+  name: Brotherhood squire armor
   description: Light Brotherhood-issue armor worn by Squires; sturdy enough for patrol duty but not yet the full combat kit of a Knight.
   components:
   - type: Armor
@@ -284,7 +284,7 @@
 - type: entity
   parent: N14ClothingOuterCombatArmorMK2
   id: MisfitsBoSSeniorKnightArmor
-  name: Senior Knight Combat Armor
+  name: Senior knight combat armor
   description: A suit of combat armor used by the Senior Knights of the Brotherhood of Steel. #Misfits Tweak - Removed Washington reference
   components:
   - type: Sprite

@@ -1302,7 +1302,7 @@
 - type: entity
   parent: N14ClothingOuterCombatArmorMK2
   id: N14ClothingOuterBoSCombatArmorMK3
-  name: Brotherhood Combat Armor Mk3
+  name: Brotherhood combat armor mk3
   description: A finely made suit of armor reverse-engineered by the Brotherhood using advanced pre-war schematics.
   components:
   - type: Sprite
@@ -1408,7 +1408,7 @@
 - type: entity
   parent: N14ClothingOuterCombatArmor
   id: N14ClothingOuterBoSCombatArmor
-  name: Brotherhood Combat Armor
+  name: Brotherhood combat armor
   description: A standard suit of Brotherhood combat armor for general field use.
   components:
   - type: Sprite
@@ -1419,7 +1419,7 @@
 - type: entity
   parent: N14ClothingOuterCombatArmorMK2
   id: N14ClothingOuterBoSCombatArmorMK2
-  name: Brotherhood Combat Armor Mk2
+  name: Brotherhood combat armor mk2
   description: A more complete version of standard Brotherhood combat armor, reinforced with extra armor on the extremities.
   components:
   - type: Sprite
@@ -1430,7 +1430,7 @@
 - type: entity
   parent: N14ClothingOuterCombatArmor
   id: N14ClothingOuterMidwestReconArmor
-  name: BoS Recon Armor
+  name: Brotherhood recon armor
   description: A suit of recon armor manufactured by the Brotherhood of Steel, reserved for only higher ranked members.
   components:
   - type: Sprite
@@ -1456,7 +1456,7 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterMBoSInitiateArmor
-  name: Initiate Armor
+  name: Initiate armor
   description: A set of light armor used by the Brotherhood's Initiates. It's quite light on actual plating, but cheap to make.
   components:
   - type: Sprite
@@ -1479,7 +1479,7 @@
 - type: entity
   parent: N14FalloutArmorBase
   id: N14ClothingOuterMBoSSquireArmor
-  name: Squire Armor
+  name: Squire armor
   description: A set of light armor used by the Brotherhood's Squires. It's a bit light on actual plating, but insulates from the cold.
   components:
   - type: Sprite

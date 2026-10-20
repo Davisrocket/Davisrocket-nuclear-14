@@ -207,7 +207,7 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatBrotherhoodHelmet
-  name: Brotherhood Helmet
+  name: Brotherhood combat helmet
   description: A helmet worn by members of the Brotherhood of Steel.
   components:
   - type: Sprite
@@ -218,7 +218,7 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetMetal
   id: N14ClothingHeadHatBrotherhoodHelmetSeniorKnight
-  name: Brotherhood Senior Knight Helmet
+  name: Brotherhood senior knight helmet
   description: A helmet worn by Senior Knights of the Brotherhood of Steel.
   components:
   - type: Sprite
@@ -240,7 +240,7 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetMK2
   id: N14ClothingHeadHatBrotherhoodHelmetHeadKnight
-  name: BoS Head Knight Helmet.
+  name: Brotherhood head knight helmet
   description: A helmet worn by Head Knights of the Brotherhood of Steel.
   components:
   - type: Sprite
@@ -262,8 +262,8 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetMK2
   id: N14ClothingHeadHatBrotherhoodHelmetMK2
-  name: Brotherhood Helmet Mk2
-  description: An advanced Brotherhood of Steel combat helmet.
+  name: Brotherhood combat helmet mk2
+  description: An advanced Brotherhood of Steel combat helmet sporting additional face protection.
   components:
   - type: Sprite
     sprite: _Misfits/Clothing/Head/Helmets/bos_helmet_mk2.rsi
@@ -601,7 +601,7 @@
 - type: entity
   parent: N14ClothingHeadHatBaseHelmetMK2
   id: N14ClothingHeadHatBrotherhoodHelmetMK3
-  name: Brotherhood Helmet Mk3
+  name: Brotherhood combat helmet mk3
   description: A highly advanced combat helmet produced by the Brotherhood of Steel. Integrated eye protection allows the wearer to safely utilize welding equipment without the need for goggles or mask.
   components:
   - type: Sprite

@@ -606,7 +606,7 @@
   parent: N14BlueprintBase
   id: N14BlueprintBoSArmorT1
   name: BoS Initiate Armor Pattern
-  description: Brotherhood standard armor assembly instructions for new initiates. Tier 1 armor.
+  description: Brotherhood standard armor assembly instructions for Initiates and Squires. Tier 1 armor.
   components:
   - type: Blueprint
     recipes:
@@ -620,7 +620,7 @@
   parent: N14BlueprintBase
   id: N14BlueprintBoSArmorT2
   name: BoS Squire Armor Blueprint
-  description: Brotherhood armorer's manual for Squire-grade equipment. Tier 2 armor.
+  description: Brotherhood armorer's manual for standardized combat armor. Tier 2 armor.
   components:
   - type: Blueprint
     recipes:
@@ -631,7 +631,7 @@
   parent: N14BlueprintBase
   id: N14BlueprintBoSArmorT3
   name: BoS Knight Armor Schematic
-  description: Full combat armor assembly plans from the Brotherhood Knight ranks. Tier 3 armor.
+  description: Schematics for the Brotherhood's most advanced marks of combat armor. Tier 3 armor.
   components:
   - type: Blueprint
     recipes:
