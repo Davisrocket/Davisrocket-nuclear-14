@@ -134,7 +134,12 @@ public sealed class WastelandMapCartridgeSystem : EntitySystem
         if (!TryComp<PdaComponent>(loaderUid, out var pda) || pda.ContainedId is not { } containedId)
             return _wastelandMap.GetEffectiveFeed(component);
 
-        return _wastelandMap.GetTacticalFeedFromIdCard(containedId);
+        // #Misfits Fix - fall back to the map's own feed so loaders that hardcode one
+        // (or hold a non-faction card) do not silently lose their blips.
+        var feed = _wastelandMap.GetTacticalFeedFromIdCard(containedId);
+        return feed != WastelandMapTacticalFeedKind.None
+            ? feed
+            : _wastelandMap.GetEffectiveFeed(component);
     }
 
     /// <summary>
