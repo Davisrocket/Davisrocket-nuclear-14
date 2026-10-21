@@ -74,6 +74,7 @@
 
 - type: entity
   name: astoundingly awesome tales
+  suffix: random
   parent: N14Magazine
   id: N14MagazineAwesome
   description: "a collection of astoundingly awesome tales"
@@ -82,9 +83,13 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_awesome
+    nameSegments:
+    - falloutmagazine_astoundinglyawesometales
+    - falloutmagazine_astoundinglyawesometalesrandom
 
 - type: entity
   name: astoundingly awesome tales
+  suffix: random, dirty
   parent: N14Magazine
   id: N14MagazineAwesomeDirty
   description: "a collection of astoundingly awesome tales, though it's a bit dirty"
@@ -93,9 +98,13 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_awesome_dirty
+    nameSegments:
+    - falloutmagazine_astoundinglyawesometalesdirty
+    - falloutmagazine_astoundinglyawesometalesrandom
 
 - type: entity
-  name: covert operations manual
+  name: U.S. covert operations manual
+  suffix: random
   parent: N14Magazine
   id: N14MagazineCovert
   description: "Authorized Eyes Only"
@@ -104,9 +113,13 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_covert
+    nameSegments:
+    - falloutmagazine_covertoperationsmanual
+    - falloutmagazine_covertoperationsmanualrandom
 
 - type: entity
-  name: covert operations manual
+  name: U.S. covert operations manual
+  suffix: random, dirty
   parent: N14Magazine
   id: N14MagazineCovertDirty
   description: "Authorized Eyes Only"
@@ -115,9 +128,13 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_covert_dirty
+    nameSegments:
+    - falloutmagazine_covertoperationsmanualdirty
+    - falloutmagazine_covertoperationsmanualrandom
 
 - type: entity
   name: grognak the barbarian
+  suffix: random
   parent: N14Magazine
   id: N14MagazineGrognak
   description: "follow the prehistoric man on his adventures"
@@ -126,9 +143,13 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_grognak
+    nameSegments:
+    - falloutmagazine_grognakthebarbarian
+    - falloutmagazine_grognakthebarbarianrandom
 
 - type: entity
   name: grognak the barbarian
+  suffix: random, dirty
   parent: N14Magazine
   id: N14MagazineGrognakDirty
   description: "follow the prehistoric man on his adventures, though it's a bit dirty"
@@ -137,9 +158,13 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_grognak_dirty
+    nameSegments:
+    - falloutmagazine_grognakthebarbariandirty
+    - falloutmagazine_grognakthebarbarianrandom
 
 - type: entity
   name: guns and bullets
+  suffix: random
   parent: N14Magazine
   id: N14MagazineGuns
   description: "a magazine devoted to the practical use of firearms, and the occasional biased review"
@@ -148,9 +173,13 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_guns
+    nameSegments:
+    - falloutmagazine_gunsandbullets
+    - falloutmagazine_gunsandbulletsrandom
 
 - type: entity
   name: guns and bullets
+  suffix: random, dirty
   parent: N14Magazine
   id: N14MagazineGunsDirty
   description: "a magazine devoted to the practical use of firearms, and the occasional biased review, though it's a bit dirty"
@@ -159,9 +188,13 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_guns_dirty
+    nameSegments:
+    - falloutmagazine_gunsandbulletsdirty
+    - falloutmagazine_gunsandbulletsrandom
 
 - type: entity
   name: tales of a junktown jerky vendor
+  suffix: random
   parent: N14Magazine
   id: N14MagazineJunktown
   description: "A series of books/magazines about trading and barter written by an unknown jerky vendor from Junktown, California"
@@ -170,9 +203,13 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_junktown
+    nameSegments:
+    - falloutmagazine_talesofajunktownjerkyvendor
+    - falloutmagazine_talesofajunktownjerkyvendorrandom
 
 - type: entity
   name: tales of a junktown jerky vendor
+  suffix: random, dirty
   parent: N14Magazine
   id: N14MagazineJunktownDirty
   description: "A series of books/magazines about trading and barter written by an unknown jerky vendor from Junktown, California, though it's a bit dirty"
@@ -181,9 +218,13 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_junktown_dirty
+    nameSegments:
+    - falloutmagazine_talesofajunktownjerkyvendordirty
+    - falloutmagazine_talesofajunktownjerkyvendorrandom
 
 - type: entity
   name: Massachusetts Surgical Journal
+  suffix: random
   parent: N14Magazine
   id: N14MagazineMass
   description: "Despite all appearances, these were always more sensation than actual medical science."
@@ -192,9 +233,13 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_massachusetts
+    nameSegments:
+    - falloutmagazine_massachusettssurgicaljournal
+    - falloutmagazine_massachusettssurgicaljournalrandom
 
 - type: entity
   name: Worn Out Massachusetts Surgical Journal
+  suffix: random, dirty
   parent: N14Magazine
   id: N14MagazineMassDirty
   description: "A tabloid disguised as an actual esteemed medical journal, its pages are dity and tattered, but its still good to pass the time with."
@@ -203,9 +248,13 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_massachusetts_dirty
+    nameSegments:
+    - falloutmagazine_massachusettssurgicaljournaldirty
+    - falloutmagazine_massachusettssurgicaljournalrandom
 
 - type: entity
   name: scav!
+  suffix: random
   parent: N14Magazine
   id: N14MagazineScav
   description: "SCAV!"
@@ -214,9 +263,13 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_scav
+    nameSegments:
+    - falloutmagazine_scav
+    - falloutmagazine_scavrandom
 
 - type: entity
   name: scav!
+  suffix: random, dirty
   parent: N14Magazine
   id: N14MagazineScavDirty
   description: "SCAV!, though it's a bit dirty"
@@ -225,6 +278,9 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_scav_dirty
+    nameSegments:
+    - falloutmagazine_scavdirty
+    - falloutmagazine_scavrandom
 
 - type: entity
   name: tesla science
@@ -243,7 +299,8 @@
     - falloutmagazine_teslarandom
 
 - type: entity
-  name: tesla science
+  name: dirty tesla science
+  suffix: random, dirty
   parent: N14Magazine
   id: N14MagazineTeslaDirty
   description: "An issue of Tesla Science, though it's a bit dirty"
@@ -252,9 +309,13 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_tesla_dirty
+    nameSegments:
+    - falloutmagazine_tesladirty
+    - falloutmagazine_teslarandom
 
 - type: entity
   name: tumblers today
+  suffix: random
   parent: N14Magazine
   id: N14MagazineTumblers
   description: "An issue of Tumblers Today"
@@ -263,9 +324,13 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_tumblers
+    nameSegments:
+    - falloutmagazine_tumblerstoday
+    - falloutmagazine_tumblerstodayrandom
 
 - type: entity
   name: tumblers today
+  suffix: random, dirty
   parent: N14Magazine
   id: N14MagazineTumblersDirty
   description: "An issue of Tumblers Today, though it's a bit dirty"
@@ -274,9 +339,13 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_tumblers_dirty
+    nameSegments:
+    - falloutmagazine_tumblerstodaydirty
+    - falloutmagazine_tumblerstodayrandom
 
 - type: entity
   name: unstoppables
+  suffix: random
   parent: N14Magazine
   id: N14MagazineUnstoppables
   description: "An issue of Unstoppables"
@@ -285,9 +354,13 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_unstoppable
+    nameSegments:
+    - falloutmagazine_unstoppables
+    - falloutmagazine_unstoppablesrandom
 
 - type: entity
   name: unstoppables
+  suffix: random, dirty
   parent: N14Magazine
   id: N14MagazineUnstoppablesDirty
   description: "An issue of Unstoppables, though it's a bit dirty"
@@ -296,9 +369,13 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_unstoppable_dirty
+    nameSegments:
+    - falloutmagazine_unstoppablesdirty
+    - falloutmagazine_unstoppablesrandom
 
 - type: entity
   name: Wasteland Survival Guide
+  suffix: random
   parent: N14Magazine
   id: N14MagazineWasteland
   description: "An issue of the Wasteland Survival Guide, a post-war magazine that gives common sense tips for survival outside the safety of major settlements."
@@ -307,9 +384,13 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_wasteland
+    nameSegments:
+    - falloutmagazine_wastelandsurvivalguide
+    - falloutmagazine_wastelandsurvivalguiderandom
 
 - type: entity
   name: live and love
+  suffix: random
   parent: N14Magazine
   id: N14MagazineLive
   description: "An issue of Live and Love"
@@ -318,3 +399,21 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_live
+    nameSegments:
+    - falloutmagazine_liveandlove
+    - falloutmagazine_liveandloverandom
+
+- type: entity
+  name: live and love
+  suffix: random, dirty
+  parent: N14Magazine
+  id: N14MagazineLive
+  description: "An issue of Live and Love, though it's a bit dirty"
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Structures/Misc/magazines.rsi
+    layers:
+    - state: magazine_live_dirty
+    nameSegments:
+    - falloutmagazine_liveandlovedirty
+    - falloutmagazine_liveandloverandom
