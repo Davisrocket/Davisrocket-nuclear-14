@@ -6,7 +6,7 @@
   description: A pre-war book that has survived the fallout.
   components:
   - type: Sprite
-    sprite: \Resources\Textures\_Misfits\Objects\Misc\books.rsi
+    sprite: _Misfits/Objects/Misc/books.rsi
     layers:
     - state: falloutpaper
     - state: fallout_cover_base
@@ -48,7 +48,7 @@
   description: A book that has not survived the fallout.
   components:
   - type: Sprite
-    sprite: \Resources\Textures\_Misfits\Objects\Misc\books.rsi
+    sprite: _Misfits/Objects/Misc/books.rsi
     layers:
     - state: falloutpaperburned
     - state: fallout_cover_base_burned
@@ -90,7 +90,7 @@
   description: A book that has not survived the fallout.
   components:
   - type: Sprite
-    sprite: \Resources\Textures\_Misfits\Objects\Misc\books.rsi
+    sprite: _Misfits/Objects/Misc/books.rsi
     layers:
     - state: falloutpaperdamaged
     - state: fallout_cover_base_damaged
