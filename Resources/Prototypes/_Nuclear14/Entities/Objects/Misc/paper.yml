@@ -407,7 +407,7 @@
   name: live and love
   suffix: random, dirty
   parent: N14Magazine
-  id: N14MagazineLive
+  id: N14MagazineLiveDirty
   description: "An issue of Live and Love, though it's a bit dirty"
   components:
   - type: Sprite
