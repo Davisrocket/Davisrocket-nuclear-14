@@ -83,6 +83,7 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_awesome
+  - type: RandomMetadata
     nameSegments:
     - falloutmagazine_astoundinglyawesometales
     - falloutmagazine_astoundinglyawesometalesrandom
@@ -98,6 +99,7 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_awesome_dirty
+  - type: RandomMetadata
     nameSegments:
     - falloutmagazine_astoundinglyawesometalesdirty
     - falloutmagazine_astoundinglyawesometalesrandom
@@ -113,6 +115,7 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_covert
+  - type: RandomMetadata
     nameSegments:
     - falloutmagazine_covertoperationsmanual
     - falloutmagazine_covertoperationsmanualrandom
@@ -128,6 +131,7 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_covert_dirty
+  - type: RandomMetadata
     nameSegments:
     - falloutmagazine_covertoperationsmanualdirty
     - falloutmagazine_covertoperationsmanualrandom
@@ -143,6 +147,7 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_grognak
+  - type: RandomMetadata
     nameSegments:
     - falloutmagazine_grognakthebarbarian
     - falloutmagazine_grognakthebarbarianrandom
@@ -158,6 +163,7 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_grognak_dirty
+  - type: RandomMetadata
     nameSegments:
     - falloutmagazine_grognakthebarbariandirty
     - falloutmagazine_grognakthebarbarianrandom
@@ -173,6 +179,7 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_guns
+  - type: RandomMetadata
     nameSegments:
     - falloutmagazine_gunsandbullets
     - falloutmagazine_gunsandbulletsrandom
@@ -188,6 +195,7 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_guns_dirty
+  - type: RandomMetadata
     nameSegments:
     - falloutmagazine_gunsandbulletsdirty
     - falloutmagazine_gunsandbulletsrandom
@@ -203,6 +211,7 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_junktown
+  - type: RandomMetadata
     nameSegments:
     - falloutmagazine_talesofajunktownjerkyvendor
     - falloutmagazine_talesofajunktownjerkyvendorrandom
@@ -218,6 +227,7 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_junktown_dirty
+  - type: RandomMetadata
     nameSegments:
     - falloutmagazine_talesofajunktownjerkyvendordirty
     - falloutmagazine_talesofajunktownjerkyvendorrandom
@@ -233,6 +243,7 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_massachusetts
+  - type: RandomMetadata
     nameSegments:
     - falloutmagazine_massachusettssurgicaljournal
     - falloutmagazine_massachusettssurgicaljournalrandom
@@ -248,6 +259,7 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_massachusetts_dirty
+  - type: RandomMetadata
     nameSegments:
     - falloutmagazine_massachusettssurgicaljournaldirty
     - falloutmagazine_massachusettssurgicaljournalrandom
@@ -263,6 +275,7 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_scav
+  - type: RandomMetadata
     nameSegments:
     - falloutmagazine_scav
     - falloutmagazine_scavrandom
@@ -278,6 +291,7 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_scav_dirty
+  - type: RandomMetadata
     nameSegments:
     - falloutmagazine_scavdirty
     - falloutmagazine_scavrandom
@@ -309,6 +323,7 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_tesla_dirty
+  - type: RandomMetadata
     nameSegments:
     - falloutmagazine_tesladirty
     - falloutmagazine_teslarandom
@@ -324,6 +339,7 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_tumblers
+  - type: RandomMetadata
     nameSegments:
     - falloutmagazine_tumblerstoday
     - falloutmagazine_tumblerstodayrandom
@@ -339,6 +355,7 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_tumblers_dirty
+  - type: RandomMetadata
     nameSegments:
     - falloutmagazine_tumblerstodaydirty
     - falloutmagazine_tumblerstodayrandom
@@ -354,6 +371,7 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_unstoppable
+  - type: RandomMetadata
     nameSegments:
     - falloutmagazine_unstoppables
     - falloutmagazine_unstoppablesrandom
@@ -369,6 +387,7 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_unstoppable_dirty
+  - type: RandomMetadata
     nameSegments:
     - falloutmagazine_unstoppablesdirty
     - falloutmagazine_unstoppablesrandom
@@ -384,6 +403,7 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_wasteland
+  - type: RandomMetadata
     nameSegments:
     - falloutmagazine_wastelandsurvivalguide
     - falloutmagazine_wastelandsurvivalguiderandom
@@ -399,6 +419,7 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_live
+  - type: RandomMetadata
     nameSegments:
     - falloutmagazine_liveandlove
     - falloutmagazine_liveandloverandom
@@ -414,6 +435,7 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_live_dirty
+  - type: RandomMetadata
     nameSegments:
     - falloutmagazine_liveandlovedirty
     - falloutmagazine_liveandloverandom
