@@ -238,7 +238,7 @@
     - state: magazine_tesla
 
 - type: entity
-  name: tesla science
+  suffix: random
   parent: N14Magazine
   id: N14MagazineTeslaDirty
   description: "An issue of Tesla Science, though it's a bit dirty"
