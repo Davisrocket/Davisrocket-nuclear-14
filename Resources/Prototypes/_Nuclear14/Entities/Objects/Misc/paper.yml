@@ -247,6 +247,10 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_tesla_dirty
+  - type: RandomMetadata
+    nameSegments:
+    - falloutmagazine_tesla
+    - falloutmagazine_teslarandom
 
 - type: entity
   name: tumblers today

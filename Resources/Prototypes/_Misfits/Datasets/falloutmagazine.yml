@@ -1,0 +1,17 @@
+- type: dataset
+  id: falloutmagazine_tesla
+  values:
+  - falloutmagazine-tesla1
+
+- type: dataset
+  id: falloutmagazine_teslarandom
+  values:
+  - falloutmagazine-teslarandom1
+  - falloutmagazine-teslarandom2
+  - falloutmagazine-teslarandom3
+  - falloutmagazine-teslarandom4
+  - falloutmagazine-teslarandom5
+  - falloutmagazine-teslarandom6
+  - falloutmagazine-teslarandom7
+  - falloutmagazine-teslarandom8
+  - falloutmagazine-teslarandom9
