@@ -299,7 +299,7 @@
     - falloutmagazine_teslarandom
 
 - type: entity
-  name: dirty tesla science
+  name: tesla science
   suffix: random, dirty
   parent: N14Magazine
   id: N14MagazineTeslaDirty
