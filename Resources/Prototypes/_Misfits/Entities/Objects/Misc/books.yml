@@ -207,7 +207,7 @@
       - cover:
           fallout_cover_base_burned: falloutbookcolorburned
           fallout_cover_base_burnedv2: falloutbookcolorburned
-          fallout_cover_baseburnedfaded: falloutbookcolorburned
+          fallout_cover_base_burnedfaded: falloutbookcolorburned
         decor:
           fallout_decor_stripe_faded: falloutbookcolorburned
           fallout_decor_spine_faded: falloutbookcolorburned
