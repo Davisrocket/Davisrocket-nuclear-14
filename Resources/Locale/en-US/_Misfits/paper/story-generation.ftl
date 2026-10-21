@@ -79,8 +79,8 @@ story-gen-falloutbook-genre11= work of historical fiction
 story-gen-falloutbook-genre12= historical work
 story-gen-falloutbook-genre13= biography
 story-gen-falloutbook-genre14= data rich document
-story-gen-falloutbook-genre13= adventure story
-story-gen-falloutbook-genre14= drama
+story-gen-falloutbook-genre15= adventure story
+story-gen-falloutbook-genre16= drama
 
 story-gen-falloutbook-characterprewar1 = soldier
 story-gen-falloutbook-characterprewar2 = reporter
