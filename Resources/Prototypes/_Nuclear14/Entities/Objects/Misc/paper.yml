@@ -228,6 +228,7 @@
 
 - type: entity
   name: tesla science
+  suffix: random
   parent: N14Magazine
   id: N14MagazineTesla
   description: "An issue of Tesla Science"
@@ -236,9 +237,13 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_tesla
+  - type: RandomMetadata
+    nameSegments:
+    - falloutmagazine_tesla
+    - falloutmagazine_teslarandom
 
 - type: entity
-  suffix: random
+  name: tesla science
   parent: N14Magazine
   id: N14MagazineTeslaDirty
   description: "An issue of Tesla Science, though it's a bit dirty"
@@ -247,10 +252,6 @@
     sprite: _Nuclear14/Structures/Misc/magazines.rsi
     layers:
     - state: magazine_tesla_dirty
-  - type: RandomMetadata
-    nameSegments:
-    - falloutmagazine_tesla
-    - falloutmagazine_teslarandom
 
 - type: entity
   name: tumblers today
