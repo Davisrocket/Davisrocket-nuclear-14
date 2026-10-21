@@ -147,7 +147,7 @@
           fallout_decor_spine: falloutbookcolor
           fallout_decor_triplestripe: falloutbookcolor
           fallout_decor_lattice: falloutbookcolor
-          fallout_decor_stripe_null: ""
+          fallout_decor_null: ""
         icon:
           fallout_icon_null: falloutbookcolor
           fallout_icon_army: ""
@@ -213,7 +213,7 @@
           fallout_decor_spine_faded: falloutbookcolorburned
           fallout_decor_triplestripe_faded: falloutbookcolorburned
           fallout_decor_lattice_faded: falloutbookcolorburned
-          fallout_decor_stripe_null: ""
+          fallout_decor_null: ""
         icon:
           fallout_icon_null: falloutbookcolorburned
           fallout_icon_army: ""
@@ -282,7 +282,7 @@
           fallout_decor_spine: falloutbookcolorfaded
           fallout_decor_triplestripe: falloutbookcolorfaded
           fallout_decor_lattice: falloutbookcolorfaded
-          fallout_decor_stripe_null: ""
+          fallout_decor_null: ""
         icon:
           fallout_icon_null: ""
           fallout_icon_80s: ""
@@ -358,7 +358,7 @@
           fallout_decor_spine_faded: falloutbookcolorfadeddamaged
           fallout_decor_triplestripe_faded: falloutbookcolorfadeddamaged
           fallout_decor_lattice_faded: falloutbookcolorfadeddamaged
-          fallout_decor_stripe_null: ""
+          fallout_decor_null: ""
         icon:
           fallout_icon_null: ""
           fallout_icon_80s: ""
