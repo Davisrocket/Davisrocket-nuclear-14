@@ -149,48 +149,48 @@
           fallout_decor_lattice: falloutbookcolor
           fallout_decor_null: ""
         icon:
-          fallout_icon_null: falloutbookcolor
-          fallout_icon_army: ""
-          fallout_icon_ammo: ""
+          fallout_icon_null: ""
+          fallout_icon_army: falloutbookcolor
+          fallout_icon_ammo: falloutbookcolor
           fallout_icon_baseballdiamond: falloutbookcolor
-          fallout_icon_biohazard: ""
-          fallout_icon_china: falloutbookcolor
-          fallout_icon_clover: ""
-          fallout_icon_conelrad: ""
+          fallout_icon_biohazard: falloutbookcolor
+          fallout_icon_china: ""
+          fallout_icon_clover: falloutbookcolor
+          fallout_icon_conelrad: falloutbookcolor
           fallout_icon_communist: falloutbookcolor
           fallout_icon_courthouse: falloutbookcolor
-          fallout_icon_cross: ""
-          fallout_icon_deanselectronics: ""
-          fallout_icon_dynamite: ""
-          fallout_icon_factory: ""
-          fallout_icon_firstaid: ""
-          fallout_icon_gear: ""
-          fallout_icon_gun: ""
+          fallout_icon_cross: falloutbookcolor
+          fallout_icon_deanselectronics: falloutbookcolor
+          fallout_icon_dynamite: falloutbookcolor
+          fallout_icon_factory: falloutbookcolor
+          fallout_icon_firstaid: falloutbookcolor
+          fallout_icon_gear: falloutbookcolor
+          fallout_icon_gun: falloutbookcolor
           fallout_icon_house: falloutbookcolor
-          fallout_icon_horse: ""
+          fallout_icon_horse: falloutbookcolor
           fallout_icon_militarystar: falloutbookcolor
           fallout_icon_nuclear: falloutbookcolor
           fallout_icon_nukacola: falloutbookcolor
-          fallout_icon_plane: ""
+          fallout_icon_plane: falloutbookcolor
           fallout_icon_powerarmor: falloutbookcolor
-          fallout_icon_psycho: ""
-          fallout_icon_radiotower: ""
-          fallout_icon_robot: ""
-          fallout_icon_safe: ""
-          fallout_icon_science: ""
-          fallout_icon_spaceship: ""
-          fallout_icon_spark: ""
-          fallout_icon_smalle: ""
-          fallout_icon_stimpak: ""
-          fallout_icon_tv: ""
+          fallout_icon_psycho: falloutbookcolor
+          fallout_icon_radiotower: falloutbookcolor
+          fallout_icon_robot: falloutbookcolor
+          fallout_icon_safe: falloutbookcolor
+          fallout_icon_science: falloutbookcolor
+          fallout_icon_spaceship: falloutbookcolor
+          fallout_icon_spark: falloutbookcolor
+          fallout_icon_smalle: falloutbookcolor
+          fallout_icon_stimpak: falloutbookcolor
+          fallout_icon_tv: falloutbookcolor
           fallout_icon_us: ""
-          fallout_icon_vault13: ""
-          fallout_icon_vaultboy: ""
+          fallout_icon_vault14: falloutbookcolor
+          fallout_icon_vaultboy: falloutbookcolor
         overlay:
           fallout_overlay_null: ""
-          fallout_overlay_dust: falloutbookcolor
+          fallout_overlay_dust: ""
           fallout_detail_bookmark: falloutbookcolor
-          fallout_detail_leatherstrap: falloutbookcolor
+          fallout_detail_leatherstrap: ""
 
 - type: entity
   parent: FalloutBookBaseBurned
@@ -216,50 +216,50 @@
           fallout_decor_null: ""
         icon:
           fallout_icon_null: falloutbookcolorburned
-          fallout_icon_army: ""
-          fallout_icon_ammo: ""
+          fallout_icon_army: falloutbookcolorburned
+          fallout_icon_ammo: falloutbookcolorburned
           fallout_icon_baseballdiamond: falloutbookcolorburned
-          fallout_icon_biohazard: ""
-          fallout_icon_china: falloutbookcolorburned
-          fallout_icon_clover: ""
-          fallout_icon_conelrad: ""
+          fallout_icon_biohazard: falloutbookcolorburned
+          fallout_icon_china: ""
+          fallout_icon_clover: falloutbookcolorburned
+          fallout_icon_conelrad: falloutbookcolorburned
           fallout_icon_communist: falloutbookcolorburned
           fallout_icon_courthouse: falloutbookcolorburned
-          fallout_icon_cross: ""
-          fallout_icon_deanselectronics: ""
-          fallout_icon_dynamite: ""
-          fallout_icon_factory: ""
-          fallout_icon_firstaid: ""
-          fallout_icon_gear: ""
-          fallout_icon_gun: ""
+          fallout_icon_cross: falloutbookcolorburned
+          fallout_icon_deanselectronics: falloutbookcolorburned
+          fallout_icon_dynamite: falloutbookcolorburned
+          fallout_icon_factory: falloutbookcolorburned
+          fallout_icon_firstaid: falloutbookcolorburned
+          fallout_icon_gear: falloutbookcolorburned
+          fallout_icon_gun: falloutbookcolorburned
           fallout_icon_house: falloutbookcolorburned
-          fallout_icon_horse: ""
+          fallout_icon_horse: falloutbookcolorburned
           fallout_icon_militarystar: falloutbookcolorburned
           fallout_icon_nuclear: falloutbookcolorburned
           fallout_icon_nukacola: falloutbookcolorburned
-          fallout_icon_plane: ""
+          fallout_icon_plane: falloutbookcolorburned
           fallout_icon_powerarmor: falloutbookcolorburned
-          fallout_icon_psycho: ""
-          fallout_icon_radiotower: ""
-          fallout_icon_robot: ""
-          fallout_icon_safe: ""
-          fallout_icon_science: ""
-          fallout_icon_spaceship: ""
-          fallout_icon_spark: ""
-          fallout_icon_smalle: ""
-          fallout_icon_stimpak: ""
-          fallout_icon_tv: ""
+          fallout_icon_psycho: falloutbookcolorburned
+          fallout_icon_radiotower: falloutbookcolorburned
+          fallout_icon_robot: falloutbookcolorburned
+          fallout_icon_safe: falloutbookcolorburned
+          fallout_icon_science: falloutbookcolorburned
+          fallout_icon_spaceship: falloutbookcolorburned
+          fallout_icon_spark: falloutbookcolorburned
+          fallout_icon_smalle: falloutbookcolorburned
+          fallout_icon_stimpak: falloutbookcolorburned
+          fallout_icon_tv: falloutbookcolorburned
           fallout_icon_us: ""
-          fallout_icon_vault13: ""
-          fallout_icon_vaultboy: ""
+          fallout_icon_vault14: falloutbookcolorburned
+          fallout_icon_vaultboy: falloutbookcolorburned
         overlay:
           fallout_overlay_null: ""
           fallout_overlay_blood: ""
           fallout_overlay_dirt: ""
-          fallout_overlay_dust: falloutbookcolorburned
+          fallout_overlay_dust: ""
           fallout_detail_bookmark: falloutbookcolorburned
-          fallout_detail_damagedcorner: falloutbookcolorburned
-          fallout_detail_leatherstrap: falloutbookcolorburned
+          fallout_detail_damagedcorner: ""
+          fallout_detail_leatherstrap: ""
 
 - type: entity
   parent: FalloutBookBase
@@ -285,57 +285,57 @@
           fallout_decor_null: ""
         icon:
           fallout_icon_null: ""
-          fallout_icon_80s: ""
-          fallout_icon_army: ""
+          fallout_icon_80s: falloutbookcolorfaded
+          fallout_icon_army: falloutbookcolorfaded
           fallout_icon_ammo: falloutbookcolorfaded
-          fallout_icon_biohazard: ""
+          fallout_icon_biohazard: falloutbookcolorfaded
           fallout_icon_bos: falloutbookcolorfaded
-          fallout_icon_caesarlegion: ""
+          fallout_icon_caesarlegion: falloutbookcolorfaded
           fallout_icon_china: ""
           fallout_icon_clover: falloutbookcolorfaded
           fallout_icon_communist: falloutbookcolorfaded
-          fallout_icon_cross: ""
-          fallout_icon_deanselectronics: ""
-          fallout_icon_dynamite: ""
-          fallout_icon_factory: ""
-          fallout_icon_firstaid: ""
-          fallout_icon_fota: ""
-          fallout_icon_gear: ""
+          fallout_icon_cross: falloutbookcolorfaded
+          fallout_icon_deanselectronics: falloutbookcolorfaded
+          fallout_icon_dynamite: falloutbookcolorfaded
+          fallout_icon_factory: falloutbookcolorfaded
+          fallout_icon_firstaid: falloutbookcolorfaded
+          fallout_icon_fota: falloutbookcolorfaded
+          fallout_icon_gear: falloutbookcolorfaded
           fallout_icon_gun: falloutbookcolorfaded
-          fallout_icon_house: ""
+          fallout_icon_house: falloutbookcolorfaded
           fallout_icon_horse: falloutbookcolorfaded
           fallout_icon_mutant: falloutbookcolorfaded
           fallout_icon_militarystar: falloutbookcolorfaded
-          fallout_icon_ncr: ""
+          fallout_icon_ncr: falloutbookcolorfaded
           fallout_icon_nuclear: falloutbookcolorfaded
-          fallout_icon_nukacola: ""
-          fallout_icon_osi: ""
-          fallout_icon_pill: ""
-          fallout_icon_plane: ""
-          fallout_icon_powerarmor: ""
-          fallout_icon_psycho: ""
-          fallout_icon_radiotower: ""
-          fallout_icon_ranger: ""
-          fallout_icon_robot: ""
-          fallout_icon_safe: ""
-          fallout_icon_science: ""
-          fallout_icon_spaceship: ""
-          fallout_icon_spark: ""
-          fallout_icon_smalle: ""
-          fallout_icon_stimpak: ""
-          fallout_icon_town: ""
-          fallout_icon_tv: ""
+          fallout_icon_nukacola: falloutbookcolorfaded
+          fallout_icon_osi: falloutbookcolorfaded
+          fallout_icon_pill: falloutbookcolorfaded
+          fallout_icon_plane: falloutbookcolorfaded
+          fallout_icon_powerarmor: falloutbookcolorfaded
+          fallout_icon_psycho: falloutbookcolorfaded
+          fallout_icon_radiotower: falloutbookcolorfaded
+          fallout_icon_ranger: falloutbookcolorfaded
+          fallout_icon_robot: falloutbookcolorfaded
+          fallout_icon_safe: falloutbookcolorfaded
+          fallout_icon_science: falloutbookcolorfaded
+          fallout_icon_spaceship: falloutbookcolorfaded
+          fallout_icon_spark: falloutbookcolorfaded
+          fallout_icon_smalle: falloutbookcolorfaded
+          fallout_icon_stimpak: falloutbookcolorfaded
+          fallout_icon_town: falloutbookcolorfaded
+          fallout_icon_tv: falloutbookcolorfaded
           fallout_icon_us: ""
-          fallout_icon_vault13: ""
-          fallout_icon_willower: ""
+          fallout_icon_vault14: falloutbookcolorfaded
+          fallout_icon_willower: falloutbookcolorfaded
         overlay:
           fallout_overlay_null: ""
           fallout_overlay_blood: ""
           fallout_overlay_dirt: ""
-          fallout_overlay_dust: falloutbookcolorfaded
+          fallout_overlay_dust: ""
           fallout_detail_bookmark: falloutbookcolorfaded
-          fallout_detail_damagedcorner: falloutbookcolorfaded
-          fallout_detail_leatherstrap: falloutbookcolorfaded
+          fallout_detail_damagedcorner: ""
+          fallout_detail_leatherstrap: ""
 
 - type: entity
   parent: FalloutBookBaseDamaged
@@ -361,57 +361,57 @@
           fallout_decor_null: ""
         icon:
           fallout_icon_null: ""
-          fallout_icon_80s: ""
-          fallout_icon_army: ""
+          fallout_icon_80s: falloutbookcolorfadeddamaged
+          fallout_icon_army: falloutbookcolorfadeddamaged
           fallout_icon_ammo: falloutbookcolorfadeddamaged
-          fallout_icon_biohazard: ""
+          fallout_icon_biohazard: falloutbookcolorfadeddamaged
           fallout_icon_bos: falloutbookcolorfadeddamaged
-          fallout_icon_caesarlegion: ""
+          fallout_icon_caesarlegion: falloutbookcolorfadeddamaged
           fallout_icon_china: ""
           fallout_icon_clover: falloutbookcolorfadeddamaged
           fallout_icon_communist: falloutbookcolorfadeddamaged
-          fallout_icon_cross: ""
-          fallout_icon_deanselectronics: ""
-          fallout_icon_dynamite: ""
-          fallout_icon_factory: ""
-          fallout_icon_firstaid: ""
-          fallout_icon_fota: ""
-          fallout_icon_gear: ""
+          fallout_icon_cross: falloutbookcolorfadeddamaged
+          fallout_icon_deanselectronics: falloutbookcolorfadeddamaged
+          fallout_icon_dynamite: falloutbookcolorfadeddamaged
+          fallout_icon_factory: falloutbookcolorfadeddamaged
+          fallout_icon_firstaid: falloutbookcolorfadeddamaged
+          fallout_icon_fota: falloutbookcolorfadeddamaged
+          fallout_icon_gear: falloutbookcolorfadeddamaged
           fallout_icon_gun: falloutbookcolorfadeddamaged
-          fallout_icon_house: ""
+          fallout_icon_house: falloutbookcolorfadeddamaged
           fallout_icon_horse: falloutbookcolorfadeddamaged
           fallout_icon_mutant: falloutbookcolorfadeddamaged
           fallout_icon_militarystar: falloutbookcolorfadeddamaged
-          fallout_icon_ncr: ""
+          fallout_icon_ncr: falloutbookcolorfadeddamaged
           fallout_icon_nuclear: falloutbookcolorfadeddamaged
-          fallout_icon_nukacola: ""
-          fallout_icon_osi: ""
-          fallout_icon_pill: ""
-          fallout_icon_plane: ""
-          fallout_icon_powerarmor: ""
-          fallout_icon_psycho: ""
-          fallout_icon_radiotower: ""
-          fallout_icon_ranger: ""
-          fallout_icon_robot: ""
-          fallout_icon_safe: ""
-          fallout_icon_science: ""
-          fallout_icon_spaceship: ""
-          fallout_icon_spark: ""
-          fallout_icon_smalle: ""
-          fallout_icon_stimpak: ""
-          fallout_icon_town: ""
-          fallout_icon_tv: ""
+          fallout_icon_nukacola: falloutbookcolorfadeddamaged
+          fallout_icon_osi: falloutbookcolorfadeddamaged
+          fallout_icon_pill: falloutbookcolorfadeddamaged
+          fallout_icon_plane: falloutbookcolorfadeddamaged
+          fallout_icon_powerarmor: falloutbookcolorfadeddamaged
+          fallout_icon_psycho: falloutbookcolorfadeddamaged
+          fallout_icon_radiotower: falloutbookcolorfadeddamaged
+          fallout_icon_ranger: falloutbookcolorfadeddamaged
+          fallout_icon_robot: falloutbookcolorfadeddamaged
+          fallout_icon_safe: falloutbookcolorfadeddamaged
+          fallout_icon_science: falloutbookcolorfadeddamaged
+          fallout_icon_spaceship: falloutbookcolorfadeddamaged
+          fallout_icon_spark: falloutbookcolorfadeddamaged
+          fallout_icon_smalle: falloutbookcolorfadeddamaged
+          fallout_icon_stimpak: falloutbookcolorfadeddamaged
+          fallout_icon_town: falloutbookcolorfadeddamaged
+          fallout_icon_tv: falloutbookcolorfadeddamaged
           fallout_icon_us: ""
-          fallout_icon_vault13: ""
-          fallout_icon_willower: ""
+          fallout_icon_vault14: falloutbookcolorfadeddamaged
+          fallout_icon_willower: falloutbookcolorfadeddamaged
         overlay:
           fallout_overlay_null: ""
           fallout_overlay_blood: ""
           fallout_overlay_dirt: ""
-          fallout_overlay_dust: falloutbookcolorfadeddamaged
+          fallout_overlay_dust: ""
           fallout_detail_bookmark: falloutbookcolorfadeddamaged
-          fallout_detail_damagedcorner: falloutbookcolorfadeddamaged
-          fallout_detail_leatherstrap: falloutbookcolorfadeddamaged
+          fallout_detail_damagedcorner: ""
+          fallout_detail_leatherstrap: ""
 
 #MARK: BookRandomStory
 - type: entity
