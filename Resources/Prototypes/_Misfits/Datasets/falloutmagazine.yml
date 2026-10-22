@@ -262,3 +262,128 @@
   id: falloutmagazine_liveandlovedirty
   values:
   - falloutmagazine-liveandlovedirty1
+
+- type: dataset
+  id: falloutmagazine_astonishingtales
+  values:
+  - falloutmagazine-astonishingtales1
+
+- type: dataset
+  id: falloutmagazine_astonishingtalesrandom
+  values:
+  - falloutmagazine-astonishingtalesrandom1
+  - falloutmagazine-astonishingtalesrandom2
+  - falloutmagazine-astonishingtalesrandom3
+  - falloutmagazine-astonishingtalesrandom4
+  - falloutmagazine-astonishingtalesrandom5
+  - falloutmagazine-astonishingtalesrandom6
+
+- type: dataset
+  id: falloutmagazine_chinesearmyspecops
+  values:
+  - falloutmagazine-chinesearmyspecops1
+
+- type: dataset
+  id: falloutmagazine_chinesearmyspecopsrandom
+  values:
+  - falloutmagazine-chinesearmyspecopsrandom1
+
+- type: dataset
+  id: falloutmagazine_enclaveentrenchmentmanual
+  values:
+  - falloutmagazine-enclaveentrenchmentmanual1
+
+- type: dataset
+  id: falloutmagazine_enclaveentrenchmentmanual
+  values:
+  - falloutmagazine-enclaveentrenchmentmanual1
+  - falloutmagazine-enclaveentrenchmentmanual2
+  - falloutmagazine-enclaveentrenchmentmanual3
+
+- type: dataset
+  id: falloutmagazine_hotrodder
+  values:
+  - falloutmagazine-hotrodder1
+
+- type: dataset
+  id: falloutmagazine_hotrodderrandom
+  values:
+  - falloutmagazine-hotrodderrandom1
+  - falloutmagazine-hotrodderrandom2
+  - falloutmagazine-hotrodderrandom3
+  - falloutmagazine-hotrodderrandom4
+
+- type: dataset
+  id: falloutmagazine_picketfences
+  values:
+  - falloutmagazine-picketfences1
+
+- type: dataset
+  id: falloutmagazine_picketfencesrandom
+  values:
+  - falloutmagazine-picketfencesrandom1
+  - falloutmagazine-picketfencesrandom2
+  - falloutmagazine-picketfencesrandom3
+  - falloutmagazine-picketfencesrandom4
+  - falloutmagazine-picketfencesrandom5
+  - falloutmagazine-picketfencesrandom6
+  - falloutmagazine-picketfencesrandom7
+
+- type: dataset
+  id: falloutmagazine_robcofun
+  values:
+  - falloutmagazine-robcofun1
+
+- type: dataset
+  id: falloutmagazine_robcofunrandom
+  values:
+  - falloutmagazine-robcofunrandom1
+  - falloutmagazine-robcofunrandom2
+  - falloutmagazine-robcofunrandom3
+  - falloutmagazine-robcofunrandom4
+  - falloutmagazine-robcofunrandom5
+
+- type: dataset
+  id: falloutmagazine_scoutslife
+  values:
+  - falloutmagazine-scoutslife1
+
+- type: dataset
+  id: falloutmagazine_scoutsliferandom
+  values:
+  - falloutmagazine-scoutsliferandom1
+  - falloutmagazine-scoutsliferandom2
+  - falloutmagazine-scoutsliferandom3
+  - falloutmagazine-scoutsliferandom4
+  - falloutmagazine-scoutsliferandom5
+  - falloutmagazine-scoutsliferandom6
+  - falloutmagazine-scoutsliferandom7
+  - falloutmagazine-scoutsliferandom8
+  - falloutmagazine-scoutsliferandom9
+  - falloutmagazine-scoutsliferandom10
+
+- type: dataset
+  id: falloutmagazine_tabootattoos
+  values:
+  - falloutmagazine-tabootattoos1
+
+- type: dataset
+  id: falloutmagazine_tabootattoosrandom
+  values:
+  - falloutmagazine-tabootattoosrandom1
+  - falloutmagazine-tabootattoosrandom2
+  - falloutmagazine-tabootattoosrandom3
+  - falloutmagazine-tabootattoosrandom4
+  - falloutmagazine-tabootattoosrandom5
+
+- type: dataset
+  id: falloutmagazine_totalhack
+  values:
+  - falloutmagazine-totalhack1
+
+- type: dataset
+  id: falloutmagazine_totalhackrandom
+  values:
+  - falloutmagazine-totalhackrandom1
+  - falloutmagazine-totalhackrandom2
+  - falloutmagazine-totalhackrandom3

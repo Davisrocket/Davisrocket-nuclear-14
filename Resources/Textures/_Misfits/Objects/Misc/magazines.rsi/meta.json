@@ -8,31 +8,31 @@
   },
   "states": [
     {
-      "name": "magazine_base_astonishingtales"
+      "name": "magazine_astonishingtales"
     },
     {
-      "name": "magazine_base_chinesearmyspecops"
+      "name": "magazine_chinesearmyspecops"
     },
     {
-      "name": "magazine_base_enclaveentrenchmentmanual"
+      "name": "magazine_enclaveentrenchmentmanual"
     },
     {
-      "name": "magazine_base_hotrodder"
+      "name": "magazine_hotrodder"
     },
     {
-      "name": "magazine_base_picketfences"
+      "name": "magazine_picketfences"
     },
     {
-      "name": "magazine_base_robcofun"
+      "name": "magazine_robcofun"
     },
     {
-      "name": "magazine_base_scoutslife"
+      "name": "magazine_scoutslife"
     },
     {
-      "name": "magazine_base_tabootattoos"
+      "name": "magazine_tabootattoos"
     },
     {
-      "name": "magazine_base_totalhack"
+      "name": "magazine_totalhack"
     }
   ]
 }

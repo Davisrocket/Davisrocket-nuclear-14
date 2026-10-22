@@ -157,3 +157,74 @@ falloutmagazine-liveandloverandom8 = no.8 An Experience to Remember
 falloutmagazine-liveandloverandom9 = no.9 I Married a Robot
 
 falloutmagazine-liveandlovedirty1 = Dirty Live and Love
+
+falloutmagazine-astonishingtales1 = Tales from the Great Salt Lake Desert
+
+falloutmagazine-astonishingtalesrandom1 = no.1 Curse of the Wendigo
+falloutmagazine-astonishingtalesrandom2 = no.2 The Mothman Cometh!
+falloutmagazine-astonishingtalesrandom3 = no.3 The Beast of Wendover
+falloutmagazine-astonishingtalesrandom4 = no.4 Sideshow Snallygaster
+falloutmagazine-astonishingtalesrandom5 = no.5 Who goes there? The strange encounter in Salt Lake City
+falloutmagazine-astonishingtalesrandom6 = no.6 The Cult of Ag-Qualoth
+
+falloutmagazine-chinesearmyspecops1 = Chinese Army:
+
+falloutmagazine-chinesearmyspecopsrandom1 = Special Ops Training Manual
+
+falloutmagazine-enclaveentrenchmentmanual1 = Enclave Entrenchment Manual
+
+falloutmagazine-enclaveentrenchmentmanual1 = EC 20-01: Fortification in the Field
+falloutmagazine-enclaveentrenchmentmanual2 = EC 20-02: Technological Superiority
+falloutmagazine-enclaveentrenchmentmanual3 = EC 20-03: Fending Off Friendly Fire
+
+falloutmagazine-hotrodder1 = Hot Rodder
+
+falloutmagazine-hotrodderrandom1 = no.1 Flame Job!
+falloutmagazine-hotrodderrandom2 = no.2 Shark Paint Schemes!
+falloutmagazine-hotrodderrandom3 = no.3 Hot Pink!
+falloutmagazine-hotrodderrandom4 = no.4 Racing Stripes!
+
+falloutmagazine-picketfences1 = Picket Fences
+
+falloutmagazine-picketfencesrandom1 = no.1 The House of Tomorrow... Today
+falloutmagazine-picketfencesrandom2 = no.2 Modern Hearth!
+falloutmagazine-picketfencesrandom3 = no.3 Essential Upgrades!
+falloutmagazine-picketfencesrandom4 = no.4 Modern Lawn Care!
+falloutmagazine-picketfencesrandom5 = no.5 Welcome Home!
+falloutmagazine-picketfencesrandom6 Halloween Special
+falloutmagazine-picketfencesrandom7 Holiday Special
+
+falloutmagazine-robcofun1 = RobCo Fun
+
+falloutmagazine-robcofunrandom1 = no.1 Atomic Command
+falloutmagazine-robcofunrandom2 = no.2 Grognak The Barbarian
+falloutmagazine-robcofunrandom3 = no.3 Pip Fall
+falloutmagazine-robcofunrandom4 = no.4 Red Menace
+falloutmagazine-robcofunrandom5 = no.5 Zeta Invaders
+
+falloutmagazine-scoutslife1 = Scouts' Life
+
+falloutmagazine-scoutsliferandom1 = no.1 Purifying the Wilderness
+falloutmagazine-scoutsliferandom2 = no.2 Natural Mosquito Repellants
+falloutmagazine-scoutsliferandom3 = no.3 Packing for the Trail
+falloutmagazine-scoutsliferandom4 = no.4 Hang in there!
+falloutmagazine-scoutsliferandom5 = no.5 Identifying Rabies and Other Diseases
+falloutmagazine-scoutsliferandom6 = no.6 Healthy Hiking: Endurance
+falloutmagazine-scoutsliferandom7 = no.7 The Animal Whisperer
+falloutmagazine-scoutsliferandom8 = no.8 Long Haul Sprinter
+falloutmagazine-scoutsliferandom9 = no.9 Campfire: Special Edition
+falloutmagazine-scoutsliferandom10 = no.10 Maintaining Your Gear
+
+falloutmagazine-tabootattoos1 = Taboo Tattoos
+
+falloutmagazine-tabootattoosrandom1 = no.1 13
+falloutmagazine-tabootattoosrandom2 = no.2 Anchor
+falloutmagazine-tabootattoosrandom3 = no.3 Eagle's Nest
+falloutmagazine-tabootattoosrandom4 = no.4 Skulls Are Hip!!
+falloutmagazine-tabootattoosrandom5 = no.16 Sailor
+
+falloutmagazine-totalhack1 = Total Hack
+
+falloutmagazine-totalhackrandom1 = no.1 Control Robots
+falloutmagazine-totalhackrandom2 = no.2 Control Spotlights
+falloutmagazine-totalhackrandom3 = no.3 Control Turrets
