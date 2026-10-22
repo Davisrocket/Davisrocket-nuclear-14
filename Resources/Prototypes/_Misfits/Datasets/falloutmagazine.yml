@@ -294,11 +294,11 @@
   - falloutmagazine-enclaveentrenchmentmanual1
 
 - type: dataset
-  id: falloutmagazine_enclaveentrenchmentmanual
+  id: falloutmagazine_enclaveentrenchmentmanualrandom
   values:
-  - falloutmagazine-enclaveentrenchmentmanual1
-  - falloutmagazine-enclaveentrenchmentmanual2
-  - falloutmagazine-enclaveentrenchmentmanual3
+  - falloutmagazine-enclaveentrenchmentmanualrandom1
+  - falloutmagazine-enclaveentrenchmentmanualrandom2
+  - falloutmagazine-enclaveentrenchmentmanualrandom3
 
 - type: dataset
   id: falloutmagazine_hotrodder

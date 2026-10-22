@@ -173,9 +173,9 @@ falloutmagazine-chinesearmyspecopsrandom1 = Special Ops Training Manual
 
 falloutmagazine-enclaveentrenchmentmanual1 = Enclave Entrenchment Manual
 
-falloutmagazine-enclaveentrenchmentmanual1 = EC 20-01: Fortification in the Field
-falloutmagazine-enclaveentrenchmentmanual2 = EC 20-02: Technological Superiority
-falloutmagazine-enclaveentrenchmentmanual3 = EC 20-03: Fending Off Friendly Fire
+falloutmagazine-enclaveentrenchmentmanualrandom1 = EC 20-01: Fortification in the Field
+falloutmagazine-enclaveentrenchmentmanualrandom2 = EC 20-02: Technological Superiority
+falloutmagazine-enclaveentrenchmentmanualrandom3 = EC 20-03: Fending Off Friendly Fire
 
 falloutmagazine-hotrodder1 = Hot Rodder
 
@@ -191,8 +191,8 @@ falloutmagazine-picketfencesrandom2 = no.2 Modern Hearth!
 falloutmagazine-picketfencesrandom3 = no.3 Essential Upgrades!
 falloutmagazine-picketfencesrandom4 = no.4 Modern Lawn Care!
 falloutmagazine-picketfencesrandom5 = no.5 Welcome Home!
-falloutmagazine-picketfencesrandom6 Halloween Special
-falloutmagazine-picketfencesrandom7 Holiday Special
+falloutmagazine-picketfencesrandom6 = Halloween Special
+falloutmagazine-picketfencesrandom7 = Holiday Special
 
 falloutmagazine-robcofun1 = RobCo Fun
 
