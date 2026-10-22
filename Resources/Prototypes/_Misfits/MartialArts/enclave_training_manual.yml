@@ -15,7 +15,7 @@
   description: "A classified Enclave technical manual covering operation, diagnostics and safety interlocks for X-series advanced power armor. Restricted distribution. Mastering this will let you equip and operate any power armor frame."
   components:
   - type: Sprite
-    sprite: " _Misfits/Objects/Misc/books.rsi"
+    sprite: "_Misfits/Objects/Misc/books.rsi"
     layers:
     - state: falloutpaper
     - state: fallout_cover_base
