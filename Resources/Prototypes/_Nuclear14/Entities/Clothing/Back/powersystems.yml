@@ -63,10 +63,10 @@
   - type: RefillableSolution
     solution: fuel
   - type: AmbientSound
-    sound: /Audio/Machines/generator-tug-1.ogg
+    sound: /Audio/_Misfits/N14/Machines/gennie.ogg
     range: 3
     volume: -8
-    enabled: true
+    enabled: false
   - type: ExaminableSolution
     solution: fuel
     heldOnly: false
@@ -77,12 +77,12 @@
   - type: Appearance
     visuals:
       enum.CombustionEngineVisuals.Running:
-        enum.CombustionEngineVisualLayers.Body:
+        Body:
           True: { state: diesel-on }
           False: { state: diesel-off }
   - type: GenericVisualizer
     visuals:
       enum.CombustionEngineVisuals.Running:
-        enum.CombustionEngineVisualLayers.Body:
+        Body:
           True: { state: diesel-on }
           False: { state: diesel-off }

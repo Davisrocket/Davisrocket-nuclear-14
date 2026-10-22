@@ -37,8 +37,8 @@
       back: MisfitsCombustionEnginePowerSystemsBack
   - type: Explosive
     explosionType: N14DefaultStructural
-    totalIntensity: 50
-    maxIntensity: 50
+    totalIntensity: 5
+    maxIntensity: 5
     intensitySlope: 20
     tileBreakScale: 0
     maxTileBreak: 0
