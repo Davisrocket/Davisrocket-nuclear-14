@@ -31,7 +31,7 @@
     tags:
       - Book
   - type: PaperVisuals
-    backgroundImagePath: "/_Misfits/Interface/Paper/paper_background_fallout.svg.96dpi.png"
+    backgroundImagePath: "/Textures/_Misfits/Interface/Paper/paper_background_fallout.svg.96dpi.png"
     backgroundPatchMargin: 14.0, 15.0, 23.0, 16.0
     contentMargin: 20.0, 20.0, 20.0, 20.0
   - type: EmitSoundOnPickup
@@ -73,7 +73,7 @@
     tags:
       - Book
   - type: PaperVisuals
-    backgroundImagePath: "/_Misfits/Interface/Paper/paper_background_falloutburned.svg.96dpi.png"
+    backgroundImagePath: "/Textures/_Misfits/Interface/Paper/paper_background_falloutburned.svg.96dpi.png"
     backgroundPatchMargin: 14.0, 15.0, 23.0, 16.0
     contentMargin: 20.0, 20.0, 20.0, 20.0
   - type: EmitSoundOnPickup
@@ -115,7 +115,7 @@
     tags:
       - Book
   - type: PaperVisuals
-    backgroundImagePath: "/_Misfits/Interface/Paper/paper_background_falloutdamaged.svg.96dpi.png"
+    backgroundImagePath: "/Textures/_Misfits/Interface/Paper/paper_background_falloutdamaged.svg.96dpi.png"
     backgroundPatchMargin: 14.0, 15.0, 23.0, 16.0
     contentMargin: 20.0, 20.0, 20.0, 20.0
   - type: EmitSoundOnPickup
