@@ -577,27 +577,26 @@ public sealed class N14ExpeditionSystem : EntitySystem
                     var totalAlloc = GC.GetTotalAllocatedBytes();
                     var timeSpentInGC = GC.GetTotalPauseDuration();
                     var currentHeap = GC.GetTotalMemory(false);
-                    var tickFraction = _timing.TickFraction;
                     var curRealTime = _timing.RealTime;
                     _log.Info($"Game thread allocations: {gameThreadAlloc} Bytes");
                     _log.Info($"Total allocations: {totalAlloc} Bytes");
-                    _log.Info($"Time spent in GC: {timeSpentInGC} Bytes");
+                    _log.Info($"Time spent in GC: {timeSpentInGC}");
                     _log.Info($"Current heap: {currentHeap} Bytes");
-                    _log.Info($"Tick remaining: {curRealTime} Tick fraction:{tickFraction}");
+                    _log.Info($"Tick remaining: {curRealTime}");
                     // #Misfits Fix - Capture hub positions for player spawn + exit placement
                     hubPositions = _proceduralGen.GenerateMap(genParams, gridUid, gridEnt.Comp);
 
-                    _log.Info($"Procedural dungeon done. Post-Gen statistics");
+                    _log.Info($"Procedural dungeon done. Post-Gen statistics differences");
                     gameThreadAlloc = GC.GetAllocatedBytesForCurrentThread() - gameThreadAlloc;
                     totalAlloc = GC.GetTotalAllocatedBytes() - totalAlloc;
-                    timeSpentInGC = GC.GetTotalPauseDuration();
+                    timeSpentInGC = GC.GetTotalPauseDuration() - timeSpentInGC;
                     currentHeap = GC.GetTotalMemory(false) - currentHeap;
                     curRealTime = _timing.RealTime - curRealTime;
                     _log.Info($"Post-Gen allocs on game thread: {gameThreadAlloc} Bytes");
                     _log.Info($"Post-Gen total allocations done: {totalAlloc} Bytes");
-                    _log.Info($"Post-Gen: Time spent in GC: {timeSpentInGC} Bytes");
+                    _log.Info($"Post-Gen: Time spent in GC: {timeSpentInGC}");
                     _log.Info($"Post-Gen: heap created: {currentHeap} Bytes");
-                    _log.Info($"Time passed: {curRealTime} ");
+                    _log.Info($"Post-Gen: RealTime passed: {curRealTime}");
                     // Build faction spawn map from hub positions
                     factionSpawnMap = new Dictionary<int, EntityCoordinates>();
                     foreach (var (pos, fIdx) in hubPositions)
