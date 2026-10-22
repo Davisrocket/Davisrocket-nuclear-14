@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "license": "CC-BY-NC-SA-3.0",
+  "copyright": "Davisrocket (Discord)inspired by aleksh",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "magazine_base_astonishingtales"
+    },
+    {
+      "name": "magazine_base_chinesearmyspecops"
+    },
+    {
+      "name": "magazine_base_enclaveentrenchmentmanual"
+    },
+    {
+      "name": "magazine_base_hotrodder"
+    },
+    {
+      "name": "magazine_base_picketfences"
+    },
+    {
+      "name": "magazine_base_robcofun"
+    },
+    {
+      "name": "magazine_base_scoutslife"
+    },
+    {
+      "name": "magazine_base_tabootattoos"
+    },
+    {
+      "name": "magazine_base_totalhack"
+    }
+  ]
+}
