@@ -476,7 +476,7 @@
   name: Enclave Entrenchment Manual
   suffix: random
   parent: N14Magazine
-  id: N14MagazineEnclaveEnetrenchmentManual
+  id: N14MagazineEnclaveEntrenchmentManual
   description: "A training manual for the Enclave"
   components:
   - type: Sprite
