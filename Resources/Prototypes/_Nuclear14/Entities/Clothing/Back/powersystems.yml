@@ -75,11 +75,6 @@
     fuelReagent: WeldingFuel
     fuelUsePerSecond: 0.15
   - type: Appearance
-    visuals:
-      enum.CombustionEngineVisuals.Running:
-        Body:
-          True: { state: diesel-on }
-          False: { state: diesel-off }
   - type: GenericVisualizer
     visuals:
       enum.CombustionEngineVisuals.Running:
