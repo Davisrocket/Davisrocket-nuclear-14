@@ -109,7 +109,7 @@
     - !type:NestedSelector
       tableId: M14WeaponLootTier3
     - !type:NestedSelector
-      id: M14ExpeditionBossMaterialsReward
+      tableId: M14ExpeditionBossMaterialsReward
 
 
 # Retains the previous two guaranteed Tier 3 caches for dangerous focused
