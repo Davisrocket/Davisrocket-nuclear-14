@@ -582,7 +582,8 @@
   id: PsychoRaider3Gear
   equipment:
     jumpsuit: N14ClothingUniformJumpsuitRags
-    shoes: N14ClothingShoesBrown
+    shoes: MisfitsMilitarySteelTippedBoots
+    gloves: N14ClothingHandsGlovesBlackLeather
     head: N14ClothingHeadHatHelmetFirefighterHelmet
     outerClothing: N14ClothingOuterPainspike
     pocket1: N14RaiderStash
