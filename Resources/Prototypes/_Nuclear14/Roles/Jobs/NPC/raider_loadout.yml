@@ -96,6 +96,7 @@
     jumpsuit: N14ClothingUniformJumpsuitRags
     shoes: N14ClothingBootsLeather
     head: ClothingHeadHelmetBone
+    mask: N14ClothingMaskPlate
     outerClothing: N14ClothingOuterRaiderBlastmaster
     pocket1: N14RaiderStash
 
@@ -105,6 +106,7 @@
     jumpsuit: N14ClothingUniformJumpsuitRags
     shoes: N14ClothingShoesRaider
     head: N14ClothingHeadHatAnimal
+    mask: N14ClothingMaskBlackMask
     outerClothing: N14ClothingOuterPainspike
     pocket1: N14RaiderStash
 
@@ -114,7 +116,7 @@
     jumpsuit: N14ClothingUniformJumpsuitRags
     shoes: N14ClothingBootsLeather
     head: N14ClothingHeadHatNightstalker
-    mask: N14ClothingMaskDesertMask
+    mask: N14ClothingMaskRedMask
     outerClothing: N14ClothingOuterRaiderBadlands
     pocket1: N14RaiderStash
 
@@ -136,7 +138,6 @@
   equipment:
     jumpsuit: N14ClothingUniformJumpsuitRags
     shoes: N14ClothingBootsLeather
-    head: N14ClothingHeadHatLightBaseballHelmet
     mask: N14ClothingMaskPlate
     outerClothing: N14ClothingOuterLightMetalArmor
     pocket1: N14RaiderStash

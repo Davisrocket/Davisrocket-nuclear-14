@@ -49,8 +49,8 @@
           true
         NavClimb: !type:Bool
           true
-        VisionRadius: !type:Single
-          12.0
+        VisionRadius: !type:Single #Wassuy added this so they detect you less
+          10.5
         MeleeRange: !type:Single
           1.5
     - type: IdleSound #Wassuy added voiceline and combat sound here
