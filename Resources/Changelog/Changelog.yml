@@ -12570,3 +12570,10 @@ Entries:
   id: 6530
   time: '2026-10-21T03:41:04.0000000+00:00'
   url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/2099
+- author: Tytos
+  changes:
+    - type: Fix
+      message: Fixed infinite money with high charisma cash trading
+  id: 6531
+  time: '2026-10-24T18:12:18.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/2105
