@@ -176,7 +176,7 @@
     eyes: N14ClothingEyesGlassesWelding
     outerClothing: N14ClothingOuterCombatArmorChinese
     belt: N14ClothingBeltLeatherPouches
-    back: M14ClothingBackpackRandomFill
+    back: N14ClothingBackpackRandomFill
     pocket1: N14RaiderStash
 
 - type: startingGear
@@ -603,7 +603,7 @@
     pocket1: N14RaiderStash
     pocket2: Brutepack1 # Corvax-Change
   inhand:
-  - N14Baseballbat
+  - N14BaseBallBat
 
 - type: startingGear
   id: PsychoRaider5Gear
