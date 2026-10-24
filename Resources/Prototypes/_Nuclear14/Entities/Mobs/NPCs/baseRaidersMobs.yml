@@ -50,7 +50,7 @@
         NavClimb: !type:Bool
           true
         VisionRadius: !type:Single
-          15.0
+          14.0
         MeleeRange: !type:Single
           1.5
     - type: IdleSound #Wassuy added voiceline and combat sound here
