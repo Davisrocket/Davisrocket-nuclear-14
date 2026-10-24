@@ -12577,3 +12577,10 @@ Entries:
   id: 6531
   time: '2026-10-24T18:12:18.0000000+00:00'
   url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/2105
+- author: hobolyra
+  changes:
+    - type: Remove
+      message: Feline genes no longer spawn
+  id: 6532
+  time: '2026-10-24T18:21:59.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/2111
