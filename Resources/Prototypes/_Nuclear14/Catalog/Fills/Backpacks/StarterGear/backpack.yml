@@ -482,19 +482,3 @@
         - id: N14DrinkNukaColaBroken
           prob: 0.4
           orGroup: Foods
-        - Group: Foods
-          prob: 0.5
-        - Group: Seeds
-          prob: 0.5
-        - Group: MedicalRare
-          prob: 0.4
-        - Group: Seeds
-          prob: 0.5
-        - Group: MedicalCommon
-          prob: 0.8
-        - Group: Box
-          prob: 0.4
-        - Group: Currency
-          prob: 0.25
-        - Group: Weapon
-          prob: 0.5

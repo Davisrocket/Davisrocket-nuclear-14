@@ -136,7 +136,7 @@
   equipment:
     jumpsuit: N14ClothingUniformJumpsuitRags
     shoes: N14ClothingBootsLeather
-    head: ClothingHeadHatLightBaseballHelmet
+    head: N14ClothingHeadHatLightBaseballHelmet
     mask: N14ClothingMaskPlate
     outerClothing: N14ClothingOuterLightMetalArmor
     pocket1: N14RaiderStash
@@ -150,7 +150,7 @@
     mask: N14ClothingMaskBrownMask
     eyes: N14ClothingEyesGlassesWelding
     outerClothing: N14ClothingOuterRaiderCombat1
-    back: M14ClothingBackpackRandomFill
+    back: N14ClothingBackpackRandomFill
     pocket1: N14RaiderStash
     pocket2: N14RaiderStash
 
@@ -358,7 +358,7 @@
   equipment:
     jumpsuit: M14ClothingUniformADPUniform
     shoes: N14ClothingShoesBlack
-    mask: N14ClothingMaskGasRangerBroken
+    mask: ClothingMaskGasRangerBroken
     outerClothing: M14ClothingOuterHighwayPatrolJacket
     pocket1: N14RaiderStash
 
