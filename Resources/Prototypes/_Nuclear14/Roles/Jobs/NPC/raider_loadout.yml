@@ -581,11 +581,10 @@
 - type: startingGear
   id: PsychoRaider3Gear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitTrackpants
-    shoes: N14ClothingBootsBlack
-    head: N14ClothingHeadHatHelmetRCMP
-    mask: N14ClothingMaskLinerBlack
-    outerClothing: N14ClothingOuterPoliceVest
+    jumpsuit: N14ClothingUniformJumpsuitRags
+    shoes: N14ClothingShoesBrown
+    head: N14ClothingHeadHatHelmetFirefighterHelmet
+    outerClothing: N14ClothingOuterPainspike
     pocket1: N14RaiderStash
     pocket2: Brutepack1 # Corvax-Change
   inhand:

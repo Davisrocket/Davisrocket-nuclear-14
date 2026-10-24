@@ -734,7 +734,7 @@
   parent: N14ClothingHeadSuitbase
   id: N14ClothingHeadHatHelmetFirefighterHelmet
   name: fire resistant helmet
-  description: A advance helmet used pre war to handle high temperatures.
+  description: A advance helmet used pre war to handle high temperatures, but quite heavy.
   components:
   - type: Sprite
     sprite: _Nuclear14/Clothing/Head/FalloutHelmets/falloutfirefighter.rsi
@@ -745,6 +745,9 @@
     modifiers:
       coefficients:
         Heat: 0.75
+  - type: ClothingSpeedModifier
+    walkModifier: 0.95
+    sprintModifier: 0.95
   - type: Tag
     tags:
     - HidesHair
