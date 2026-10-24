@@ -107,7 +107,7 @@
     shoes: N14ClothingBootsFire
     hands: N14ClothingHandsGlovesBlackLeather
     head: N14ClothingHeadHatVaultRiot
-    outerClothing: N14ClothingOuterVaultSecVest
+    outerClothing: N14ClothingOuterPoliceVest
     pocket1: N14RaiderStash
   inhand:
   - N14PoliceBaton
