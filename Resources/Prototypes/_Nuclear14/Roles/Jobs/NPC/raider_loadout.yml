@@ -152,7 +152,6 @@
     outerClothing: N14ClothingOuterRaiderCombat1
     back: N14ClothingBackpackRandomFill
     pocket1: N14RaiderStash
-    pocket2: N14RaiderStash
 
 - type: startingGear
   id: RaiderBoss2Gear
@@ -163,9 +162,8 @@
     head: N14ClothingHeadHatVaultBlueprintHelmetMetal
     mask: N14ClothingMaskPlate
     outerClothing: N14ClothingOuterRaiderCombat2
-    back: M14ClothingBackpackRandomFill
+    back: N14ClothingBackpackRandomFill
     pocket1: N14RaiderStash
-    pocket2: N14RaiderStash
 
 - type: startingGear
   id: RaiderBoss3Gear
@@ -180,7 +178,6 @@
     belt: N14ClothingBeltLeatherPouches
     back: M14ClothingBackpackRandomFill
     pocket1: N14RaiderStash
-    pocket2: N14RaiderStash
 
 - type: startingGear
   id: RaiderBoss4Gear
@@ -191,7 +188,6 @@
     outerClothing: N14ClothingOuterRaiderCombat2
     back: M14ClothingSatchelRandomFill
     pocket1: N14RaiderStash
-    pocket2: N14RaiderStash
 
 - type: startingGear
   id: RaiderBoss5Gear
@@ -202,7 +198,6 @@
     outerClothing: N14ClothingOuterCombatPainspike
     back: M14ClothingSatchelRandomFill
     pocket1: N14RaiderStash
-    pocket2: N14RaiderStash
 
 - type: startingGear
   id: FernMercPrivate1Gear
@@ -377,7 +372,7 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitSuitBlack
     shoes: N14ClothingBootsCombatMK2
-    head: ClothingHeadHatCowboyBountyHunter
+    head: N14ClothingHeadHatDeputy
     eyes: N14ClothingEyesSunGlasses
     outerClothing: N14ClothingOuterPoliceChief
     back: M14ClothingSatchelRandomFill
@@ -388,8 +383,9 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitSuitBlack
     shoes: N14ClothingBootsCombatMK2
-    head: ClothingHeadHatCowboyBountyHunter
-    eyes: N14ClothingEyesSunGlasses
+    gloves: ClothingHandsGlovesFingerless
+    head: N14ClothingHeadHatDeputy
+    mask: ClothingMaskNeckGaiter
     outerClothing: N14ClothingOuterPoliceChief
     back: M14ClothingSatchelRandomFill
     pocket1: N14RaiderStash
@@ -607,7 +603,7 @@
     pocket1: N14RaiderStash
     pocket2: Brutepack1 # Corvax-Change
   inhand:
-  - Pickaxe
+  - N14Baseballbat
 
 - type: startingGear
   id: PsychoRaider5Gear
