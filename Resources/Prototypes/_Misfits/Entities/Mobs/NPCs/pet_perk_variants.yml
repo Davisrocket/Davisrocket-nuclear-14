@@ -859,21 +859,20 @@
     - N14BrotherBeep
     - Sign
 
+
 - type: entity
   parent: N14MobPetDogLegion
   id: N14MobPetDogMacula
   name: Macula
   description: A peculiar hound that has its very own eyes filled with hatred. Has some blood around their mouth.
   components:
+  - type: RandomMetadataExcluded
   - type: Sprite
     drawdepth: Mobs
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: macula
       sprite: _Nuclear14/Mobs/Animals/macula.rsi
-  - type: MovementSpeedModifier
-    baseWalkSpeed: 3.5
-    baseSprintSpeed: 6.5
   - type: MobThresholds
     thresholds:
       0: Alive
