@@ -860,16 +860,11 @@
     - Sign
 
 - type: entity
-  parent: N14MobPetDog
+  parent: N14MobPetDogLegion
   id: N14MobPetDogMacula
   name: Macula
   description: A peculiar hound that has its very own eyes filled with hatred. Has some blood around their mouth.
   components:
-  - type: RandomMetadataExcluded
-  - type: RadiationReceiver
-  - type: NpcFactionMember
-    factions:
-      - CaesarLegion
   - type: Sprite
     drawdepth: Mobs
     layers:
@@ -889,32 +884,6 @@
       Alive:
         Base: macula
       Critical:
-        Base: deadmacula
+        Base: dead
       Dead:
-        Base: deadmacula
-  - type: LanguageKnowledge # Legion mongrel understands Latin so it can follow Houndmaster commands
-    speaks:
-    - N14Dog
-    understands:
-    - N14Dog
-    - N14Insect
-    - English
-    - Chinese
-    - Latin
-    - Tribal
-    - N14Robot
-    - N14BrotherBeep
-    - Sign
-  - type: MeleeWeapon
-    altDisarm: false
-    hidden: true
-    attackRate: 0.75
-    soundHit:
-        path: /Audio/Effects/bite.ogg
-    angle: 60
-    animation: WeaponArcBite
-    wideAnimation: WeaponArcBite
-    damage:
-      types:
-        Blunt: 10
-        Slash: 20
+        Base: dead
