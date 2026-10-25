@@ -495,11 +495,11 @@
 
 # The Tribe faction's humanoid NPCs for event making and such.
 - type: entity
-  name: Fire Hand Tribal
+  name: Tribal Skirmisher
   parent: N14BaseMobRaider
   id: N14MobNPCTribeSkir
   suffix: NPC
-  description: The Fire Hands are skirmishers from the local village, bearing firearms against all outsiders to defend their home. They will give their lives for the tribe's safety.
+  description: A skirmisher of the local tribes, he bears a firearm to protect his kin. A silent hero.
   components:
     - type: NpcFactionMember
       friendlyOrderable: true
