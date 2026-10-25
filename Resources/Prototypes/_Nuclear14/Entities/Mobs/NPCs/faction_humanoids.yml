@@ -581,11 +581,11 @@
         state: inhand-right  # Only part we change, the gun sprite.
 
 - type: entity
-  name: Tribal Warrior
+  name: Champion Tribal
   parent: N14BaseMobRaider
   id: N14MobNPCTribeWarr
   suffix: NPC
-  description: A large and tough warrior, not many could best him in a melee battle. He shall stand guard.
+  description: They have sworn their life to the defense of the tribe and the village. They will attack any outsiders on sight, taking no chances with the safety of their people.
   components: # No gun or ammo components because this is a melee variant.
     - type: NpcFactionMember
       friendlyOrderable: true
