@@ -57,7 +57,7 @@
     - item: FoodAloe
       value: 12
     - item: FoodAmbrosiaVulgaris
-      value: 40
+      value: 20
     - item: FoodApple
       value: 6
     - item: FoodBanana
@@ -73,7 +73,7 @@
     - item: FoodChiliPepper
       value: 11
     - item: FoodCocoaPod
-      value: 50
+      value: 20
     - item: FoodCorn
       value: 6
     - item: FoodEgg
@@ -81,7 +81,7 @@
     - item: FoodEggplant
       value: 6
     - item: FoodGalaxythistle
-      value: 32
+      value: 20
     - item: FoodGarlic
       value: 10
     - item: FoodGrape
@@ -91,7 +91,7 @@
     - item: FoodLime
       value: 13
     - item: FoodLingzhi
-      value: 28
+      value: 20
     - item: FoodMushroom
       value: 9
     - item: FoodOnion
@@ -103,7 +103,7 @@
     - item: FoodPeaPod
       value: 6
     - item: FoodPoppy
-      value: 24
+      value: 20
     - item: FoodPotato
       value: 5
     - item: FoodPumpkin
@@ -119,7 +119,7 @@
     - item: OatBushel
       value: 16
     - item: RiceBushel
-      value: 22
+      value: 17
     - item: Sugarcane
       value: 18
     - item: WheatBushel
@@ -129,7 +129,7 @@
     - item: N14FoodAloe
       value: 12
     - item: N14FoodAmbrosiaVulgaris
-      value: 40
+      value: 20
     - item: N14FoodApple
       value: 6
     - item: N14FoodBanana
@@ -141,13 +141,13 @@
     - item: N14FoodCarrot
       value: 5
     - item: N14FoodCocoaPod
-      value: 50
+      value: 20
     - item: N14FoodCorn
       value: 6
     - item: N14FoodEggplant
       value: 6
     - item: N14FoodGalaxythistle
-      value: 32
+      value: 20
     - item: N14FoodGarlic
       value: 10
     - item: N14FoodGrape
@@ -157,7 +157,7 @@
     - item: N14FoodLime
       value: 13
     - item: N14FoodLingzhi
-      value: 28
+      value: 20
     - item: N14FoodMushroom
       value: 9
     - item: N14FoodOnion
@@ -169,7 +169,7 @@
     - item: N14FoodPeaPod
       value: 6
     - item: N14FoodPoppy
-      value: 24
+      value: 20
     - item: N14FoodPotato
       value: 5
     - item: N14FoodPumpkin
@@ -185,7 +185,7 @@
     - item: N14OatBushel
       value: 16
     - item: N14RiceBushel
-      value: 22
+      value: 17
     - item: N14Sugarcane
       value: 18
     - item: N14WheatBushel
