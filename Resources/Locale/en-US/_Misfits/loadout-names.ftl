@@ -139,7 +139,7 @@ loadout-name-MisfitsLoadoutOuterWhiteLegsArmor = white legs tribal armor
 
 # Shoes
 loadout-name-ClothingShoesBootsLaceupVault = laceup shoes
-loadout-name-N14LoadoutShoesBlack = black shoes
+loadout-name-N14LoadoutShoesBlack = black loafers
 loadout-name-N14LoadoutShoesBrown = brown shoes
 loadout-name-N14LoadoutBootsBlack = black boots
 loadout-name-N14LoadoutBootsCowboy = cowboy boots
