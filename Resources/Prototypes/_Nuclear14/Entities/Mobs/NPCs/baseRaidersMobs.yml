@@ -22,7 +22,7 @@
           !type:DamageTrigger
           damage: 75
         behaviors:
-        - !type:PlaySoundBehavior # Misfits Change - robot death sound
+        - !type:PlaySoundBehavior #Wassuy Change - raider death sound didnt really work tho, need fix too
           sound:
             collection: MisfitsRaiderDeath
     - type: PassiveDamage # It's mostly for the faction NPCs, but can be here nonetheless.
