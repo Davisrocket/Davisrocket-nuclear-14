@@ -284,25 +284,25 @@
 - type: startingGear
   id: EnforcerTrooper2Gear
   equipment:
-    jumpsuit: N14ClothingUniformJumpsuitMerc
-    shoes: N14ClothingBootsLeather
+    jumpsuit: ClothingUniformJumpsuitSecBlue
+    shoes: N14ClothingShoesBlack
     head: N14ClothingHeadHatBaseball
     mask: N14ClothingMaskBlueMask
-    outerClothing: N14ClothingOuterRaiderBadlands
+    outerClothing:  N14ClothingOuterPoliceVest
     pocket1: N14RaiderStash
 
 - type: startingGear
   id: EnforcerTrooper3Gear
   equipment:
-    jumpsuit: N14ClothingUniformJumpsuitMerc
-    shoes: N14ClothingBootsLeather
+    jumpsuit: ClothingUniformJumpsuitSecBlue
+    shoes: N14ClothingBootsBlack
     mask: N14ClothingMaskBlueMask
     pocket1: N14RaiderStash
 
 - type: startingGear
   id: EnforcerTrooper4Gear
   equipment:
-    jumpsuit: N14ClothingUniformJumpsuitMerc
+    jumpsuit: ClothingUniformJumpsuitSecBlue
     shoes: N14ClothingBootsLeather
     mask: N14ClothingMaskBlueMask
     outerClothing: N14ClothingOuterPoliceVest
@@ -316,7 +316,7 @@
     gloves: N14ClothingHandsGlovesCloth
     head: MisfitsClothingHeadAHPhelmet
     mask: N14ClothingMaskBlueMask
-    outerClothing: N14ClothingOuterPoliceVest
+    outerClothing: M14ClothingOuterHighwayPatrolJacket
     pocket1: N14RaiderStash
 
 - type: startingGear
@@ -331,7 +331,7 @@
 - type: startingGear
   id: EnforcerWarden2Gear
   equipment:
-    jumpsuit: N14ClothingUniformJumpsuitPreWarManager
+    jumpsuit: ClothingUniformJumpsuitSecBlue
     shoes: N14ClothingBootsCombat
     head: ClothingHeadHelmetBasic
     mask: N14ClothingMaskGrill
@@ -341,7 +341,7 @@
 - type: startingGear
   id: EnforcerWarden3Gear
   equipment:
-    jumpsuit: N14ClothingUniformJumpsuitPreWarManager
+    jumpsuit: N14ClothingUniformJumpsuitManagerSuit
     shoes: N14ClothingBootsCombat
     head: N14ClothingHeadHatVaultRiot
     eyes: N14ClothingEyesSunGlasses
@@ -361,7 +361,7 @@
 - type: startingGear
   id: EnforcerWarden5Gear
   equipment:
-    jumpsuit: N14ClothingUniformJumpsuitManagerSuit
+    jumpsuit: ClothingUniformJumpsuitSecBlue
     shoes: N14ClothingBootsCombat
     eyes: N14ClothingEyesSunGlasses
     mask: N14ClothingMaskBlueMask
@@ -371,7 +371,7 @@
 - type: startingGear
   id: EnforcerChief1Gear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitSuitBlack
+    jumpsuit: ClothingUniformJumpsuitSecBlue
     shoes: N14ClothingBootsCombatMK2
     head: N14ClothingHeadHatDeputy
     eyes: N14ClothingEyesSunGlasses
@@ -382,7 +382,7 @@
 - type: startingGear
   id: EnforcerChief2Gear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitSuitBlack
+    jumpsuit: ClothingUniformJumpsuitSecBlue
     shoes: N14ClothingBootsCombatMK2
     gloves: ClothingHandsGlovesFingerless
     head: N14ClothingHeadHatDeputy
@@ -435,7 +435,7 @@
 - type: startingGear
   id: EnforcerBeatcop1Gear
   equipment:
-    jumpsuit: N14ClothingUniformJumpsuitManagerSuit
+    jumpsuit: N14ClothingUniformJumpsuitPreWarManager
     shoes: N14ClothingBootsFire
     head: N14ClothingHeadHatVaultRiot
     outerClothing: N14ClothingOuterVaultSecVest
@@ -481,7 +481,7 @@
 - type: startingGear
   id: EnforcerBeatcop5Gear
   equipment:
-    jumpsuit: N14ClothingUniformJumpsuitManagerSuit
+    jumpsuit: ClothingUniformJumpsuitSecBlue
     shoes: N14ClothingBootsBlack
     gloves: ClothingHandsGlovesFingerless
     mask: N14ClothingMaskBlackBalaclava
