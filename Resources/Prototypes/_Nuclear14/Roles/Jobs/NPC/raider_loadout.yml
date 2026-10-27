@@ -609,7 +609,7 @@
 - type: startingGear
   id: PsychoRaider5Gear
   equipment:
-    jumpsuit: N14ClothingUniformJumpsuitRags
+    jumpsuit: N14ClothingUniformJumpsuitWastelandDoc
     shoes: N14ClothingShoesRaider
     gloves: N14ClothingHandsGlovesBrownBiker
     head: N14ClothingHeadHatHeadscarf
