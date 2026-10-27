@@ -582,7 +582,7 @@
 - type: startingGear
   id: PsychoRaider3Gear
   equipment:
-    jumpsuit: N14ClothingUniformJumpsuitRags
+    jumpsuit: N14ClothingUniformJumpsuittribalpantsf
     shoes: MisfitsMilitarySteelTippedBoots
     gloves: N14ClothingHandsGlovesBlackLeather
     head: N14ClothingHeadHatHelmetFirefighterHelmet
