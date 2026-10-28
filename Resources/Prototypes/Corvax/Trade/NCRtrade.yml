@@ -1021,7 +1021,7 @@
     price: 20
   - proto: Charcoal1
     amount: 1
-    price: 40
+    price: 10
   - proto: Torch
     price: 2
   - proto: DrinkWaterBottleFull

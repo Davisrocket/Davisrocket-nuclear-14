@@ -133,7 +133,7 @@
     price: 10
   - proto: Charcoal1
     amount: 1
-    price: 20
+    price: 5
   - proto: BoxFlare
     price: 35
   - proto: Torch
