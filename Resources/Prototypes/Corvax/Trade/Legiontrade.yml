@@ -959,7 +959,7 @@
     price: 5
   - proto: Charcoal1
     amount: 1
-    price: 5
+    price: 1
   - proto: N14FoodMeatRadlurkClaw
     price: 5
   - proto: N14FoodEggDeathclaw
