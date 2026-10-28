@@ -1093,8 +1093,6 @@
     price: 20
   - proto: N14FoodMeatMirelurkClaw
     price: 20
-  - proto: N14MaterialCircuitry1
-    price: 25
   - proto: N14FoodMeatRadlurkClaw
     price: 25
   - proto: N14FoodEggDeathclaw
