@@ -88,6 +88,7 @@
   - proto: N14MaterialCircuitry
     amount: 10
     price: 750
+    count: 5
   - proto: N14IngotCopper
     amount: 10
     price: 300

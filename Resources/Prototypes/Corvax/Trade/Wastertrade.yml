@@ -350,6 +350,7 @@
   - proto: N14MaterialCircuitry
     amount: 10
     price: 375
+    count: 8
 
 - type: storeCategoryStructured
   id: WasterBuy2_Cosmetic
