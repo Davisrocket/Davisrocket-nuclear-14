@@ -12625,3 +12625,16 @@ Entries:
   id: 6535
   time: '2026-10-28T02:06:41.0000000+00:00'
   url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/1975
+- author: Clintion
+  changes:
+    - type: Tweak
+      message: >-
+        NCR vendor supply lines have been cut by command. Less good guns, armor,
+        ammo, and equipment will arrive
+    - type: Fix
+      message: Added wielded slowdown increase to bozar
+    - type: Tweak
+      message: increased slowdown on M240b by 10%
+  id: 6536
+  time: '2026-10-29T02:49:30.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/2128
