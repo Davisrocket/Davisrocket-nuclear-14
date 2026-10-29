@@ -12638,3 +12638,10 @@ Entries:
   id: 6536
   time: '2026-10-29T02:49:30.0000000+00:00'
   url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/2128
+- author: Tytos
+  changes:
+    - type: Tweak
+      message: adjusted circuitry prices and max buyable
+  id: 6537
+  time: '2026-10-29T02:49:36.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/2130
