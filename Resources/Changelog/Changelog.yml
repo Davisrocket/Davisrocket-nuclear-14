@@ -12650,3 +12650,22 @@ Entries:
   id: 6538
   time: '2026-10-30T23:50:05.0000000+00:00'
   url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/2124
+- author: Sirius-Frost
+  changes:
+    - type: Add
+      message: >-
+        A 'recruits' crate was added for purchase, allowing recruits to be more
+        quickly outfitted.
+    - type: Remove
+      message: Removed the Enclave's blueprints from their armory.
+    - type: Tweak
+      message: >-
+        Several crates purchased in the ASRS have had their availability
+        updated.
+    - type: Tweak
+      message: 'Crops from botany have been made viable to be sold. '
+    - type: Tweak
+      message: 'Gold and Silver have been slightly buffed. '
+  id: 6539
+  time: '2026-10-30T23:51:20.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/2123
