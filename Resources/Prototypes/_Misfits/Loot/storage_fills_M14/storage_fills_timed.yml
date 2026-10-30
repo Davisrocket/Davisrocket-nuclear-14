@@ -332,6 +332,43 @@
           orGroup: Currency
           amount: 1
           maxAmount: 25
+      #Foodstuff
+        - id: N14ReagentContainerRice
+          prob: 0.1
+          orGroup: Consumables
+          amount: 1
+          maxAmount: 1
+        - id: N14ReagentContainerFlour
+          prob: 0.1
+          orGroup: Consumables
+          amount: 1
+          maxAmount: 1
+        - id: N14ReagentContainerSugar
+          prob: 0.1
+          orGroup: Consumables
+          amount: 1
+          maxAmount: 1
+        - id: MisfitsItemRaiserCan
+          prob: 0.1
+          orGroup: Consumables
+          amount: 1
+          maxAmount: 1
+        - id: CocoaSeeds
+          prob: 0.1
+          amount: 1
+          maxAmount: 1
+        - id: RiceSeeds
+          prob: 0.1
+          amount: 1
+          maxAmount: 1
+        - id: SugarcaneSeeds
+          prob: 0.1
+          amount: 1
+          maxAmount: 1
+        - id: GarlicSeeds
+          prob: 0.1
+          amount: 1
+          maxAmount: 1
 
 - type: entity
   abstract: true
@@ -376,6 +413,8 @@
         - id: N14FloraWildCoyoteTobaccoClippingSeed
           prob: 0.02
         - id: N14FloraWildCannabisClippingSeed
+          prob: 0.02
+        - id: MisfitsKokoaSeeds
           prob: 0.02
         - id: N14FloraDaturaClippingSeed
           prob: 0.01
@@ -550,6 +589,9 @@
           orGroup: Weapon
         - id: N14SuperSledgeHammer
           prob: 0.1
+          orGroup: Weapon
+        - id: N14WeaponSniperPaciencia
+          prob: 0.05
           orGroup: Weapon
         - id: N14TribalMachete
           prob: 0.4
@@ -1007,6 +1049,43 @@
           orGroup: Currency
           amount: 1
           maxAmount: 25
+      #Foodstuff
+        - id: N14ReagentContainerRice
+          prob: 0.1
+          orGroup: Consumables
+          amount: 1
+          maxAmount: 1
+        - id: N14ReagentContainerFlour
+          prob: 0.1
+          orGroup: Consumables
+          amount: 1
+          maxAmount: 1
+        - id: N14ReagentContainerSugar
+          prob: 0.1
+          orGroup: Consumables
+          amount: 1
+          maxAmount: 1
+        - id: MisfitsItemRaiserCan
+          prob: 0.1
+          orGroup: Consumables
+          amount: 1
+          maxAmount: 1
+        - id: CocoaSeeds
+          prob: 0.1
+          amount: 1
+          maxAmount: 1
+        - id: RiceSeeds
+          prob: 0.1
+          amount: 1
+          maxAmount: 1
+        - id: SugarcaneSeeds
+          prob: 0.1
+          amount: 1
+          maxAmount: 1
+        - id: GarlicSeeds
+          prob: 0.1
+          amount: 1
+          maxAmount: 1
 
 - type: entity
   abstract: true
@@ -1460,6 +1539,43 @@
           orGroup: Currency
           amount: 1
           maxAmount: 25
+      #Foodstuff
+        - id: N14ReagentContainerRice
+          prob: 0.1
+          orGroup: Consumables
+          amount: 1
+          maxAmount: 1
+        - id: N14ReagentContainerFlour
+          prob: 0.1
+          orGroup: Consumables
+          amount: 1
+          maxAmount: 1
+        - id: N14ReagentContainerSugar
+          prob: 0.1
+          orGroup: Consumables
+          amount: 1
+          maxAmount: 1
+        - id: MisfitsItemRaiserCan
+          prob: 0.1
+          orGroup: Consumables
+          amount: 1
+          maxAmount: 1
+        - id: CocoaSeeds
+          prob: 0.1
+          amount: 1
+          maxAmount: 1
+        - id: RiceSeeds
+          prob: 0.1
+          amount: 1
+          maxAmount: 1
+        - id: SugarcaneSeeds
+          prob: 0.1
+          amount: 1
+          maxAmount: 1
+        - id: GarlicSeeds
+          prob: 0.1
+          amount: 1
+          maxAmount: 1
 
 - type: entity
   abstract: true
@@ -1750,6 +1866,43 @@
           orGroup: Currency
           amount: 1
           maxAmount: 25
+      #Foodstuff
+        - id: N14ReagentContainerRice
+          prob: 0.1
+          orGroup: Consumables
+          amount: 1
+          maxAmount: 1
+        - id: N14ReagentContainerFlour
+          prob: 0.1
+          orGroup: Consumables
+          amount: 1
+          maxAmount: 1
+        - id: N14ReagentContainerSugar
+          prob: 0.1
+          orGroup: Consumables
+          amount: 1
+          maxAmount: 1
+        - id: MisfitsItemRaiserCan
+          prob: 0.1
+          orGroup: Consumables
+          amount: 1
+          maxAmount: 1
+        - id: CocoaSeeds
+          prob: 0.1
+          amount: 1
+          maxAmount: 1
+        - id: RiceSeeds
+          prob: 0.1
+          amount: 1
+          maxAmount: 1
+        - id: SugarcaneSeeds
+          prob: 0.1
+          amount: 1
+          maxAmount: 1
+        - id: GarlicSeeds
+          prob: 0.1
+          amount: 1
+          maxAmount: 1
 
 - type: entity
   abstract: true
@@ -1833,6 +1986,9 @@
         - id: N14WeaponRifle762Chinese
           prob: 0.1
           orGroup: Weapon
+        - id: N14WeaponRifleOperative
+          prob: 0.1
+          orGroup: Weapon
         - id: N14WeaponRifle762Marksman
           prob: 0.2
           orGroup: Weapon
@@ -1865,6 +2021,9 @@
           orGroup: Weapon
         - id: N14WeaponSniperHunting
           prob: 0.2
+          orGroup: Weapon
+        - id: N14WeaponSniperPaciencia
+          prob: 0.05
           orGroup: Weapon
         - id: N14WeaponSniper44LeverCarbine
           prob: 0.1
@@ -2375,6 +2534,8 @@
         - id: N14FloraWildCoyoteTobaccoClippingSeed
           prob: 0.05
         - id: N14FloraWildCannabisClippingSeed
+          prob: 0.05
+        - id: MisfitsKokoaSeeds
           prob: 0.05
         - id: N14FloraDaturaClippingSeed
           prob: 0.05

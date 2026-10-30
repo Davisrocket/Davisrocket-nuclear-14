@@ -31,6 +31,8 @@
         - NCRFieldRanger
         - NCRPatrolRanger
         - NCRVeteranRanger
+        - SuperMutantRanger
+        - SuperMutantNCRRanger
 
         - NCRMilitaryPoliceCaptain
         - NCRMilitaryPoliceSergeant
@@ -632,6 +634,32 @@
     - N14ClothingUniformNCRFatiguePants
 
 - type: loadout
+  id: LoadoutNCRUniformNCRMedic
+  category: Roles
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - NCRMedic
+        - NCRDoctor
+  items:
+    - M14ClothingUniformNCRMedic
+
+- type: loadout
+  id: LoadoutNCRUniformNCRMedicSkirt
+  category: Roles
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - NCRMedic
+        - NCRDoctor
+  items:
+    - M14ClothingUniformNCRMedicSkirt
+
+- type: loadout
   id: LoadoutNCRBeltNCRHarness
   category: Roles
   cost: 1
@@ -785,6 +813,8 @@
   requirements:
     - !type:CharacterJobRequirement
       jobs:
+        - NCRVeteranRanger
+        - NCRPatrolRanger
         - NCRFieldRanger # slightly weaker than the duster, but stronger than the combat armor, so giving it to field
   items:
     - N14ClothingOuterRangerRedwood
@@ -810,6 +840,7 @@
     - !type:CharacterJobRequirement
       jobs:
         - NCRVeteranRanger
+        - NCRFieldRanger
     - !type:CharacterDepartmentTimeRequirement
       department: Rangers
       min: 72000 # 1200 minutes
@@ -825,6 +856,7 @@
     - !type:CharacterJobRequirement
       jobs:
         - NCRVeteranRanger
+        - NCRFieldRanger
     - !type:CharacterDepartmentTimeRequirement
       department: Rangers
       min: 72000 # 1200 minutes
@@ -870,6 +902,9 @@
     - !type:CharacterJobRequirement
       jobs:
         - NCRVeteranRanger
+        - NCRFieldRanger
+        - NCRTrader
+        - NCRCitizen
   items:
     - N14ClothingNeckRangerDuster
 
@@ -896,6 +931,7 @@
         - NCRVeteranRanger
         - NCRFieldRanger # Purely cosmetic, goes over armor
         - NCRCitizen
+        - NCRTrader
     - !type:CharacterDepartmentTimeRequirement
       department: Rangers
       min: 72000 # 1200 minutes
@@ -911,6 +947,7 @@
     - !type:CharacterJobRequirement
       jobs:
         - NCRVeteranRanger
+        - NCRFieldRanger
     - !type:CharacterDepartmentTimeRequirement
       department: Rangers
       min: 72000 # 1200 minutes
@@ -926,7 +963,6 @@
     - !type:CharacterJobRequirement
       jobs:
         - NCRVeteranRanger
-        - NCRFieldRanger # Purely cosmetic, identical to field ranger mask
     - !type:CharacterDepartmentTimeRequirement
       department: Rangers
       min: 72000 # 1200 minutes
@@ -942,6 +978,7 @@
     - !type:CharacterJobRequirement
       jobs:
         - NCRVeteranRanger
+        - NCRFieldRanger
     - !type:CharacterDepartmentTimeRequirement
       department: Rangers
       min: 72000 # 1200 minutes
@@ -957,6 +994,7 @@
     - !type:CharacterJobRequirement
       jobs:
         - NCRVeteranRanger
+        - NCRFieldRanger
     - !type:CharacterDepartmentTimeRequirement
       department: Rangers
       min: 72000 # 1200 minutes
@@ -972,6 +1010,7 @@
     - !type:CharacterJobRequirement
       jobs:
         - NCRVeteranRanger
+        - NCRFieldRanger
     - !type:CharacterDepartmentTimeRequirement
       department: Rangers
       min: 72000 # 1200 minutes
@@ -987,6 +1026,7 @@
     - !type:CharacterJobRequirement
       jobs:
         - NCRVeteranRanger
+        - NCRFieldRanger
     - !type:CharacterDepartmentTimeRequirement
       department: Rangers
       min: 46800 # 780 minutes
@@ -1002,6 +1042,7 @@
     - !type:CharacterJobRequirement
       jobs:
         - NCRVeteranRanger
+        - NCRFieldRanger
     - !type:CharacterDepartmentTimeRequirement
       department: Rangers
       min: 72000 # 1200 minutes
@@ -1017,6 +1058,7 @@
     - !type:CharacterJobRequirement
       jobs:
         - NCRVeteranRanger
+        - NCRFieldRanger
     - !type:CharacterDepartmentTimeRequirement
       department: Rangers
       min: 72000 # 1200 minutes
@@ -1048,6 +1090,7 @@
     - !type:CharacterJobRequirement
       jobs:
         - NCRVeteranRanger
+        - NCRFieldRanger
     - !type:CharacterDepartmentTimeRequirement
       department: Rangers
       min: 72000 # 1200 minutes
@@ -1063,6 +1106,7 @@
     - !type:CharacterJobRequirement
       jobs:
         - NCRVeteranRanger
+        - NCRFieldRanger
     - !type:CharacterDepartmentTimeRequirement
       department: Rangers
       min: 72000 # 1200 minutes
@@ -1078,6 +1122,7 @@
     - !type:CharacterJobRequirement
       jobs:
         - NCRVeteranRanger
+        - NCRFieldRanger
     - !type:CharacterDepartmentTimeRequirement
       department: Rangers
       min: 72000 # 1200 minutes
@@ -1093,6 +1138,7 @@
     - !type:CharacterJobRequirement
       jobs:
         - NCRVeteranRanger
+        - NCRFieldRanger
     - !type:CharacterDepartmentTimeRequirement
       department: Rangers
       min: 46800 # 780 minutes
@@ -1109,6 +1155,7 @@
       jobs:
         - NCRVeteranRanger
         - NCRFieldRanger
+        - NCRTrader
         - NCRCitizen
     - !type:CharacterDepartmentTimeRequirement
       department: Rangers
@@ -1126,6 +1173,7 @@
       jobs:
         - NCRVeteranRanger
         - NCRFieldRanger
+        - NCRTrader
         - NCRCitizen
     - !type:CharacterDepartmentTimeRequirement
       department: Rangers
@@ -1143,6 +1191,7 @@
       jobs:
         - NCRVeteranRanger
         - NCRFieldRanger
+        - NCRTrader
         - NCRCitizen
     - !type:CharacterDepartmentTimeRequirement
       department: Rangers
@@ -1162,6 +1211,8 @@
         - NCRFieldRanger
         - NCRPatrolRanger
         - NCRVeteranRanger
+        - NCRCitizen
+        - NCRTrader
   items:
     - ClothingMaskGasRangerWeathered
 
@@ -1177,6 +1228,8 @@
         - NCRFieldRanger
         - NCRPatrolRanger
         - NCRVeteranRanger
+        - NCRCitizen
+        - NCRTrader
   items:
     - ClothingMaskGasRangerBroken
 
@@ -1208,6 +1261,8 @@
         - NCRPatrolRanger
         - NCRVeteranRanger
         - NCRRO
+        - SuperMutantRanger
+        - SuperMutantNCRRanger
   items:
     - ClothingBeltNCRPouches
 
@@ -1239,6 +1294,8 @@
         - NCRPatrolRanger
         - NCRVeteranRanger
         - NCRRO
+        - SuperMutantRanger
+        - SuperMutantNCRRanger
   items:
     - ClothingBeltNCRBandolier
 
@@ -1270,6 +1327,8 @@
         - NCRPatrolRanger
         - NCRVeteranRanger
         - NCRRO
+        - SuperMutantRanger
+        - SuperMutantNCRRanger
   items:
     - ClothingBeltMilitary
 
@@ -1301,5 +1360,7 @@
         - NCRPatrolRanger
         - NCRVeteranRanger
         - NCRRO
+        - SuperMutantRanger
+        - SuperMutantNCRRanger
   items:
     - ClothingBeltRevolver

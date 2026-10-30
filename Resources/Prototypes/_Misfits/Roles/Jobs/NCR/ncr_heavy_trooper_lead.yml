@@ -51,13 +51,13 @@
   id: NCRHeavyTrooperLeadGear
   equipment:
     wallet: N14Wallet
+    ears: N14ClothingHeadsetNCR
     back: N14ClothingBackpackNCR
     jumpsuit: N14ClothingOfficerUniformNCRDesert
     outerClothing: MisfitsNCRHeavyTrooperLeadPowerArmorT51
     shoes: N14ClothingBootsCombatFilled
-    ears: N14ClothingHeadsetNCR
     belt: ClothingBeltNCR
-    pocket1: NCRHeavyTrooperLeadLoadoutKits
+    # #Cythisiax Removed - Main NCR job slots now obtain selectable equipment from the requisitions vendors.
     pocket2: RadioHandheld
     id: N14IDNCRDogtagWS
   innerClothingSkirt: N14ClothingOfficerUniformNCRDesert
