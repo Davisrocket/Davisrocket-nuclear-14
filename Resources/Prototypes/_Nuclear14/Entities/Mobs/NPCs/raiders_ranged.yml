@@ -343,10 +343,10 @@
         state: inhand-right # Only part we change, the gun sprite.
 
 - type: entity
-  name: Gunners Private
+  name: Cult of Liberty Patriot
   parent: N14BaseMobRaider
   id: N14MobFernMercPrivate
-  description: Professional mercenary armed with a carbine. One might be better off avoiding him.
+  description: Some conscripts and recruits actually survive their first fight, becoming professional soldiers in the war to rebuild America's glory. They are given respect and priority medical treatment.
   components:
     - type: Gun
       minAngle: 8
@@ -429,10 +429,10 @@
         state: inhand-right  # Only part we change, the gun sprite.
 
 - type: entity
-  name: Gunners Sergeant
+  name: Cult of Liberty Zealot
   parent: N14BaseMobRaider
   id: N14MobFernMercSergeant
-  description: Professional mercenary armed with a combat shotgun. This man can finish anyone off in close quarters.
+  description: Veterans from the cult's early crusades, the Zealots are trained to pre-war military standards. These are the true believers, given the best equipment and leadership of their own squads.
   components:
     - type: Gun
       minAngle: 35
@@ -510,10 +510,10 @@
         state: inhand-right  # Only part we change, the gun sprite.
 
 - type: entity
-  name: Gunners Lieutenant
+  name: Cult of Liberty Reverend
   parent: N14BaseMobRaider
   id: N14MobFernMercLieutenant
-  description: Professional mercenary armed with an SMG. Looks like an officer, more might be around!
+  description: Serving as a mixture of commanders and spiritual guides for the members of the cult-militia, the Reverends take their marching orders directly from the leadership in Havre, Montana.
   components:
     - type: Gun
       minAngle: 1.5

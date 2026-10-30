@@ -7,16 +7,16 @@
     - type: Loadout
       prototypes:
       - PsychoRaider1Gear
-      - PsychoRaider2Gear 
+      - PsychoRaider2Gear
       - PsychoRaider3Gear
-      - PsychoRaider4Gear 
+      - PsychoRaider4Gear
       - PsychoRaider5Gear
 
 - type: entity
-  name: Gunners Conscript
+  name: Cult of Liberty Conscript
   id: N14MobRaiderFernMelee
   parent: N14BaseMobRaider
-  description: Professional mercenary-wannabe, ready to beat someone up.
+  description: Pressed into service by backwoods crusaders, they now serve at the frontlines of the militia's push into the region. Confused and scared, they see you as a potential threat.
   components:
     - type: Loadout
       prototypes:
