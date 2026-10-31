@@ -275,7 +275,7 @@
 - type: startingGear
   id: EnforcerTrooper1Gear
   equipment:
-    jumpsuit: N14ClothingUniformJumpsuitMerc
+    jumpsuit: ClothingUniformJumpsuitSecBlue
     shoes: N14ClothingBootsLeather
     head: N14ClothingHeadHatBaseball
     mask: N14ClothingMaskBlueMask
@@ -438,7 +438,7 @@
     jumpsuit: N14ClothingUniformJumpsuitPreWarManager
     shoes: N14ClothingBootsFire
     head: N14ClothingHeadHatVaultRiot
-    outerClothing: N14ClothingOuterVaultSecVest
+    outerClothing: N14ClothingOuterPoliceVest
     pocket1: N14RaiderStash
   inhand:
   - N14PoliceBaton
